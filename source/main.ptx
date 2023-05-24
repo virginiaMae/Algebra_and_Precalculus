@@ -60,7 +60,7 @@
         <title>DoenetML in PreTeXt source</title>
         <figure xml:id="figure-doenet-interactive">
           <caption>DoenetML rendered from source</caption>
-          <interactive xml:id="interactive-doenet-interactive" doenet="yes">
+          <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
             <xi:include href="doenet.dml" parse="text"/>
           </interactive>
         </figure>
