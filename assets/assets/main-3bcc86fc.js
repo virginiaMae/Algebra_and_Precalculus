@@ -26868,7 +26868,7 @@ function SiteHeader(props) {
   return /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsxs(
     Grid,
     {
-      templateAreas: `"siteHeader" 
+      templateAreas: `"siteHeader"
         "main"`,
       gridTemplateRows: "40px auto",
       width: "100vw",
@@ -26896,7 +26896,7 @@ function SiteHeader(props) {
                 margin: "0",
                 display: "flex",
                 justifyContent: "space-between",
-                templateAreas: `"leftHeader menus rightHeader" 
+                templateAreas: `"leftHeader menus rightHeader"
         "main"`,
                 gridTemplateColumns: "1f auto 1f",
                 children: [
@@ -27059,11 +27059,11 @@ let doenetML = `
   </div>
   <div><textinput width="250px" height="35px" expanded prefill="$text_prefill" /></div>
   <div>
-    <updateValue target="../num_lines" newValue="$(../num_lines)+1" 
+    <updateValue target="../num_lines" newValue="$(../num_lines)+1"
          type="number" hide="$(../num_lines) > $i">
       <label>+</label>
     </updateValue><nbsp/>
-    <updateValue target="../num_lines" newValue="$(../num_lines)-1" 
+    <updateValue target="../num_lines" newValue="$(../num_lines)-1"
          type="number" hide="$(../num_lines) > $i" disabled="$i=1">
       <label>-</label>
     </updateValue>
@@ -27079,7 +27079,7 @@ let doenetML = `
 <title>Hint on showing simplification steps</title>
 <p>To perform a simplification step, click the <c>+</c> button, which will copy your work to a new line. Modify the expression and explain the step in the box to the right.  You can remove a line by clicking the <c>-</c> button.  Your work will be hand-graded after the due date.</p>
 </hint>
-  
+
 </example>
 `;
 function Heading(props) {
