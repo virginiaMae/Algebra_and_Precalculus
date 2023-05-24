@@ -61,7 +61,25 @@
         <figure xml:id="figure-doenet-interactive">
           <caption>DoenetML rendered from source</caption>
           <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
-            <xi:include href="doenet.dml" parse="text"/>
+            <xi:include href="doenet1.dml" parse="text"/>
+          </interactive>
+        </figure>
+      </section>
+      <section xml:id="section-doenet-interactive2">
+        <title>DoenetML in PreTeXt source 2</title>
+        <figure xml:id="figure-doenet-interactive2">
+          <caption>DoenetML rendered from source</caption>
+          <interactive xml:id="interactive-doenet-interactive2" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+            <xi:include href="doenet2.dml" parse="text"/>
+          </interactive>
+        </figure>
+      </section>
+      <section xml:id="section-doenet-interactive3">
+        <title>DoenetML in PreTeXt source 3</title>
+        <figure xml:id="figure-doenet-interactive3">
+          <caption>DoenetML rendered from source</caption>
+          <interactive xml:id="interactive-doenet-interactive3" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+            <xi:include href="doenet3.dml" parse="text"/>
           </interactive>
         </figure>
       </section>

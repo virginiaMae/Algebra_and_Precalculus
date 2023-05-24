@@ -1,0 +1,27 @@
+<setup>
+<number name="a">0</number>
+<number name="b">0</number>
+<function name="f">(x + $a)^2 + $b</function>
+</setup>
+
+<updateValue target="a" newValue="$a + 1">
+  <label><m>\leftarrow</m></label>
+</updateValue>
+
+<updateValue target="a" newValue="$a - 1">
+  <label><m>\rightarrow</m></label>
+</updateValue>
+
+<updateValue target="b" newValue="$b - 1">
+  <label><m>\downarrow</m></label>
+</updateValue>
+
+<updateValue target="b" newValue="$b + 1">
+  <label><m>\uparrow</m></label>
+</updateValue>
+
+<graph grid="1 1">
+  $f
+</graph>
+
+
