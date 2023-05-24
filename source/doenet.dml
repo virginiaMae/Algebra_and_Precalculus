@@ -4,7 +4,7 @@
 
     <function name='f' variables='x'>x^2</function>
 
-    <point name="p1" stylenumber="2" x="-1" y='3'>
+    <point name="p1" stylenumber="2" x="-1" y='2'>
         <constraints><attractToGrid /></constraints>
     </point>
 
@@ -12,7 +12,7 @@
         <constraints><attractToGrid /></constraints>
     </point>
 
-    <point name="p3" stylenumber="2" x="1" y='3'>
+    <point name="p3" stylenumber="2" x="1" y='4'>
         <constraints><attractToGrid /></constraints>
     </point>
 
