@@ -1,10 +1,15 @@
-<title>Sketch the derivative of <m>x^2</m></title>
+<setup>
+    <select name="slope">-4 -2 2 4</select>
+    <select name="vertex_y">-4 -3 -2 -1 0 1 2 3 4</select>
+</setup>
 
-<graph aspectRatio="1" xmin="-4" xmax='4' ymin='-2' ymax='6' grid>
+<p>Sketch the derivative of <m>y=<math>$slope/2*x^2+$vertex_y</math></m></p>
 
-    <function name='f' variables='x'>x^2</function>
+<graph aspectRatio="1" xmin="-10" xmax='10' ymin='-10' ymax='10' grid>
 
-    <point name="p1" stylenumber="2" x="-1" y='2'>
+    <function name='f' variables='x'>$slope/2*x^2+$vertex_y</function>
+
+    <point name="p1" stylenumber="2" x="-1" y='3'>
         <constraints><attractToGrid /></constraints>
     </point>
 
@@ -12,7 +17,7 @@
         <constraints><attractToGrid /></constraints>
     </point>
 
-    <point name="p3" stylenumber="2" x="1" y='4'>
+    <point name="p3" stylenumber="2" x="1" y='3'>
         <constraints><attractToGrid /></constraints>
     </point>
 
@@ -24,13 +29,13 @@
 <answer>
     <award>
         <when>
-($p1.y-$p2.y)/($p1.x-$p2.x) = 2 and 
+($p1.y-$p2.y)/($p1.x-$p2.x) = $slope and 
 ($p1.y-$p2.y)/($p1.x-$p2.x)*$p1.x-$p1.y = 0 and
 
-($p1.y-$p3.y)/($p1.x-$p3.x) = 2 and 
+($p1.y-$p3.y)/($p1.x-$p3.x) = $slope and 
 ($p1.y-$p3.y)/($p1.x-$p3.x)*$p1.x-$p1.y = 0 and
 
-($p3.y-$p2.y)/($p3.x-$p2.x) = 2 and 
+($p3.y-$p2.y)/($p3.x-$p2.x) = $slope and 
 ($p3.y-$p2.y)/($p3.x-$p2.x)*$p2.x-$p2.y = 0
         </when>
     </award>
