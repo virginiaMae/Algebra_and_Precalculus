@@ -49,12 +49,20 @@
     <chapter xml:id="chapter-title">
       <title>Chapter title</title>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
-        <figure xml:id="figure-doenet">
+      <section xml:id="section-doenet-iframe">
+        <title>Hosted Doenet iframe</title>
+        <figure xml:id="figure-doenet-iframe">
           <caption>Doenet: Sketching derivatives</caption>
-          <interactive xml:id="interactive-doenet" iframe="https://www.doenet.org/portfolioviewer/_HnZMYcCwDBr6R84LVympS" width="95%" />
+          <interactive xml:id="interactive-doenet-iframe" iframe="https://www.doenet.org/portfolioviewer/_zXRWUzprTKQ9N2wC1xUUT" width="95%" />
+        </figure>
+      </section>
+      <section xml:id="section-doenet-interactive">
+        <title>DoenetML in PreTeXt source</title>
+        <figure xml:id="figure-doenet-interactive">
+          <caption>Doenet: an empty graph</caption>
+          <interactive xml:id="interactive-doenet-interactive" doenet="yes">
+            <xi:include href="doenet.dml" parse="text"/>
+          </interactive>
         </figure>
       </section>
 
