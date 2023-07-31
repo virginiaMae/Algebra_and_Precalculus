@@ -72,7 +72,7 @@
     <worksheets formatted="yes" />
   </latex>
 
-  <html platform="web">
+  <html platform="runestone">
     <!-- The platform above could also be "runestone" -->
 
     <!-- Whether to knowl a particular elements is set here    -->
