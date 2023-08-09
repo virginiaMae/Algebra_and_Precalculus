@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<link rel="canonical" href="https://runestone.academy/ns/books/published/doenet/interactive-doenet-interactive3.html">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = true;
+eBookConfig.host = '';
+eBookConfig.app = eBookConfig.host + '/runestone';
+eBookConfig.course = '~._ course_name _.~';
+eBookConfig.basecourse = '~._ base_course _.~';
+eBookConfig.isLoggedIn = ~._ is_logged_in _.~;
+eBookConfig.email = '~._ user_email _.~';
+eBookConfig.isInstructor = ~._ is_instructor _.~;
+eBookConfig.logLevel = 10;
+eBookConfig.ajaxURL = eBookConfig.app + "/ajax/";
+eBookConfig.username = '~._ user_id _.~';
+eBookConfig.readings = ~._ readings|safe _.~;
+eBookConfig.activities = ~._ activity_info|safe _.~;
+eBookConfig.downloadsEnabled = ~._ downloads_enabled _.~;
+eBookConfig.allow_pairs = ~._ allow_pairs _.~;
+eBookConfig.enableScratchAC = false;
+eBookConfig.new_server_prefix = "/ns";
+eBookConfig.runestone_version = '7.0.8';
+</script>
+<script src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script><!--*** Runestone Services ***-->
+<script type="text/javascript" src="_static/prefix-runtime.d4a299de0bc899db.bundle.js"></script><script type="text/javascript" src="_static/prefix-347.193e36c07abd0197.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.38e22bcb54aca054.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8d2f742bc74f4a41.css">
+</head>
+<body id="doenet" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">You</p>
+</div>
+</div></header><div class="ptx-page"><main class="ptx-main"><div id="ptx-content" class="ptx-content" style="max-width: 1600px">
+<div id="root"></div>
+<script onload="onLoad()" type="module" crossorigin="crossorigin" src="./external/assets/cypressTest-64d42354.js"></script><link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/PageViewer-d914b069.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/activityUtils-7af1fc96.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/visibility-sensor-57589aaf.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActionButton-1e9c5f7a.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ButtonGroup-b585a5ef.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActivityViewer-b51a59ab.js">
+<script>function onLoad() {window.setDoenetML(`
+            <!--*********************************************
+            Problem setup
+**********************************************-->
+<p>Transform <m>f($x) = $baseFunction</m>, to the new function, <m>g(f($x)) = $transformedFunction{simplify}</m>.</p>
+
+<setup name="problemParameters">
+  <selectFromSequence name="a" from="-3" to="3" exclude="0"/>
+  <select name="b">
+    <option><math>-2pi</math></option>
+    <option><math>-3/2 pi</math></option>
+    <option><math>- pi</math></option>
+    <option><math>-1/2 pi</math></option>
+    <option><math>0</math></option>
+    <option><math>1/2 pi</math></option>
+    <option><math>pi</math></option>
+    <option><math>3/2 pi</math></option>
+<!--     <option><math>2 pi</math></option> -->
+  </select>
+  <selectFromSequence name="c" from="-3" to="3"/>
+  <select name="x">x t theta alpha gamma</select>
+  <function name="baseFunction" symbolic>
+    <select>
+      <option>
+        <function name="f" variables="$x">sin $x</function>
+      </option>
+      <option>
+        <function name="g" variables="$x">cos $x</function>
+      </option>
+    </select>
+    <label><m>f($x)</m></label>
+  </function>
+  <function name="transformedFunction" variables="$x">$a $$baseFunction($x + $b) + $c</function>
+
+  <math name="scaleFactor" simplify>pi</math>
+  <number name="dF_max">$dragFunction.maxima[1].y</number>
+  <number name="dF_min">$dragFunction.minima[1].y</number>
+  <number name="dF2_max">$dragFunction2.maxima[1].y</number>
+  <number name="dF2_min">$dragFunction2.minima[1].y</number>
+</setup>
+
+<!--testing section-->
+<!-- <p>a = $a</p>
+<p>b = $b</p>
+<p>c = $c</p>
+<p>x = $x</p>
+<p>baseFunction = $baseFunction</p>
+<p>transformedFunction = $transformedFunction{simplify}</p>
+<p>dragFunction = $dragFunction{simplify}</p>  
+<p>dragFunction2 = $dragFunction2{simplify}</p>
+<p>dragFunction2.maxima = $dragFunction2.maxima[1]</p> -->
+<!--/testing section-->
+
+
+
+<!--*********************************************
+            Sin(x)
+**********************************************-->
+<conditionalContent condition="$baseFunction = sin($x)">
+<graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+  <legend position="lowerleft" styleNumber="11">
+    <label forObject="amplitudePoint" styleNumber="11">Adjust amplitude</label>
+    <label forObject="horizShiftPoint">Horizontal <m>\leftrightarrow</m> shifting</label>
+    <label forObject="vertShiftPoint">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+  <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction" styleNumber="10" variables="$x">$amplitudePoint.y(sin($x + -$horizShiftPoint.x + pi/2))+$vertShiftPoint.y
+  </function>
+
+
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="16">y = $dF_max</line>
+  <line styleNumber="16">y = $dF_min</line>
+  
+  <endpoint name="amplitudePoint" open="true">(pi/2, 1)
+    <constraints>
+      <constrainTo><line>x = pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="horizShiftPoint" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="vertShiftPoint" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+  <line styleNumber="3">y = $vertShiftPoint.y</line> 
+  <line styleNumber="2">x = $horizShiftPoint.x</line>
+</graph>
+
+<answer name="ans29exp_v1">
+  <award>
+    <when>$dragFunction.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+</conditionalContent>
+
+<!--*********************************************
+            Cos(x)
+**********************************************-->
+  
+<conditionalContent condition="$baseFunction = cos($x)">
+    <graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+    <legend position="lowerleft">
+      <label forObject="amplitudePoint2">Adjust amplitude</label>
+      <label forObject="horizShiftPoint2">Horizontal <m>\leftrightarrow</m> shifting</label>
+      <label forObject="vertShiftPoint2">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+    <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction2" variables="$x" styleNumber="10">$amplitudePoint2.y(cos($x + -$horizShiftPoint2.x+ pi/2))+$vertShiftPoint2.y</function>
+      
+  
+      
+  <endpoint name="amplitudePoint2" open="true">(0, 1)
+    <constraints>
+      <constrainTo><line>x = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <line styleNumber="16">y = $dF2_max</line>
+  <line styleNumber="16">y = $dF2_min</line>
+      
+  <endpoint name="horizShiftPoint2" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="2">x = $horizShiftPoint2.x</line>
+      
+  <endpoint name="vertShiftPoint2" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+      
+  <line styleNumber="3">y = $vertShiftPoint2.y</line> 
+</graph>
+
+<answer name="ans29exp_v2">
+  <award>
+    <when>$dragFunction2.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+
+</conditionalContent>
+
+<hint><title>Graphing instructions</title>
+  <ul>
+    <li>Drag the $horizShiftPoint.styleDescriptionWithNoun $horizShiftPoint2.styleDescriptionWithNoun to adjust the horizontal shift.</li>
+    <li>Drag the $vertShiftPoint.styleDescriptionWithNoun $vertShiftPoint2.styleDescriptionWithNoun to adjust vertical shift.</li>
+    <li>Drag the $amplitudePoint.styleDescriptionWithNoun $amplitudePoint2.styleDescriptionWithNoun to adjust the amplitude.</li>
+  </ul>
+</hint>
+
+<!--*********************************************
+            Style Definitions
+**********************************************-->
+
+<setup>
+<styleDefinitions>
+<!--blue, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+<!--red, styleNumber 2 corrolary-->
+<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D"/>
+<!--orange, styleNumber 3 corrolary-->
+<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143"/>
+<!--purple, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineWidth="4"/>
+<!--black, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="11" fillColor="black" fillColorDarkMode="white" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" markerColorDarkMode="white"/>
+<!--gray, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="12" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+<!--green, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="13" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152"/>
+
+<!--red, with thin dashed line -->
+<styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin dashed line -->
+<styleDefinition styleNumber="15" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin solid line -->
+<styleDefinition styleNumber="16" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF"  lineWidth="2"/>
+
+<!--gray, with thin line-->
+<styleDefinition styleNumber="17" lineColor="gray" lineWidth="2" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+  
+</styleDefinitions>
+</setup>
+
+
+
+
+<!--***********************Problem statistics***************************************-->
+<setup name="problemStatistics">
+<text name="sourceLink_p29">Question 21:OldPlacement/CalcPlacement/PL28/10282015221537_OldPlacement_ZRNKJA7N</text>
+<number name="assignmentPosition1159">29</number>
+<text name="category_p29">Trigonometry</text>
+<text name="test">Math Placement Partn2</text>
+<p name="essentialQuestion">Do you understand transformations of trigonometric functions and their standard graphs?</p>
+<text name="benchmark1_p1e"></text>
+</setup>
+          `);}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.5.0/distrib/jsxgraph.css">
+<style>
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        src:
+      /* url(OpenSansRegularWoffTwo) format('woff2'),
+      url(OpenSansRegularWoff) format('woff'); */ url('/fonts/files/open-sans-v18-latin-regular.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-regular.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: normal;
+        src: url('/fonts/files/open-sans-v18-latin-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-italic.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light-italic.woff')
+            format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700italic.woff') format('woff');
+      }
+      html {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #8fb8de;
+        --mainGray: #e3e3e3;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid black;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: white;
+        --canvastext: black;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #6d4445;
+        --mainYellow: #94610a;
+        --mainPurple: #4a03d9;
+      }
+
+      [data-theme='dark'] {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #1a5a99;
+        --mainGray: #a9a9a9;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid white;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: #121212;
+        --canvastext: white;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #a9abe5;
+        --mainYellow: #efab34;
+        --mainPurple: #4a03d9;
+      }
+      .doenet-viewer {
+        font-family: 'Open Sans' !important;
+        color: var(--canvastext);
+      }
+      .doenet-viewer h1 {
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .doenet-viewer h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+      }
+      .doenet-viewer h3 {
+        font-size: 1.17em;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer h4 {
+        font-weight: bold;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+      }
+      .doenet-viewer h5 {
+        font-size: 0.83em;
+        font-weight: bold;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+      }
+      .doenet-viewer p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer input {
+        box-sizing: content-box;
+        padding: 2px 1px;
+      }
+      div.jxgbox input {
+        border-width: 2px;
+      }
+      div.jxgbox button {
+        margin: 0;
+        border-radius: var(--mainBorderRadius);
+        border-width: 2px;
+        border-color: var(--mainBlue);
+        border-style: solid;
+        padding: 1px 6px;
+        background-color: var(--mainBlue);
+        color: white;
+      }
+      div.jxgbox button:hover {
+        background-color: var(--lightBlue);
+        color: black;
+        border-color: var(--lightBlue);
+      }
+      div.jxgbox input[type='checkbox'] {
+        margin: 3px 3px 3px 4px;
+        height: 18px;
+        width: 18px;
+      }
+    </style>
+</div></main></div>{% if show_ethical_ad %}<div style="width: 100%"><div data-ea-publisher="runestoneacademy" data-ea-type="image" style="display: flex; justify-content: center"></div></div>{% endif %}</body>
+</html>

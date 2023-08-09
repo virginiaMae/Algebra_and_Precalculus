@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <runestone-services version="7.0.8"/>
+  <library-metadata publisher="pretext">
+    <title>My Great Book</title>
+    <subtitle>An example to get you started</subtitle>
+    <document-id edition="">doenet</document-id>
+    <shelf/>
+    <blurb/>
+  </library-metadata>
+  <latex-macros>
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+</latex-macros>
+  <chapter>
+    <id>chapter-title</id>
+    <title>Chapter title</title>
+    <subchapter>
+      <id>section-doenet-iframe</id>
+      <title>Hosted Doenet iframe</title>
+    </subchapter>
+    <subchapter>
+      <id>section-doenet-interactive</id>
+      <title>DoenetML in PreTeXt source</title>
+    </subchapter>
+    <subchapter>
+      <id>section-doenet-interactive2</id>
+      <title>DoenetML in PreTeXt source 2</title>
+    </subchapter>
+    <subchapter>
+      <id>section-doenet-interactive3</id>
+      <title>DoenetML in PreTeXt source 3</title>
+    </subchapter>
+  </chapter>
+</manifest>

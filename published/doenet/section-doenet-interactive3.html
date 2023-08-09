@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DoenetML in PreTeXt source 3</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://runestone.academy/ns/books/published/doenet/section-doenet-interactive3.html">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="_static/lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = true;
+eBookConfig.host = '';
+eBookConfig.app = eBookConfig.host + '/runestone';
+eBookConfig.course = '~._ course_name _.~';
+eBookConfig.basecourse = '~._ base_course _.~';
+eBookConfig.isLoggedIn = ~._ is_logged_in _.~;
+eBookConfig.email = '~._ user_email _.~';
+eBookConfig.isInstructor = ~._ is_instructor _.~;
+eBookConfig.logLevel = 10;
+eBookConfig.ajaxURL = eBookConfig.app + "/ajax/";
+eBookConfig.username = '~._ user_id _.~';
+eBookConfig.readings = ~._ readings|safe _.~;
+eBookConfig.activities = ~._ activity_info|safe _.~;
+eBookConfig.downloadsEnabled = ~._ downloads_enabled _.~;
+eBookConfig.allow_pairs = ~._ allow_pairs _.~;
+eBookConfig.enableScratchAC = false;
+eBookConfig.new_server_prefix = "/ns";
+eBookConfig.runestone_version = '7.0.8';
+</script>
+<script src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script><!--*** Runestone Services ***-->
+<script type="text/javascript" src="_static/prefix-runtime.d4a299de0bc899db.bundle.js"></script><script type="text/javascript" src="_static/prefix-347.193e36c07abd0197.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.38e22bcb54aca054.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8d2f742bc74f4a41.css">
+</head>
+<body id="doenet" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">You</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar ptx-runestone-container"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><div class="dropdown">👤<div class="dropdown-content">
+{% if settings.academy_mode: %}
+<a href="/runestone/assignments/chooseAssignment">Assignments</a><a href="/runestone/assignments/practice">Practice</a><hr>
+<a id="inst_peer_link" href="/%7Bappname%7D/peer/instructor.html">Peer Instruction (Instructor)</a><a href="/%7Bappname%7D/peer/student.html">Peer Instruction (Student)</a><hr>
+<a href="/runestone/default/courses">Change Course</a><hr>
+<a id="ip_dropdown_link" href="/runestone/admin/index">Instructor's Page</a><hr>
+{% endif %}
+<a href="/runestone/dashboard/studentreport">Progress Page</a><hr>
+{% if is_logged_in %}
+<a href="/runestone/default/user/profile">Edit Profile</a><a href="/runestone/default/user/change_password">Change Password</a><a href="/runestone/default/user/logout">Log Out</a>
+{% else %}
+<a href="/runestone/default/user/register">Register</a><a href="/runestone/default/user/login">Login</a>
+{% endif %}
+</div>
+</div>
+<button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="section-doenet-interactive2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-title.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter title</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-doenet-iframe.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Hosted Doenet iframe</span></a></div></li>
+<li><div class="toc-item"><a href="section-doenet-interactive.html" class="internal"><span class="codenumber">1.2</span> <span class="title">DoenetML in PreTeXt source</span></a></div></li>
+<li><div class="toc-item"><a href="section-doenet-interactive2.html" class="internal"><span class="codenumber">1.3</span> <span class="title">DoenetML in PreTeXt source 2</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="section-doenet-interactive3.html" class="internal"><span class="codenumber">1.4</span> <span class="title">DoenetML in PreTeXt source 3</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-doenet-interactive3"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.4</span> <span class="title">DoenetML in PreTeXt source 3</span>
+</h2>
+<figure class="figure figure-like" id="figure-doenet-interactive3"><div id="root"></div>
+<script onload="onLoad()" type="module" crossorigin="crossorigin" src="./external/assets/cypressTest-64d42354.js"></script><link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/PageViewer-d914b069.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/activityUtils-7af1fc96.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/visibility-sensor-57589aaf.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActionButton-1e9c5f7a.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ButtonGroup-b585a5ef.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActivityViewer-b51a59ab.js">
+<script>function onLoad() {window.setDoenetML(`
+            <!--*********************************************
+            Problem setup
+**********************************************-->
+<p>Transform <m>f($x) = $baseFunction</m>, to the new function, <m>g(f($x)) = $transformedFunction{simplify}</m>.</p>
+
+<setup name="problemParameters">
+  <selectFromSequence name="a" from="-3" to="3" exclude="0"/>
+  <select name="b">
+    <option><math>-2pi</math></option>
+    <option><math>-3/2 pi</math></option>
+    <option><math>- pi</math></option>
+    <option><math>-1/2 pi</math></option>
+    <option><math>0</math></option>
+    <option><math>1/2 pi</math></option>
+    <option><math>pi</math></option>
+    <option><math>3/2 pi</math></option>
+<!--     <option><math>2 pi</math></option> -->
+  </select>
+  <selectFromSequence name="c" from="-3" to="3"/>
+  <select name="x">x t theta alpha gamma</select>
+  <function name="baseFunction" symbolic>
+    <select>
+      <option>
+        <function name="f" variables="$x">sin $x</function>
+      </option>
+      <option>
+        <function name="g" variables="$x">cos $x</function>
+      </option>
+    </select>
+    <label><m>f($x)</m></label>
+  </function>
+  <function name="transformedFunction" variables="$x">$a $$baseFunction($x + $b) + $c</function>
+
+  <math name="scaleFactor" simplify>pi</math>
+  <number name="dF_max">$dragFunction.maxima[1].y</number>
+  <number name="dF_min">$dragFunction.minima[1].y</number>
+  <number name="dF2_max">$dragFunction2.maxima[1].y</number>
+  <number name="dF2_min">$dragFunction2.minima[1].y</number>
+</setup>
+
+<!--testing section-->
+<!-- <p>a = $a</p>
+<p>b = $b</p>
+<p>c = $c</p>
+<p>x = $x</p>
+<p>baseFunction = $baseFunction</p>
+<p>transformedFunction = $transformedFunction{simplify}</p>
+<p>dragFunction = $dragFunction{simplify}</p>  
+<p>dragFunction2 = $dragFunction2{simplify}</p>
+<p>dragFunction2.maxima = $dragFunction2.maxima[1]</p> -->
+<!--/testing section-->
+
+
+
+<!--*********************************************
+            Sin(x)
+**********************************************-->
+<conditionalContent condition="$baseFunction = sin($x)">
+<graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+  <legend position="lowerleft" styleNumber="11">
+    <label forObject="amplitudePoint" styleNumber="11">Adjust amplitude</label>
+    <label forObject="horizShiftPoint">Horizontal <m>\leftrightarrow</m> shifting</label>
+    <label forObject="vertShiftPoint">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+  <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction" styleNumber="10" variables="$x">$amplitudePoint.y(sin($x + -$horizShiftPoint.x + pi/2))+$vertShiftPoint.y
+  </function>
+
+
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="16">y = $dF_max</line>
+  <line styleNumber="16">y = $dF_min</line>
+  
+  <endpoint name="amplitudePoint" open="true">(pi/2, 1)
+    <constraints>
+      <constrainTo><line>x = pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="horizShiftPoint" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="vertShiftPoint" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+  <line styleNumber="3">y = $vertShiftPoint.y</line> 
+  <line styleNumber="2">x = $horizShiftPoint.x</line>
+</graph>
+
+<answer name="ans29exp_v1">
+  <award>
+    <when>$dragFunction.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+</conditionalContent>
+
+<!--*********************************************
+            Cos(x)
+**********************************************-->
+  
+<conditionalContent condition="$baseFunction = cos($x)">
+    <graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+    <legend position="lowerleft">
+      <label forObject="amplitudePoint2">Adjust amplitude</label>
+      <label forObject="horizShiftPoint2">Horizontal <m>\leftrightarrow</m> shifting</label>
+      <label forObject="vertShiftPoint2">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+    <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction2" variables="$x" styleNumber="10">$amplitudePoint2.y(cos($x + -$horizShiftPoint2.x+ pi/2))+$vertShiftPoint2.y</function>
+      
+  
+      
+  <endpoint name="amplitudePoint2" open="true">(0, 1)
+    <constraints>
+      <constrainTo><line>x = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <line styleNumber="16">y = $dF2_max</line>
+  <line styleNumber="16">y = $dF2_min</line>
+      
+  <endpoint name="horizShiftPoint2" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="2">x = $horizShiftPoint2.x</line>
+      
+  <endpoint name="vertShiftPoint2" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+      
+  <line styleNumber="3">y = $vertShiftPoint2.y</line> 
+</graph>
+
+<answer name="ans29exp_v2">
+  <award>
+    <when>$dragFunction2.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+
+</conditionalContent>
+
+<hint><title>Graphing instructions</title>
+  <ul>
+    <li>Drag the $horizShiftPoint.styleDescriptionWithNoun $horizShiftPoint2.styleDescriptionWithNoun to adjust the horizontal shift.</li>
+    <li>Drag the $vertShiftPoint.styleDescriptionWithNoun $vertShiftPoint2.styleDescriptionWithNoun to adjust vertical shift.</li>
+    <li>Drag the $amplitudePoint.styleDescriptionWithNoun $amplitudePoint2.styleDescriptionWithNoun to adjust the amplitude.</li>
+  </ul>
+</hint>
+
+<!--*********************************************
+            Style Definitions
+**********************************************-->
+
+<setup>
+<styleDefinitions>
+<!--blue, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+<!--red, styleNumber 2 corrolary-->
+<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D"/>
+<!--orange, styleNumber 3 corrolary-->
+<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143"/>
+<!--purple, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineWidth="4"/>
+<!--black, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="11" fillColor="black" fillColorDarkMode="white" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" markerColorDarkMode="white"/>
+<!--gray, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="12" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+<!--green, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="13" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152"/>
+
+<!--red, with thin dashed line -->
+<styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin dashed line -->
+<styleDefinition styleNumber="15" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin solid line -->
+<styleDefinition styleNumber="16" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF"  lineWidth="2"/>
+
+<!--gray, with thin line-->
+<styleDefinition styleNumber="17" lineColor="gray" lineWidth="2" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+  
+</styleDefinitions>
+</setup>
+
+
+
+
+<!--***********************Problem statistics***************************************-->
+<setup name="problemStatistics">
+<text name="sourceLink_p29">Question 21:OldPlacement/CalcPlacement/PL28/10282015221537_OldPlacement_ZRNKJA7N</text>
+<number name="assignmentPosition1159">29</number>
+<text name="category_p29">Trigonometry</text>
+<text name="test">Math Placement Partn2</text>
+<p name="essentialQuestion">Do you understand transformations of trigonometric functions and their standard graphs?</p>
+<text name="benchmark1_p1e"></text>
+</setup>
+          `);}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.5.0/distrib/jsxgraph.css">
+<style>
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        src:
+      /* url(OpenSansRegularWoffTwo) format('woff2'),
+      url(OpenSansRegularWoff) format('woff'); */ url('/fonts/files/open-sans-v18-latin-regular.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-regular.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: normal;
+        src: url('/fonts/files/open-sans-v18-latin-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-italic.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light-italic.woff')
+            format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700italic.woff') format('woff');
+      }
+      html {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #8fb8de;
+        --mainGray: #e3e3e3;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid black;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: white;
+        --canvastext: black;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #6d4445;
+        --mainYellow: #94610a;
+        --mainPurple: #4a03d9;
+      }
+
+      [data-theme='dark'] {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #1a5a99;
+        --mainGray: #a9a9a9;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid white;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: #121212;
+        --canvastext: white;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #a9abe5;
+        --mainYellow: #efab34;
+        --mainPurple: #4a03d9;
+      }
+      .doenet-viewer {
+        font-family: 'Open Sans' !important;
+        color: var(--canvastext);
+      }
+      .doenet-viewer h1 {
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .doenet-viewer h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+      }
+      .doenet-viewer h3 {
+        font-size: 1.17em;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer h4 {
+        font-weight: bold;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+      }
+      .doenet-viewer h5 {
+        font-size: 0.83em;
+        font-weight: bold;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+      }
+      .doenet-viewer p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer input {
+        box-sizing: content-box;
+        padding: 2px 1px;
+      }
+      div.jxgbox input {
+        border-width: 2px;
+      }
+      div.jxgbox button {
+        margin: 0;
+        border-radius: var(--mainBorderRadius);
+        border-width: 2px;
+        border-color: var(--mainBlue);
+        border-style: solid;
+        padding: 1px 6px;
+        background-color: var(--mainBlue);
+        color: white;
+      }
+      div.jxgbox button:hover {
+        background-color: var(--lightBlue);
+        color: black;
+        border-color: var(--lightBlue);
+      }
+      div.jxgbox input[type='checkbox'] {
+        margin: 3px 3px 3px 4px;
+        height: 18px;
+        width: 18px;
+      }
+    </style>
+            &lt;!--*********************************************
+            Problem setup
+**********************************************--&gt;
+&lt;p&gt;Transform &lt;m&gt;f($x) = $baseFunction&lt;/m&gt;, to the new function, &lt;m&gt;g(f($x)) = $transformedFunction{simplify}&lt;/m&gt;.&lt;/p&gt;
+
+&lt;setup name="problemParameters"&gt;
+  &lt;selectFromSequence name="a" from="-3" to="3" exclude="0"/&gt;
+  &lt;select name="b"&gt;
+    &lt;option&gt;&lt;math&gt;-2pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;-3/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;- pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;-1/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;0&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;1/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;3/2 pi&lt;/math&gt;&lt;/option&gt;
+&lt;!--     &lt;option&gt;&lt;math&gt;2 pi&lt;/math&gt;&lt;/option&gt; --&gt;
+  &lt;/select&gt;
+  &lt;selectFromSequence name="c" from="-3" to="3"/&gt;
+  &lt;select name="x"&gt;x t theta alpha gamma&lt;/select&gt;
+  &lt;function name="baseFunction" symbolic&gt;
+    &lt;select&gt;
+      &lt;option&gt;
+        &lt;function name="f" variables="$x"&gt;sin $x&lt;/function&gt;
+      &lt;/option&gt;
+      &lt;option&gt;
+        &lt;function name="g" variables="$x"&gt;cos $x&lt;/function&gt;
+      &lt;/option&gt;
+    &lt;/select&gt;
+    &lt;label&gt;&lt;m&gt;f($x)&lt;/m&gt;&lt;/label&gt;
+  &lt;/function&gt;
+  &lt;function name="transformedFunction" variables="$x"&gt;$a $$baseFunction($x + $b) + $c&lt;/function&gt;
+
+  &lt;math name="scaleFactor" simplify&gt;pi&lt;/math&gt;
+  &lt;number name="dF_max"&gt;$dragFunction.maxima[1].y&lt;/number&gt;
+  &lt;number name="dF_min"&gt;$dragFunction.minima[1].y&lt;/number&gt;
+  &lt;number name="dF2_max"&gt;$dragFunction2.maxima[1].y&lt;/number&gt;
+  &lt;number name="dF2_min"&gt;$dragFunction2.minima[1].y&lt;/number&gt;
+&lt;/setup&gt;
+
+&lt;!--testing section--&gt;
+&lt;!-- &lt;p&gt;a = $a&lt;/p&gt;
+&lt;p&gt;b = $b&lt;/p&gt;
+&lt;p&gt;c = $c&lt;/p&gt;
+&lt;p&gt;x = $x&lt;/p&gt;
+&lt;p&gt;baseFunction = $baseFunction&lt;/p&gt;
+&lt;p&gt;transformedFunction = $transformedFunction{simplify}&lt;/p&gt;
+&lt;p&gt;dragFunction = $dragFunction{simplify}&lt;/p&gt;  
+&lt;p&gt;dragFunction2 = $dragFunction2{simplify}&lt;/p&gt;
+&lt;p&gt;dragFunction2.maxima = $dragFunction2.maxima[1]&lt;/p&gt; --&gt;
+&lt;!--/testing section--&gt;
+
+
+
+&lt;!--*********************************************
+            Sin(x)
+**********************************************--&gt;
+&lt;conditionalContent condition="$baseFunction = sin($x)"&gt;
+&lt;graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}"&gt;
+  &lt;legend position="lowerleft" styleNumber="11"&gt;
+    &lt;label forObject="amplitudePoint" styleNumber="11"&gt;Adjust amplitude&lt;/label&gt;
+    &lt;label forObject="horizShiftPoint"&gt;Horizontal &lt;m&gt;\leftrightarrow&lt;/m&gt; shifting&lt;/label&gt;
+    &lt;label forObject="vertShiftPoint"&gt;Vertical &lt;m&gt;\updownarrow&lt;/m&gt; shifting&lt;/label&gt;
+  &lt;/legend&gt;
+  $baseFunction{styleNumber="17"}
+  &lt;label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"&gt;&lt;m&gt;g(f($x))&lt;/m&gt;&lt;/label&gt;
+  &lt;function name="dragFunction" styleNumber="10" variables="$x"&gt;$amplitudePoint.y(sin($x + -$horizShiftPoint.x + pi/2))+$vertShiftPoint.y
+  &lt;/function&gt;
+
+
+  
+  &lt;line styleNumber="14"&gt;x = pi/2&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF_max&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF_min&lt;/line&gt;
+  
+  &lt;endpoint name="amplitudePoint" open="true"&gt;(pi/2, 1)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;endpoint name="horizShiftPoint" styleNumber="2" open="true"&gt;(pi/2, 0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;y = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;endpoint name="vertShiftPoint" styleNumber="3" open="true"&gt;(5pi/2,0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 5pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt; 
+  &lt;/endpoint&gt;
+  &lt;line styleNumber="3"&gt;y = $vertShiftPoint.y&lt;/line&gt; 
+  &lt;line styleNumber="2"&gt;x = $horizShiftPoint.x&lt;/line&gt;
+&lt;/graph&gt;
+
+&lt;answer name="ans29exp_v1"&gt;
+  &lt;award&gt;
+    &lt;when&gt;$dragFunction.formula = $transformedFunction.formula&lt;/when&gt;
+  &lt;/award&gt;
+&lt;/answer&gt;
+&lt;/conditionalContent&gt;
+
+&lt;!--*********************************************
+            Cos(x)
+**********************************************--&gt;
+  
+&lt;conditionalContent condition="$baseFunction = cos($x)"&gt;
+    &lt;graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}"&gt;
+    &lt;legend position="lowerleft"&gt;
+      &lt;label forObject="amplitudePoint2"&gt;Adjust amplitude&lt;/label&gt;
+      &lt;label forObject="horizShiftPoint2"&gt;Horizontal &lt;m&gt;\leftrightarrow&lt;/m&gt; shifting&lt;/label&gt;
+      &lt;label forObject="vertShiftPoint2"&gt;Vertical &lt;m&gt;\updownarrow&lt;/m&gt; shifting&lt;/label&gt;
+  &lt;/legend&gt;
+  $baseFunction{styleNumber="17"}
+    &lt;label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"&gt;&lt;m&gt;g(f($x))&lt;/m&gt;&lt;/label&gt;
+  &lt;function name="dragFunction2" variables="$x" styleNumber="10"&gt;$amplitudePoint2.y(cos($x + -$horizShiftPoint2.x+ pi/2))+$vertShiftPoint2.y&lt;/function&gt;
+      
+  
+      
+  &lt;endpoint name="amplitudePoint2" open="true"&gt;(0, 1)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;line styleNumber="16"&gt;y = $dF2_max&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF2_min&lt;/line&gt;
+      
+  &lt;endpoint name="horizShiftPoint2" styleNumber="2" open="true"&gt;(pi/2, 0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;y = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  
+  &lt;line styleNumber="14"&gt;x = pi/2&lt;/line&gt;
+  &lt;line styleNumber="2"&gt;x = $horizShiftPoint2.x&lt;/line&gt;
+      
+  &lt;endpoint name="vertShiftPoint2" styleNumber="3" open="true"&gt;(5pi/2,0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 5pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt; 
+  &lt;/endpoint&gt;
+      
+  &lt;line styleNumber="3"&gt;y = $vertShiftPoint2.y&lt;/line&gt; 
+&lt;/graph&gt;
+
+&lt;answer name="ans29exp_v2"&gt;
+  &lt;award&gt;
+    &lt;when&gt;$dragFunction2.formula = $transformedFunction.formula&lt;/when&gt;
+  &lt;/award&gt;
+&lt;/answer&gt;
+
+&lt;/conditionalContent&gt;
+
+&lt;hint&gt;&lt;title&gt;Graphing instructions&lt;/title&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Drag the $horizShiftPoint.styleDescriptionWithNoun $horizShiftPoint2.styleDescriptionWithNoun to adjust the horizontal shift.&lt;/li&gt;
+    &lt;li&gt;Drag the $vertShiftPoint.styleDescriptionWithNoun $vertShiftPoint2.styleDescriptionWithNoun to adjust vertical shift.&lt;/li&gt;
+    &lt;li&gt;Drag the $amplitudePoint.styleDescriptionWithNoun $amplitudePoint2.styleDescriptionWithNoun to adjust the amplitude.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/hint&gt;
+
+&lt;!--*********************************************
+            Style Definitions
+**********************************************--&gt;
+
+&lt;setup&gt;
+&lt;styleDefinitions&gt;
+&lt;!--blue, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/&gt;
+&lt;!--red, styleNumber 2 corrolary--&gt;
+&lt;styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D"/&gt;
+&lt;!--orange, styleNumber 3 corrolary--&gt;
+&lt;styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143"/&gt;
+&lt;!--purple, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineWidth="4"/&gt;
+&lt;!--black, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="11" fillColor="black" fillColorDarkMode="white" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" markerColorDarkMode="white"/&gt;
+&lt;!--gray, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="12" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/&gt;
+&lt;!--green, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="13" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152"/&gt;
+
+&lt;!--red, with thin dashed line --&gt;
+&lt;styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineStyle="dashed" lineWidth="2"/&gt;
+
+&lt;!--blue, with thin dashed line --&gt;
+&lt;styleDefinition styleNumber="15" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF" lineStyle="dashed" lineWidth="2"/&gt;
+
+&lt;!--blue, with thin solid line --&gt;
+&lt;styleDefinition styleNumber="16" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF"  lineWidth="2"/&gt;
+
+&lt;!--gray, with thin line--&gt;
+&lt;styleDefinition styleNumber="17" lineColor="gray" lineWidth="2" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/&gt;
+  
+&lt;/styleDefinitions&gt;
+&lt;/setup&gt;
+
+
+
+
+&lt;!--***********************Problem statistics***************************************--&gt;
+&lt;setup name="problemStatistics"&gt;
+&lt;text name="sourceLink_p29"&gt;Question 21:OldPlacement/CalcPlacement/PL28/10282015221537_OldPlacement_ZRNKJA7N&lt;/text&gt;
+&lt;number name="assignmentPosition1159"&gt;29&lt;/number&gt;
+&lt;text name="category_p29"&gt;Trigonometry&lt;/text&gt;
+&lt;text name="test"&gt;Math Placement Partn2&lt;/text&gt;
+&lt;p name="essentialQuestion"&gt;Do you understand transformations of trigonometric functions and their standard graphs?&lt;/p&gt;
+&lt;text name="benchmark1_p1e"&gt;&lt;/text&gt;
+&lt;/setup&gt;
+          <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.1<span class="period">.</span></span><span class="space"> </span>DoenetML rendered from source</figcaption></figure><div id="scprogresscontainer">You have attempted <span id="scprogresstotal"></span> of <span id="scprogressposs"></span> activities on this page.<div id="subchapterprogress" aria-label="Page progress"></div>
+</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-doenet-interactive2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>{% if show_ethical_ad %}<div style="width: 100%"><div data-ea-publisher="runestoneacademy" data-ea-type="image" style="display: flex; justify-content: center"></div></div>{% endif %}</body>
+</html>

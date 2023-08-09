@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<figure class="figure figure-like"><div id="root"></div>
+<script onload="onLoad()" type="module" crossorigin="crossorigin" src="./external/assets/cypressTest-64d42354.js"></script><link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/PageViewer-d914b069.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/activityUtils-7af1fc96.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/visibility-sensor-57589aaf.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActionButton-1e9c5f7a.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ButtonGroup-b585a5ef.js">
+<link rel="modulepreload" crossorigin="crossorigin" href="./external/assets/ActivityViewer-b51a59ab.js">
+<script>function onLoad() {window.setDoenetML(`
+            <!--*********************************************
+            Problem setup
+**********************************************-->
+<p>Transform <m>f($x) = $baseFunction</m>, to the new function, <m>g(f($x)) = $transformedFunction{simplify}</m>.</p>
+
+<setup name="problemParameters">
+  <selectFromSequence name="a" from="-3" to="3" exclude="0"/>
+  <select name="b">
+    <option><math>-2pi</math></option>
+    <option><math>-3/2 pi</math></option>
+    <option><math>- pi</math></option>
+    <option><math>-1/2 pi</math></option>
+    <option><math>0</math></option>
+    <option><math>1/2 pi</math></option>
+    <option><math>pi</math></option>
+    <option><math>3/2 pi</math></option>
+<!--     <option><math>2 pi</math></option> -->
+  </select>
+  <selectFromSequence name="c" from="-3" to="3"/>
+  <select name="x">x t theta alpha gamma</select>
+  <function name="baseFunction" symbolic>
+    <select>
+      <option>
+        <function name="f" variables="$x">sin $x</function>
+      </option>
+      <option>
+        <function name="g" variables="$x">cos $x</function>
+      </option>
+    </select>
+    <label><m>f($x)</m></label>
+  </function>
+  <function name="transformedFunction" variables="$x">$a $$baseFunction($x + $b) + $c</function>
+
+  <math name="scaleFactor" simplify>pi</math>
+  <number name="dF_max">$dragFunction.maxima[1].y</number>
+  <number name="dF_min">$dragFunction.minima[1].y</number>
+  <number name="dF2_max">$dragFunction2.maxima[1].y</number>
+  <number name="dF2_min">$dragFunction2.minima[1].y</number>
+</setup>
+
+<!--testing section-->
+<!-- <p>a = $a</p>
+<p>b = $b</p>
+<p>c = $c</p>
+<p>x = $x</p>
+<p>baseFunction = $baseFunction</p>
+<p>transformedFunction = $transformedFunction{simplify}</p>
+<p>dragFunction = $dragFunction{simplify}</p>  
+<p>dragFunction2 = $dragFunction2{simplify}</p>
+<p>dragFunction2.maxima = $dragFunction2.maxima[1]</p> -->
+<!--/testing section-->
+
+
+
+<!--*********************************************
+            Sin(x)
+**********************************************-->
+<conditionalContent condition="$baseFunction = sin($x)">
+<graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+  <legend position="lowerleft" styleNumber="11">
+    <label forObject="amplitudePoint" styleNumber="11">Adjust amplitude</label>
+    <label forObject="horizShiftPoint">Horizontal <m>\leftrightarrow</m> shifting</label>
+    <label forObject="vertShiftPoint">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+  <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction" styleNumber="10" variables="$x">$amplitudePoint.y(sin($x + -$horizShiftPoint.x + pi/2))+$vertShiftPoint.y
+  </function>
+
+
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="16">y = $dF_max</line>
+  <line styleNumber="16">y = $dF_min</line>
+  
+  <endpoint name="amplitudePoint" open="true">(pi/2, 1)
+    <constraints>
+      <constrainTo><line>x = pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="horizShiftPoint" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  <endpoint name="vertShiftPoint" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+  <line styleNumber="3">y = $vertShiftPoint.y</line> 
+  <line styleNumber="2">x = $horizShiftPoint.x</line>
+</graph>
+
+<answer name="ans29exp_v1">
+  <award>
+    <when>$dragFunction.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+</conditionalContent>
+
+<!--*********************************************
+            Cos(x)
+**********************************************-->
+  
+<conditionalContent condition="$baseFunction = cos($x)">
+    <graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}">
+    <legend position="lowerleft">
+      <label forObject="amplitudePoint2">Adjust amplitude</label>
+      <label forObject="horizShiftPoint2">Horizontal <m>\leftrightarrow</m> shifting</label>
+      <label forObject="vertShiftPoint2">Vertical <m>\updownarrow</m> shifting</label>
+  </legend>
+  $baseFunction{styleNumber="17"}
+    <label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"><m>g(f($x))</m></label>
+  <function name="dragFunction2" variables="$x" styleNumber="10">$amplitudePoint2.y(cos($x + -$horizShiftPoint2.x+ pi/2))+$vertShiftPoint2.y</function>
+      
+  
+      
+  <endpoint name="amplitudePoint2" open="true">(0, 1)
+    <constraints>
+      <constrainTo><line>x = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/>
+    </constraints>
+  </endpoint>
+  <line styleNumber="16">y = $dF2_max</line>
+  <line styleNumber="16">y = $dF2_min</line>
+      
+  <endpoint name="horizShiftPoint2" styleNumber="2" open="true">(pi/2, 0)
+    <constraints>
+      <constrainTo><line>y = 0</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/>
+    </constraints>
+  </endpoint>
+  
+  <line styleNumber="14">x = pi/2</line>
+  <line styleNumber="2">x = $horizShiftPoint2.x</line>
+      
+  <endpoint name="vertShiftPoint2" styleNumber="3" open="true">(5pi/2,0)
+    <constraints>
+      <constrainTo><line>x = 5pi/2</line></constrainTo>
+      <attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/>
+    </constraints> 
+  </endpoint>
+      
+  <line styleNumber="3">y = $vertShiftPoint2.y</line> 
+</graph>
+
+<answer name="ans29exp_v2">
+  <award>
+    <when>$dragFunction2.formula = $transformedFunction.formula</when>
+  </award>
+</answer>
+
+</conditionalContent>
+
+<hint><title>Graphing instructions</title>
+  <ul>
+    <li>Drag the $horizShiftPoint.styleDescriptionWithNoun $horizShiftPoint2.styleDescriptionWithNoun to adjust the horizontal shift.</li>
+    <li>Drag the $vertShiftPoint.styleDescriptionWithNoun $vertShiftPoint2.styleDescriptionWithNoun to adjust vertical shift.</li>
+    <li>Drag the $amplitudePoint.styleDescriptionWithNoun $amplitudePoint2.styleDescriptionWithNoun to adjust the amplitude.</li>
+  </ul>
+</hint>
+
+<!--*********************************************
+            Style Definitions
+**********************************************-->
+
+<setup>
+<styleDefinitions>
+<!--blue, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+<!--red, styleNumber 2 corrolary-->
+<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D"/>
+<!--orange, styleNumber 3 corrolary-->
+<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143"/>
+<!--purple, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineWidth="4"/>
+<!--black, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="11" fillColor="black" fillColorDarkMode="white" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" markerColorDarkMode="white"/>
+<!--gray, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="12" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+<!--green, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="13" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152"/>
+
+<!--red, with thin dashed line -->
+<styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin dashed line -->
+<styleDefinition styleNumber="15" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF" lineStyle="dashed" lineWidth="2"/>
+
+<!--blue, with thin solid line -->
+<styleDefinition styleNumber="16" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF"  lineWidth="2"/>
+
+<!--gray, with thin line-->
+<styleDefinition styleNumber="17" lineColor="gray" lineWidth="2" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/>
+  
+</styleDefinitions>
+</setup>
+
+
+
+
+<!--***********************Problem statistics***************************************-->
+<setup name="problemStatistics">
+<text name="sourceLink_p29">Question 21:OldPlacement/CalcPlacement/PL28/10282015221537_OldPlacement_ZRNKJA7N</text>
+<number name="assignmentPosition1159">29</number>
+<text name="category_p29">Trigonometry</text>
+<text name="test">Math Placement Partn2</text>
+<p name="essentialQuestion">Do you understand transformations of trigonometric functions and their standard graphs?</p>
+<text name="benchmark1_p1e"></text>
+</setup>
+          `);}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.5.0/distrib/jsxgraph.css">
+<style>
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        src:
+      /* url(OpenSansRegularWoffTwo) format('woff2'),
+      url(OpenSansRegularWoff) format('woff'); */ url('/fonts/files/open-sans-v18-latin-regular.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-regular.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: normal;
+        src: url('/fonts/files/open-sans-v18-latin-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-italic.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light.woff2') format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 300;
+        src: url('/fonts/files/open-sans-v18-latin-light-italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-light-italic.woff')
+            format('woff');
+      }
+
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        src: url('/fonts/files/open-sans-v18-latin-700italic.woff2')
+            format('woff2'),
+          url('/fonts/files/open-sans-v18-latin-700italic.woff') format('woff');
+      }
+      html {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #8fb8de;
+        --mainGray: #e3e3e3;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid black;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: white;
+        --canvastext: black;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #6d4445;
+        --mainYellow: #94610a;
+        --mainPurple: #4a03d9;
+      }
+
+      [data-theme='dark'] {
+        font-family: 'Open Sans' !important;
+        --menuWidth: 220px;
+        --mainBlue: #1a5a99;
+        --lightBlue: hsl(209, 54%, 82%);
+        --solidLightBlue: #1a5a99;
+        --mainGray: #a9a9a9;
+        --donutBody: #eea177;
+        --donutTopping: #6d4445;
+        --mainBorder: 2px solid white;
+        --mainBorderRadius: 5px;
+        --mainRed: #c1292e;
+        --lightRed: hsl(0, 54%, 82%);
+        --mainGreen: #459152;
+        --canvas: #121212;
+        --canvastext: white;
+        --lightGreen: #a6f19f;
+        --lightYellow: #f5ed85;
+        --whiteBlankLink: #a9abe5;
+        --mainYellow: #efab34;
+        --mainPurple: #4a03d9;
+      }
+      .doenet-viewer {
+        font-family: 'Open Sans' !important;
+        color: var(--canvastext);
+      }
+      .doenet-viewer h1 {
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .doenet-viewer h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+      }
+      .doenet-viewer h3 {
+        font-size: 1.17em;
+        font-weight: bold;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer h4 {
+        font-weight: bold;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+      }
+      .doenet-viewer h5 {
+        font-size: 0.83em;
+        font-weight: bold;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+      }
+      .doenet-viewer p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+      }
+      .doenet-viewer input {
+        box-sizing: content-box;
+        padding: 2px 1px;
+      }
+      div.jxgbox input {
+        border-width: 2px;
+      }
+      div.jxgbox button {
+        margin: 0;
+        border-radius: var(--mainBorderRadius);
+        border-width: 2px;
+        border-color: var(--mainBlue);
+        border-style: solid;
+        padding: 1px 6px;
+        background-color: var(--mainBlue);
+        color: white;
+      }
+      div.jxgbox button:hover {
+        background-color: var(--lightBlue);
+        color: black;
+        border-color: var(--lightBlue);
+      }
+      div.jxgbox input[type='checkbox'] {
+        margin: 3px 3px 3px 4px;
+        height: 18px;
+        width: 18px;
+      }
+    </style>
+            &lt;!--*********************************************
+            Problem setup
+**********************************************--&gt;
+&lt;p&gt;Transform &lt;m&gt;f($x) = $baseFunction&lt;/m&gt;, to the new function, &lt;m&gt;g(f($x)) = $transformedFunction{simplify}&lt;/m&gt;.&lt;/p&gt;
+
+&lt;setup name="problemParameters"&gt;
+  &lt;selectFromSequence name="a" from="-3" to="3" exclude="0"/&gt;
+  &lt;select name="b"&gt;
+    &lt;option&gt;&lt;math&gt;-2pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;-3/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;- pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;-1/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;0&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;1/2 pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;pi&lt;/math&gt;&lt;/option&gt;
+    &lt;option&gt;&lt;math&gt;3/2 pi&lt;/math&gt;&lt;/option&gt;
+&lt;!--     &lt;option&gt;&lt;math&gt;2 pi&lt;/math&gt;&lt;/option&gt; --&gt;
+  &lt;/select&gt;
+  &lt;selectFromSequence name="c" from="-3" to="3"/&gt;
+  &lt;select name="x"&gt;x t theta alpha gamma&lt;/select&gt;
+  &lt;function name="baseFunction" symbolic&gt;
+    &lt;select&gt;
+      &lt;option&gt;
+        &lt;function name="f" variables="$x"&gt;sin $x&lt;/function&gt;
+      &lt;/option&gt;
+      &lt;option&gt;
+        &lt;function name="g" variables="$x"&gt;cos $x&lt;/function&gt;
+      &lt;/option&gt;
+    &lt;/select&gt;
+    &lt;label&gt;&lt;m&gt;f($x)&lt;/m&gt;&lt;/label&gt;
+  &lt;/function&gt;
+  &lt;function name="transformedFunction" variables="$x"&gt;$a $$baseFunction($x + $b) + $c&lt;/function&gt;
+
+  &lt;math name="scaleFactor" simplify&gt;pi&lt;/math&gt;
+  &lt;number name="dF_max"&gt;$dragFunction.maxima[1].y&lt;/number&gt;
+  &lt;number name="dF_min"&gt;$dragFunction.minima[1].y&lt;/number&gt;
+  &lt;number name="dF2_max"&gt;$dragFunction2.maxima[1].y&lt;/number&gt;
+  &lt;number name="dF2_min"&gt;$dragFunction2.minima[1].y&lt;/number&gt;
+&lt;/setup&gt;
+
+&lt;!--testing section--&gt;
+&lt;!-- &lt;p&gt;a = $a&lt;/p&gt;
+&lt;p&gt;b = $b&lt;/p&gt;
+&lt;p&gt;c = $c&lt;/p&gt;
+&lt;p&gt;x = $x&lt;/p&gt;
+&lt;p&gt;baseFunction = $baseFunction&lt;/p&gt;
+&lt;p&gt;transformedFunction = $transformedFunction{simplify}&lt;/p&gt;
+&lt;p&gt;dragFunction = $dragFunction{simplify}&lt;/p&gt;  
+&lt;p&gt;dragFunction2 = $dragFunction2{simplify}&lt;/p&gt;
+&lt;p&gt;dragFunction2.maxima = $dragFunction2.maxima[1]&lt;/p&gt; --&gt;
+&lt;!--/testing section--&gt;
+
+
+
+&lt;!--*********************************************
+            Sin(x)
+**********************************************--&gt;
+&lt;conditionalContent condition="$baseFunction = sin($x)"&gt;
+&lt;graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}"&gt;
+  &lt;legend position="lowerleft" styleNumber="11"&gt;
+    &lt;label forObject="amplitudePoint" styleNumber="11"&gt;Adjust amplitude&lt;/label&gt;
+    &lt;label forObject="horizShiftPoint"&gt;Horizontal &lt;m&gt;\leftrightarrow&lt;/m&gt; shifting&lt;/label&gt;
+    &lt;label forObject="vertShiftPoint"&gt;Vertical &lt;m&gt;\updownarrow&lt;/m&gt; shifting&lt;/label&gt;
+  &lt;/legend&gt;
+  $baseFunction{styleNumber="17"}
+  &lt;label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"&gt;&lt;m&gt;g(f($x))&lt;/m&gt;&lt;/label&gt;
+  &lt;function name="dragFunction" styleNumber="10" variables="$x"&gt;$amplitudePoint.y(sin($x + -$horizShiftPoint.x + pi/2))+$vertShiftPoint.y
+  &lt;/function&gt;
+
+
+  
+  &lt;line styleNumber="14"&gt;x = pi/2&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF_max&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF_min&lt;/line&gt;
+  
+  &lt;endpoint name="amplitudePoint" open="true"&gt;(pi/2, 1)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;endpoint name="horizShiftPoint" styleNumber="2" open="true"&gt;(pi/2, 0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;y = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;endpoint name="vertShiftPoint" styleNumber="3" open="true"&gt;(5pi/2,0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 5pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt; 
+  &lt;/endpoint&gt;
+  &lt;line styleNumber="3"&gt;y = $vertShiftPoint.y&lt;/line&gt; 
+  &lt;line styleNumber="2"&gt;x = $horizShiftPoint.x&lt;/line&gt;
+&lt;/graph&gt;
+
+&lt;answer name="ans29exp_v1"&gt;
+  &lt;award&gt;
+    &lt;when&gt;$dragFunction.formula = $transformedFunction.formula&lt;/when&gt;
+  &lt;/award&gt;
+&lt;/answer&gt;
+&lt;/conditionalContent&gt;
+
+&lt;!--*********************************************
+            Cos(x)
+**********************************************--&gt;
+  
+&lt;conditionalContent condition="$baseFunction = cos($x)"&gt;
+    &lt;graph xmin="-7/2 pi" xmax="7/2 pi" ymin="-5.2" ymax="5.2"  grid="pi/2 1"  aspectRatio="3/2" size="full" xTickScaleFactor="$scaleFactor{simplify}"&gt;
+    &lt;legend position="lowerleft"&gt;
+      &lt;label forObject="amplitudePoint2"&gt;Adjust amplitude&lt;/label&gt;
+      &lt;label forObject="horizShiftPoint2"&gt;Horizontal &lt;m&gt;\leftrightarrow&lt;/m&gt; shifting&lt;/label&gt;
+      &lt;label forObject="vertShiftPoint2"&gt;Vertical &lt;m&gt;\updownarrow&lt;/m&gt; shifting&lt;/label&gt;
+  &lt;/legend&gt;
+  $baseFunction{styleNumber="17"}
+    &lt;label anchor="(-3pi/2, $$dragFunction(-3pi/2)+0.25)" styleNumber="1"&gt;&lt;m&gt;g(f($x))&lt;/m&gt;&lt;/label&gt;
+  &lt;function name="dragFunction2" variables="$x" styleNumber="10"&gt;$amplitudePoint2.y(cos($x + -$horizShiftPoint2.x+ pi/2))+$vertShiftPoint2.y&lt;/function&gt;
+      
+  
+      
+  &lt;endpoint name="amplitudePoint2" open="true"&gt;(0, 1)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  &lt;line styleNumber="16"&gt;y = $dF2_max&lt;/line&gt;
+  &lt;line styleNumber="16"&gt;y = $dF2_min&lt;/line&gt;
+      
+  &lt;endpoint name="horizShiftPoint2" styleNumber="2" open="true"&gt;(pi/2, 0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;y = 0&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" xthreshold="pi/6"/&gt;
+    &lt;/constraints&gt;
+  &lt;/endpoint&gt;
+  
+  &lt;line styleNumber="14"&gt;x = pi/2&lt;/line&gt;
+  &lt;line styleNumber="2"&gt;x = $horizShiftPoint2.x&lt;/line&gt;
+      
+  &lt;endpoint name="vertShiftPoint2" styleNumber="3" open="true"&gt;(5pi/2,0)
+    &lt;constraints&gt;
+      &lt;constrainTo&gt;&lt;line&gt;x = 5pi/2&lt;/line&gt;&lt;/constrainTo&gt;
+      &lt;attractToGrid dx="pi/2" dy="1" ythreshold="2/10"/&gt;
+    &lt;/constraints&gt; 
+  &lt;/endpoint&gt;
+      
+  &lt;line styleNumber="3"&gt;y = $vertShiftPoint2.y&lt;/line&gt; 
+&lt;/graph&gt;
+
+&lt;answer name="ans29exp_v2"&gt;
+  &lt;award&gt;
+    &lt;when&gt;$dragFunction2.formula = $transformedFunction.formula&lt;/when&gt;
+  &lt;/award&gt;
+&lt;/answer&gt;
+
+&lt;/conditionalContent&gt;
+
+&lt;hint&gt;&lt;title&gt;Graphing instructions&lt;/title&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Drag the $horizShiftPoint.styleDescriptionWithNoun $horizShiftPoint2.styleDescriptionWithNoun to adjust the horizontal shift.&lt;/li&gt;
+    &lt;li&gt;Drag the $vertShiftPoint.styleDescriptionWithNoun $vertShiftPoint2.styleDescriptionWithNoun to adjust vertical shift.&lt;/li&gt;
+    &lt;li&gt;Drag the $amplitudePoint.styleDescriptionWithNoun $amplitudePoint2.styleDescriptionWithNoun to adjust the amplitude.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/hint&gt;
+
+&lt;!--*********************************************
+            Style Definitions
+**********************************************--&gt;
+
+&lt;setup&gt;
+&lt;styleDefinitions&gt;
+&lt;!--blue, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/&gt;
+&lt;!--red, styleNumber 2 corrolary--&gt;
+&lt;styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D"/&gt;
+&lt;!--orange, styleNumber 3 corrolary--&gt;
+&lt;styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143"/&gt;
+&lt;!--purple, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineWidth="4"/&gt;
+&lt;!--black, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="11" fillColor="black" fillColorDarkMode="white" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" markerColorDarkMode="white"/&gt;
+&lt;!--gray, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="12" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/&gt;
+&lt;!--green, styleNumber 1 corrolary--&gt;
+&lt;styleDefinition styleNumber="13" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152"/&gt;
+
+&lt;!--red, with thin dashed line --&gt;
+&lt;styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineStyle="dashed" lineWidth="2"/&gt;
+
+&lt;!--blue, with thin dashed line --&gt;
+&lt;styleDefinition styleNumber="15" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF" lineStyle="dashed" lineWidth="2"/&gt;
+
+&lt;!--blue, with thin solid line --&gt;
+&lt;styleDefinition styleNumber="16" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF" lineColor="#648FFF"  lineWidth="2"/&gt;
+
+&lt;!--gray, with thin line--&gt;
+&lt;styleDefinition styleNumber="17" lineColor="gray" lineWidth="2" fillColor="gray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="gray"/&gt;
+  
+&lt;/styleDefinitions&gt;
+&lt;/setup&gt;
+
+
+
+
+&lt;!--***********************Problem statistics***************************************--&gt;
+&lt;setup name="problemStatistics"&gt;
+&lt;text name="sourceLink_p29"&gt;Question 21:OldPlacement/CalcPlacement/PL28/10282015221537_OldPlacement_ZRNKJA7N&lt;/text&gt;
+&lt;number name="assignmentPosition1159"&gt;29&lt;/number&gt;
+&lt;text name="category_p29"&gt;Trigonometry&lt;/text&gt;
+&lt;text name="test"&gt;Math Placement Partn2&lt;/text&gt;
+&lt;p name="essentialQuestion"&gt;Do you understand transformations of trigonometric functions and their standard graphs?&lt;/p&gt;
+&lt;text name="benchmark1_p1e"&gt;&lt;/text&gt;
+&lt;/setup&gt;
+          <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.1<span class="period">.</span></span><span class="space"> </span>DoenetML rendered from source</figcaption></figure><span class="incontext"><a href="section-doenet-interactive3.html#figure-doenet-interactive3" class="internal">in-context</a></span>
+</body>
+</html>
