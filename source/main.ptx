@@ -9,6 +9,7 @@
     <latex-image-preamble>
       \usepackage{tikz}
     </latex-image-preamble>
+    <document-id>doenet</document-id>
   </docinfo>
 
   <book xml:id="my-great-book">
