@@ -1,3 +1,9 @@
+<graph>
+    <circle />
+</graph>
+type x < 5
+<answer>x < 5 </answer>
+<!--
 <setup>
     <select name="slope">-4 -2 2 4</select>
     <select name="vertex_y">-4 -3 -2 -1 0 1 2 3 4</select>
@@ -40,3 +46,4 @@
         </when>
     </award>
 </answer>
+-->

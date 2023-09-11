@@ -63,6 +63,7 @@
           <caption>DoenetML rendered from source</caption>
           <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
             <xi:include href="doenet1.dml" parse="text"/>
+            <xi:include href="doenet2.dml" parse="text"/>
           </interactive>
         </figure>
       </section>
