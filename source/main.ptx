@@ -4,19 +4,40 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="college-algebra_basic-probability_precalculus">
+    <title>College Algebra, Basic Probability and Precalculus</title>
+  
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+   <!-- Include parts-->
+   <part xml:id="part-algebra">
+    <title>Algebra</title>
 
+    <!-- Include chapters for Part I - Algebra -->
+    <xi:include href="./ch-I-1-Algebraic_Notation.ptx"/> 
+   </part>
 
-    <!-- Include backmatter -->
+  <part xml:id="part-basic_probability">
+    <title>Basic Probability</title>
+
+    <!-- Include chapters for Part II - Basic Probability -->
+    <xi:include href="./ch-II-1-Counting_Techniques.ptx"/> 
+
+  </part>
+
+  <part xml:id="part-precalculus">
+    <title>Precalculus</title>
+
+    <!-- Include chapters for Part III - Precalculus -->
+    <xi:include href="./ch-III-1-Unit_Circle_and_Definitions.ptx"/> 
+  </part>
+
+    <!-- Include backmatter  -->
     <xi:include href="./backmatter.ptx" />
 
   </book>
+
+
 </pretext>

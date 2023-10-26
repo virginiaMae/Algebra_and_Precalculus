@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-0-Activities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- <introduction>
+    <p>This book covers the major topics within the study of algebra, 
+      including equations of lines and parabolas. General polynomial and 
+      rational functions as well as exponential and logarithmic functions 
+      are addressed. The idea of recursion plays an important role early 
+      in this work and attention is paid to the concept of a function and 
+      the associated notation. At the University of Minnesota, this material 
+      is used in the PreCalculus I course, which is the first of a two semester
+      sequence leading to calculus. It comprises approximately 14 weeks worth 
+      of material at the college level; a typical college student would spend 
+      120-140 hours total learning this material.</p>
+
+     <p>These materials are used as part of an active learning course, and 
+      the interplay between in-class activities that allow students to 
+      explore and discover ideas and a more formulaic study of the necessary 
+      computations is important. Each chapter has suggestions for active 
+      learning problem-solving activities designed to develop higher-order 
+      thinking skills. The video lessons in the chapter sections address a 
+      second objective, the skill-building component of mathematics. Can you 
+      successfully carry out the calculations necessary to find answers to a 
+      variety of applications? Conceptual understanding of the material is 
+      important, and instructors are encouraged make use of activities that 
+      help students advance the computational skills developed in the video 
+      lessons.</p>
+      
+      <p>This video textbook project has been funded by the University of 
+        Minnesota School of Mathematics and by grants from the University of 
+        Minnesota Libraries Partnership for Affordable Content. My thanks go 
+        out to the many people who have contributed to this project including 
+        Susan Tade, Jennifer Englund, Colin Marron, Hue Yang, Andrew Matthews, 
+        James Ondrey and Melissa Olson with the University of Minnesota’s 
+        Academic Technology Support Services for their assistance with the 
+        recording, animation and post-production of the videos, Robbie Hank, 
+        Shelley Kandola and other instructors who helped with the design of 
+        the Beamer slideshows that form the basis of the visual presentation, 
+        Stan Pride, Kevin Charles, Alex Duhaime, Liz Anderson and others who 
+        have helped with other aspects of video editing to enhance the student 
+        experience, David Ernst for being the catalyst of the entire project 
+        by developing the Open Textbook Network and Kristi Jensen, Shane 
+        Nackerud and others with the University of Minnesota Libraries who 
+        have made this vision come to life in the final production stages.</p>
+  </introduction> -->
+
+
+
+  <title>Activities - Chapter 1</title>
+  
+  <aside><title>Note to Students:</title>
+  <p>Students should be aware that these worksheets are not ‘fill in the blank’ worksheets. 
+    We have intentionally given you no space to write answers on the worksheets. You 
+    should have a notebook for your work, perhaps even beginning by sketching ideas on a 
+    white board or scratch paper until you have sufficient organization to put a coherent 
+    explanation in your notebook. Note also that the expectation is to write ‘explanations’ 
+    and not ‘answers’. These activities are not designed to teach computational skills, 
+    but instead are designed to introduce mathematical concepts. The process used to solve 
+    problems is the focus, not the end result.</p>
+  </aside>
+  
+  <exercise><title>1a - Multiplication via the FOIL Method</title>
+  <p>This first activity reviews multiplication, starting with the algorithm for 
+    multiplying two digit numbers. Students may bring a variety of techniques to 
+    the discussion, and it is important to see multiple representations. One important 
+    aspect of learning mathematics is to be able to make connections between different 
+    approaches that solve the same problem. The insights from multiplying two digit 
+    numbers should lead to insights on the FOIL process.</p>
+  </exercise>
+
+  <!-- Part II of this activity is for more advanced students. It leads toward the Binomial Theorem and the connection to the theory of probability
+  
+  Multiplication via the FOIL Method
+  
+  Activity 1b – Factoring
+  This activity builds the fundamentals of the factoring process. The `Box Method’ is used to demonstrate certain principles, though students may have a variety of methods that work. Again, the goal here is to share ideas, approach the problem from multiple perspectives, and understand the connections between various approaches.
+  
+  Factoring
+  
+  Activity 1c – Reducing Fractions
+  This activity reviews the basics of reducing fractions by factoring. The topic begins with numerators and denominators which are integers before progressing to polynomials. It is important that students understand the factoring process and why terms that are added can’t be cancelled.
+  
+  Reducing Fractions -->
+
+</section>

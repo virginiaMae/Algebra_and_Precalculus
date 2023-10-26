@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-I-3-Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <introduction>
+    <p>This chapter studies functions, the associated notation, and key ideas necessary for 
+        analyzing graphs in calculus. The material here is background material for the chapter on 
+        Exponential and Logarithmic Functions and it is wise to review the sections on Inverse 
+        Functions prior to discussing logarithms. The latter half of the chapter can be skipped 
+        until it is needed for logarithms. Domain, Range and Composition of Functions are also 
+        discussed.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-3-1-Functions.ptx" />
+
+</chapter>
