@@ -1,0 +1,106 @@
+
+<problem>
+    <setup>
+      <selectFromSequence name="a" from="2" to="6" type="math"/>
+      <selectFromSequence name="b" from="2" to="4"/>
+      <math name="c" simplify>$a + $b</math>
+      <math name="combinationskOfN" simplify>$c!/($a!($c - $a)!)</math>
+    </setup>
+    
+    
+    <!--testing--> 
+    <!-- <p>a = $a</p>
+    <p>b = $b</p>
+    <p>c = $c</p>
+    <p>combinationskOfN = $combinationskOfN</p> -->
+    <!--testing-->
+    
+    <p>When flipping $c coins, how many sequences of Heads and Tails have exactly $a Heads?</p>  
+    
+      <p><m>\text{Number of sequences} = </m>
+          
+        <answer name="ans2" >
+          <mathInput name="userInput"/> 
+          <award name="correct" symbolicEquality simplifyOnCompare credit="1">    
+            <when>
+          $userInput=$combinationskOfN
+            </when>
+          </award>
+        </answer>
+      </p>
+    
+    <!--*********************************************
+                Feedbacks
+    **********************************************-->
+    <setup>
+      <select name="correctFeedback" type="text">
+        <option>Awesome!</option>
+        <option>Great job!</option>
+        <option>Fantastic!</option>
+        <option>Nice work!</option>
+        <option>Amazing!</option>
+        <option>Excellent!</option>
+        <option>Right on!</option>
+        <option>Perfect!</option>
+      </select>
+    </setup>
+      <feedback condition="$correct">$correctFeedback</feedback>
+      
+      <feedback condition="$ans2.numSubmissions > 2 and $ans2.creditAchieved != 1">
+         <div name="helpText"><p>You flip <m>$c</m> coins, and <m>$a</m> of them land heads. Imagine the coins are labeled <m>1</m> through <m>$c</m>. The different arrangement of heads and tails on coins <m>1</m> through <m>$c</m> produce <term>combinations</term>; how many of these have exactly $a heads?</p>
+         <p>Note that the problem does not mention that the order is important, i.e. it makes no difference whether you choose to flip the lowest numbered coin first, or the highest numbered coin first.</p>
+         <p>
+          The formula for the number of combinations of <m>k</m> objects chosen from a set of <m>n</m> objects is
+        <me>C(n,k) = \frac{n!}{k!(n-k)!}.</me>
+         </p>
+        </div>
+      </feedback>
+    
+    
+    <!--*********************************************
+                Hint
+    **********************************************-->
+    <hint name="helpSection"><title>Worked Example</title>
+    
+    <p>Here is a similar worked example:</p> 
+    <example newNameSpace>
+    <p><em>When flipping <m>$c</m> coins, how many sequences of Heads and Tails have exactly <m>$a</m> Heads?</em></p>
+    
+    <setup>
+      <math name="a">7</math>
+      <math name="b">5</math>
+      <math name="c" simplify>$a + $b</math>
+      <math name="combinationskOfN" simplify>$c!/($a!($c - $a)!)</math>
+    </setup>
+    
+      
+    <p><em></em></p> 
+    
+    <p><alert><em>Solution.</em></alert></p>
+    <p>Use the formula for <m>C(n,k)</m>
+          <md>
+            <mrow>C(n,k) \amp= \frac{n!}{k!(n-k)!} \amp\text{general formula}</mrow>
+            <mrow>C($c,$a) \amp= \frac{$c!}{$a!($c-$a)!} \amp\text{substitute}</mrow>
+            <mrow> \amp= $combinationskOfN \amp\text{evaluate}</mrow>
+          </md></p>
+      
+    </example>
+    
+    
+    </hint>
+    
+    <!--*********************************************
+                Solution
+    **********************************************-->  
+    <solution>
+    <p>Use the formula for <m>C(n,k)</m>
+          <md>
+            <mrow>C(n,k) \amp= \frac{n!}{k!(n-k)!} \amp\text{general formula}</mrow>
+            <mrow>C($c,$a) \amp= \frac{$c!}{$a!($c-$a)!} \amp\text{substitute}</mrow>
+            <mrow> \amp= $combinationskOfN \amp\text{evaluate}</mrow>
+          </md></p>
+    
+    </solution>
+    </problem>
+    
+    

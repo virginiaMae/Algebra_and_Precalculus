@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-9-Equation_of_a_Circle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Equation of a Circle</title>
+    <p><em>The Equation of a Circle</em> uses Analytic Geometry to connect the equation of 
+      a circle to the Pythagorean Theorem. The key is that the distance between two point 
+      is found by subtracting coordinates.</p>
+        
+  <video youtube="eM9UOPrXHHs"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Equation-of-Circle-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-3.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim4-3.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim9-3.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWI 5.9 -->
+      <!-- <xi:include href="./ex-5-9/TR-Conics_1.xml" />
+      <xi:include href="./ex-5-9/TR-Conics_2.xml" /> -->
+      
+    </exercise>
+  </exercises>
+  </section>

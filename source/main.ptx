@@ -16,22 +16,31 @@
     <title>Algebra</title>
 
     <!-- Include chapters for Part I - Algebra -->
-    <xi:include href="./ch-I-1-Algebraic_Notation.ptx"/> 
+    <xi:include href="./algebra/ch-I-1-Algebraic_Notation.ptx"/> 
+    <xi:include href="./algebra/ch-I-2-Sequences_and_Recursion.ptx"/> 
+    <xi:include href="./algebra/ch-I-3-Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-4-Lines_and_Linear_Equations.ptx"/> 
+    <xi:include href="./algebra/ch-I-5-Quadratics_Polynomials_and_Rational_Expressions.ptx"/> 
+    <xi:include href="./algebra/ch-I-6-Exponential_and_Logarithmic_Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-11-Review_Topics.ptx"/> 
+
    </part>
 
   <part xml:id="part-basic_probability">
     <title>Basic Probability</title>
 
     <!-- Include chapters for Part II - Basic Probability -->
-    <xi:include href="./ch-II-1-Counting_Techniques.ptx"/> 
+    <xi:include href="./probability/ch-II-1-Counting_Techniques.ptx"/>
+    <xi:include href="./probability/ch-II-2-Probability.ptx"/>
 
   </part>
 
   <part xml:id="part-precalculus">
-    <title>Precalculus</title>
+    <title>Precalculus</title> -->
+
 
     <!-- Include chapters for Part III - Precalculus -->
-    <xi:include href="./ch-III-1-Unit_Circle_and_Definitions.ptx"/> 
+    <xi:include href="./precalculus/ch-III-1-Unit_Circle_and_Definitions.ptx"/>
   </part>
 
     <!-- Include backmatter  -->

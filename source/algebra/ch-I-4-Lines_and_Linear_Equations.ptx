@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-I-4-Lines_and_Linear_Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lines and Linear Equations</title>
+
+  <introduction>
+    <p>This chapter links to the previous material on 
+        Arithmetic Sequences and the focus is on rates of change and slopes. 
+        <xref ref="sec-4-1-Solving_a_Linear_Eq_One_Variable" text="title"/> is this first of several 
+        solution processes 
+        that appear in the next few chapters. The common forms of lines are introduced. There 
+        is an activity on finding the intersection of two lines that foreshadows solving a  
+        <m>2 \times 2</m> system of liner equations. There is also a section that connects the 
+        <xref ref="sec-4-6-Point_Slope_Form" text="title" /> to graphs transformations that are covered in the chapter on 
+        <xref ref="ch-I-5-Quadratics_Polynomials_and_Rational_Expressions" text="title"/>.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-4-5-Slope_Intercept_Form.ptx" />
+  <xi:include href="sec-4-8-Parallel_and_Perpendicular_Lines.ptx" />
+
+</chapter>

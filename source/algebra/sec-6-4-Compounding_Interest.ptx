@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-4-Compounding_Interest" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Compounding Interest</title>
+    <p><em>Compounding Interest</em> covers problems associated with continuously compounded interest. 
+        It uses the model <m>A = P e^{r t}</m>. Compounding interest in discrete time steps, 
+        for example, compounding interest annually is not addressed here. This lesson assumes an 
+        understanding of logarithms when trying to solve for the rate or time. Information on 
+        logarithms can be found in lesson on <xref ref="sec-6-1-The_Logarithm_Function" text="title"/>
+         and <xref ref="sec-6-2-Properties_of_Logarithms" text="title"/>.</p>
+        
+  <video youtube="vCekIWhQ3zM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Compounding-Interest-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-9.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-9.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-9.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- for MA1031 HWI 6.4 and MA1051 HWI 6.4 -->
+      <!-- <xi:include href="./ex-6-4/BA-ExpLog_9.xml" />
+      <xi:include href="./ex-6-4/BA-ExpLog_10.xml" />
+      <xi:include href="./ex-6-4/BA-ExpLog_11.xml" />
+      <xi:include href="./ex-6-4/BA-ExpLog_43.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

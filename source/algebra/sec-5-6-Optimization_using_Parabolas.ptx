@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-6-Optimization_using_Parabolas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Optimization Using Parabolas</title>
+    <p></p>
+        
+  <video youtube="JCLe2W-WzDY"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Optimization-Using-Parabolas.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-2.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim4-2.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim9-2.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWI 5.6 -->
+      <!-- <xi:include href="./ex-5-6/BA-Quadratics_8.xml" />
+      <xi:include href="./ex-5-6/BA-Quadratics_9.xml" /> -->
+
+      <!-- from MA1051 HWM 5.6 -->
+      <!-- <xi:include href="./ex-5-6/BA-Quadratics_15.xml" />
+      <xi:include href="./ex-5-6/BA-Quadratics_16.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-5-Slope_Intercept_Form" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Slope-Intercept Form of a Line</title>
+    <p><em>Slope-Intercept Form of a Line</em> relates the standard <m>y = mx + b</m> form of a 
+        line with arithmetic sequences (<em>Linear Growth, Recursion and Slope</em>). Examples of 
+        graphing a line from the equation and of finding the equation, given the graph are presented.</p>
+        
+  <video youtube="rMkqESmIFPE"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/AL25-Slope-Intercept-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-10.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-10.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-9.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- For MA1049 HW10 problem 1
+      <xi:include href="./ex-4-5/BA_Lines_7" /> -->
+
+    </exercise>
+  </exercises>
+  </section>

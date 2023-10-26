@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-II-1-Counting_Techniques" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Counting Techniques</title>
+
+  <introduction>
+    <p>Chapter 1 introduces students to counting techniques necessary for the 
+      study of probability. How many outcomes are possible when rolling two dice? 
+      when flipping four coins? when drawing five cards from a deck of 52? The 
+      basic building block is the General Counting Principle, from which 
+      Permutations are a specific application. The connection between Permutations 
+      and Combinations is developed, as well as the connection between Binary 
+      models (coin flips) and Combinations.</p>
+
+      <p>Seeing the interconnectedness of these topics is important for success 
+        in probability and students should be encouraged to focus on the 
+        similarities between topics. For example, why is the formula for 
+        combinations the same as the formula for permutations with an extra 
+        factor in the denominator? What is the extra factor? What does it represent?</p>
+      
+      <p>The lesson on Permutations is presented in two parts. Part I follows the 
+        General Counting Principle and places ALL members of a set in order. 
+        Part II does the generalization when only some of the members are placed 
+        in order.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-1-5-Combinations.ptx" />
+
+</chapter>

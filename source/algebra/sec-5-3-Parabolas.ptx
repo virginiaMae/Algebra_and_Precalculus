@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-3-Parabolas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Parabolas</title>
+    <p><em>Parabolas</em> gives an introduction to polynomials of 
+        degree = 2 and uses <em>Graph Transformations</em> to analyze the graph of the 
+        general parabola <m>y = ax^2 + bx + c</m> to show that the axis of symmetry, 
+        and therefore the <m>x</m>-coordinate of the vertex is <m>\frac{b}{2a}</m>. 
+        The main example is to use the general form <m>y = ax^2 + bx + c</m> to find the 
+        vertex of the parabola and to be able to sketch the graph of a parabola from the 
+        general form.</p>
+        
+  <video youtube="PCaiP3zFe4Q"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Parabolas-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-1.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim4-1.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim9-1.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!--for MA1049 HW5-->
+      <!--<xi:include href="./ex-5-3/BA-Quadratics_24.xml" />
+      <xi:include href="./ex-5-3/BA-Quadratics_25.xml" />
+      <xi:include href="./ex-5-3/BA-Quadratics_26.xml" />-->
+      
+      <!-- for MA1049 HW10 - second problem
+      <xi:include href="./ex-5-3/BA-Quadratics_5.xml" /> -->
+      <!-- for old MA1031 HWM 5.3 & current MA1051 HWM 5.3-->
+      <!-- <xi:include href="./ex-5-3/BA-Quadratics_10.xml" /> -->
+      
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,164 @@
+ <problem>
+  <setup>
+    <select name="a">2 3 4</select>
+    <selectFromSequence name="b" from="2" to="6"/>
+    <function name="f" simplify="numbersPreserveOrder" styleNumber="5">$a/sqrt(-$b - x)
+      <label><m>f(x)</m></label>
+    </function>
+     <math name="interval">(-infinity, -$b)
+    </math>
+  </setup>
+  
+  
+  <!--testing-->
+  <!-- <p>a = $a</p>
+  <p>b = $b</p>
+  <p>f = $f</p>
+  <p>interval = $interval</p> -->
+  
+  <!--testing-->
+  
+   
+  <p>What is the <alert>domain</alert> of the function:</p>
+  <m>\large{f(x) = $f.formula{simplify="numbersPreserveOrder"}}</m>
+  
+  
+  <aside><title>Graphing tool</title>
+  <sideBySide margins="5%" widths="30% 70%">
+  <div><p>Graph function: <m>\;f(x) = </m><mathInput name="mi"/></p>
+    <setup>
+    <function name="miFunction">$mi</function>
+    </setup></div>
+    
+  <graph>
+    $miFunction
+  </graph>
+  </sideBySide>
+  </aside>  
+  
+  <p></p>
+  <subsetOfRealsInput name="userInterval" width="200"/>
+  
+    
+  <sideBySide margins="5%">
+  <div></div>
+  
+  <div>
+  <p><alert>Domain:</alert> <mathInput name="userDomain" bindValueTo="$userInterval"/>
+    <answer name="ans1">
+      <award name="allCorrect">
+        <when>$userInterval = $interval
+        </when>
+      </award>
+    </answer>
+  </p>
+  
+  <p>This interval expressed as an inequality is: 
+    <subsetOfReals displayMode="inequalities">$userInterval</subsetOfReals>
+  </p>
+  </div>
+  </sideBySide>
+    
+  <p><alert>Tip!</alert> You can answer in one of two ways:
+    <ul>
+      <li><alert>draw</alert> the interval using the number line tool</li>
+      <li>or <alert>write</alert> the interval in the input box</li>
+    </ul>
+  </p>
+  
+  
+  
+  
+  <!--*********************************************
+              Feedbacks
+  **********************************************-->
+  <setup>
+    <select name="correctFeedback" type="text">
+      <option>Awesome!</option>
+      <option>Great job!</option>
+      <option>Fantastic!</option>
+      <option>Nice work!</option>
+      <option>Amazing!</option>
+      <option>Excellent!</option>
+      <option>Right on!</option>
+      <option>Perfect!</option>
+    </select>
+  </setup>
+    <feedback condition="$allCorrect">$correctFeedback</feedback>
+ 
+    
+  
+  <!--*********************************************
+              Hint
+  **********************************************-->
+  <hint name="helpSection"><title>Worked Example</title>
+  
+  <p>Here is a similar worked example:</p> 
+  
+  <example newNameSpace>
+  <setup>
+    <math name="a">5</math>
+    <math name="b">7</math>
+    <function name="f" simplify="numbersPreserveOrder" styleNumber="5">$a/sqrt(x+$b)
+      <label><m>f(x)</m></label>
+    </function>
+     <math name="interval">(-$b, infinity)
+    </math>
+  </setup>
+  
+  <p><em>What is the <alert>domain</alert> of the function:</em></p>
+  <m>\large{f(x) = $f.formula{simplify="numbersPreserveOrder"}}</m>
+  
+    
+  <p><em><alert>Solution.</alert></em></p>
+  <ul>
+    <li>First, although it's not required to solve the problem, it's always helpful to graph the function to get a sense of its behavior:
+      <graph size="small" showNavigation="false">
+      $f
+  </graph>
+    </li>
+    <li><p>The <term>domain</term> of a function consists of the interval of input values over which the function is defined. Notice that the given function involves a square root operation. Since our function is defined for real numbers only, we know that the expression under the square root cannot evaluate to a negative number. Since the square root is in the denominator, we also cannot have <m>\sqrt{0}</m> in the denominator. So, for what values of the input, <m>x</m>, is the expression under the square root a positive number?
+      <md>
+        <mrow>x + $b &> 0</mrow>
+        <mrow>x &> -$b</mrow>
+      </md></p></li>
+  
+    <li><p>What about values that are much larger than <m>-$b</m>? There is no reason we cannot evaluate arbitrarily large values of <m>x</m>, and still compute a function output. Therefore, the upper value of our domain interval is infinity.</p></li>
+  
+    <li><p>In interval notation, we can write this as <math>(-$b,infinity)</math>.</p>
+    </li>
+  </ul>
+  </example>
+ 
+  </hint>
+    
+  
+  <!--*********************************************
+              Solution
+  **********************************************-->
+  <solution>
+  <p>$interval or <subsetOfReals displayMode="inequalities">$interval</subsetOfReals></p>
+  </solution>
+  </problem>
+  
+  <!--******************************************************
+          Style Definitions
+  *******************************************************-->  
+  
+  <setup>
+  <styleDefinitions>
+  <!--blue, styleNumber 1 corrolary-->
+  <styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+  <!--red, styleNumber 2 corrolary-->
+  <styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7"  lineWidth="4"/>
+  <!--orange, styleNumber 3 corrolary-->
+  <styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143" lineColor="#F19143" lineOpacity="0.7"  lineWidth="4"/>
+  <!--purple, styleNumber 4 corrolary-->
+  <styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineOpacity="0.7" lineWidth="4"/>
+  <!--black, styleNumber 5 corrolary-->
+  <styleDefinition styleNumber="11" fillColor="black" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" lineColor="black" lineOpacity="0.7" lineWidth="4"/>
+  <!--green, styleNumber 1 but green corrolary-->
+  <styleDefinition styleNumber="12" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="4"/>
+  </styleDefinitions>
+  </setup>
+  

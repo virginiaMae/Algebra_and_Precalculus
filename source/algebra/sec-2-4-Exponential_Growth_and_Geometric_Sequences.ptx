@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-4-Exponential_Growth_and_Geometric_Sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exponential Growth and Geometric Sequences</title>
+    <p><em>Exponential Growth and Geometric Sequences</em> discusses the recursion of 
+        repeated multiplication to arrive at an arithmetic sequence. The explicit 
+        formula is also discussed, including its connection to the recursive formula and 
+        to the standard exponential growth model used in Continuously
+        <xref ref="sec-6-4-Compounding_Interest" text="title"/> and
+        <xref ref="sec-6-5-Radioactive_Decay" text="title"/> , among other lessons. 
+        We prefer sequences to begin with the term  
+        <m>g_0</m> rather than  <m>g_1</m>. Therefore, the explicit formula is given as  
+        <m>g_n = g_0 r^n</m> rather than <m>g_n = g_1 r^{n - 1}</m> .</p>
+        
+  <video youtube="nbw3APAUViA"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Exponential-Growth-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-4.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-4.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-4.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- From MA1051 HWM 2.4 and From MA1031 HWV 2.4 -->
+      <!-- <xi:include href="./ex-2-4/BA-Seq_2.xml" />
+      <xi:include href="./ex-2-4/TR-Series_29.xml" />
+      <xi:include href="./ex-2-4/TR-Series_30.xml" /> -->
+      
+    </exercise>
+  </exercises>
+  </section>

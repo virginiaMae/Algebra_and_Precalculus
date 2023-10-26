@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2-Function_Notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Function Notation</title>
+
+  <p><em>Function Notation</em> discuss the standard <m>f(x)</m> notation 
+    for functions, explaining the input/output process. The definition of 
+    function is dealt with in the <xref ref="sec-3-1-Functions" text="title"/> 
+    lesson and it is assumed that students have an understanding of what a function 
+    is prior to this lesson. The focus in on interpreting <m>f(3)</m> as the input <m>3</m> 
+    replacing <m>x</m> in the expression <m>f(x)</m> for the purpose of calculating the output.</p>
+
+    <video youtube="okSrjf5X0lY"/>
+    <p>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Function-Notation-script.pdf">Transcript</url>
+    </p>
+    <p>Slideshow: 
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-5.pdf">Full</url>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-5.pdf">4-per-page</url>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-5.pdf">9-per-page</url>
+    </p>
+    
+    
+    <exercises>
+      <exercise>
+        <!-- Doenet problems here -->
+        <!-- last problem in MA1049 HW2:
+        <xi:include href="./ex-3-2/BA-Fns_27.xml" /> -->
+        
+        <!-- from MA1049 HW3:
+        <xi:include href="./ex-3-2/BA-Fns_30.xml" />
+        <xi:include href="./ex-3-2/BA-Fns_31.xml" />
+        <xi:include href="./ex-3-2/BA-Fns_32.xml" /> -->
+      </exercise>
+    </exercises>
+</section>

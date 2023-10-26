@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-7-Laws_of_Exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Laws of Exponents</title>
+    <p><em>Laws of Exponents</em> discusses the concepts behind zero and 
+        negative exponents, and uses the definition of an exponent to develop the 
+        laws for adding, subtracting, and multiplying exponents.</p>
+        
+  <video youtube="f66BUZ-wmUA"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Laws-of-Exponents-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-4.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-4.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-4.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- for MA1049 HW 8 -->
+      <!-- <xi:include href="./ex-1-7/BA-ExpLog_13.xml" />
+      <xi:include href="./ex-1-7/BA-ExpLog_14.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

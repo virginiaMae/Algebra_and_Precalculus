@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-1-The_Geometry_of_Right_Triangles">
+    <title>The Geometry of Right Triangles</title>
+    <p><em>The Geometry of Right Triangles</em> begins the study of Trigonometry. 
+        It begins with the geometric definitions of the three main trig functions. 
+        Some instructors prefer to begin with the unit circle approach and then proceed 
+        to the right triangle approach. We chose to put this lesson before 
+        <xref ref="sec-1-2-The_Unit_Circle-Part_I" text="title"/> and 
+        <xref ref="sec-1-4-The_Unit_Circle-Part_II" text="title"/>, though it could be done afterward. 
+        It gives a conceptual introduction to the inverse trig functions, enough to 
+        be able to solve right triangles and the focus here is on the solving process. 
+        A fuller, more formal treatment of inverse trig functions is given in Inverse 
+        Sine and Inverse Cosine Functions, with further details of the domain and range 
+        of the inverse trig functions given in 
+        <xref ref="sec-3-3-Domain_and_Range_of_Trig_and_Inverse_Trig_Functions" text="title"/>.</p>
+
+    <p>It is not the intent of this lesson to discuss the similarity of triangles 
+        and the fact that the geometric definition is well-defined.</p>
+        
+  <video youtube="XYYNf9HwUc4"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/08/Geometry-of-Right-Triangles-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/08/Trim-The-Geometry-of-Right-Triangles.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/08/Trim-4-The-Geometry-of-Right-Triangles.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/08/Trim-9-The-Geometry-of-Right-Triangles.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <url href="https://www.doenet.org/public?doenetId=_Kncj6VbcdreQikZVKhp9y#page1"></url> 
+    </exercise>
+  </exercises>
+  </section>

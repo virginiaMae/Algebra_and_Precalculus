@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-II-2-Probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Probability</title>
+
+  <introduction>
+    <p>Chapter 2 introduces students to the basics of probability. 
+        The emphasis is on problems that occur naturally, both in the playing of 
+        games and in natural phenomena. The binomial model is stressed, as many 
+        problems arise from a sequence of either/or choices. The <xref ref="sec-2-7-Bell_Curve" text="title"/> is
+         of fundamental importance in statistics and is addressed here.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-2-7-Bell_Curve.ptx" />
+
+</chapter>

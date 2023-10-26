@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-7-Composition_of_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Composition of Functions</title>
+    <p><em>The Composition of Functions</em> establishes the technique for 
+        combining two functions, using one as the input to the other. 
+        Several examples are performed.</p>
+        
+  <video youtube="wRzx91qHqvA"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Composition-of-Functions.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim-2.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim4-2.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim9-2.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- From MA1051 HW M3.7 -->
+      <!-- <xi:include href="./ex-3-7/BA-Fns_26.xml" />
+      <xi:include href="./ex-3-7/BA-Fns_48.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

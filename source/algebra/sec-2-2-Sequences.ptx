@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-2-Sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sequences</title>
+    <p><em>Sequences</em> discusses recursive patterns that lead to sequences of numbers and 
+        the associated notation. Examples include 
+        <xref ref="sec-2-3-Linear_Growth_and_Arithmetic_Sequences">Arithmetic Sequences</xref> and 
+        <xref ref="sec-2-4-Exponential_Growth_and_Geometric_Sequences">Geometric Sequences</xref>, 
+        but details of those two topics including their explicit formulas are saved for later lessons.</p>
+        
+  <video youtube="gseMyBLNjj0"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/1.2-Sequences-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-2.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-2.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-2.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 HWI 2.2 -->
+      <!-- <xi:include href="./ex-2-2/TR-Series_1.xml" />
+      <xi:include href="./ex-2-2/TR-Series_2.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

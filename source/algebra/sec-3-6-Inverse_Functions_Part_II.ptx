@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-6-Inverse_Functions_Part_II" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Inverse Functions - Part II</title>
+    <p><em>Inverse Functions – Part II</em> advances the notion begun in 
+        <xref ref="sec-3-4-Inverse_Functions" text="title"/> – Part I taking into account 
+        functions which are not One-to-One Functions. The principle examples are the 
+        relationship between the squaring function <m>f(x) = x^2</m>  and the square root function, 
+        along with the second example; the <m>\arcsin</m> function.</p>
+        
+  <video youtube="xDdEGc8G4HM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Inv-Fns-Part-II-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim-1.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim4-1.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim9-1.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWV 3.6 -->
+
+    </exercise>
+  </exercises>
+  </section>

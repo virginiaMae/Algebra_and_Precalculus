@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-2-The_Unit_Circle-Part_I">
+    <title>The Unit Circle - Part I</title>
+    <p><em>The Unit Circle – Part I</em> establishes the connection between angles measured 
+      counterclockwise from the positive side of the <m>x</m>-axis and points on a circle of radius 1 
+      and formalizes this as a function from angles to points (ordered pairs). From this, the <em>sin</em> and 
+      <em>cos</em> functions are defined. Value of sin and cos are found for angles which are multiples of <m>90^{\circ}</m>. 
+      Values which come from the <m>30^{\circ} – 60^{\circ} – 90^{\circ}</m>  triangle and the 
+      <m>45^{\circ} – 45^{\circ} – 90^{\circ}</m> triangle are presented in 
+      <xref ref="sec-1-4-The_Unit_Circle-Part_II">the Unit Circle – Part II</xref> lesson.</p>
+  
+  <video youtube="rdY8pCGNhaE"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Unit-Circle-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-Unit-Circle-Part-I.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-4-Unit-Circle-Part-I.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-9-Unit-Circle-Part-I.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- <p><url href="https://www.doenet.org/course?tool=assignment&doenetId=_Kncj6VbcdreQikZVKhp9y#page1"></url></p> -->
+    </exercise>
+  </exercises>
+  </section>
