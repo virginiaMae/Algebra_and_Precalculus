@@ -6,17 +6,26 @@
   <introduction>
     <p>This chapter links to the previous material on 
         Arithmetic Sequences and the focus is on rates of change and slopes. 
-        <xref ref="sec-4-1-Solving_a_Linear_Eq_One_Variable" text="title"/> is this first of several 
+        <xref ref="sec-4-1-Solving_a_Linear_Equation_in_one_Variable" text="title"/> is this first of several 
         solution processes 
         that appear in the next few chapters. The common forms of lines are introduced. There 
         is an activity on finding the intersection of two lines that foreshadows solving a  
         <m>2 \times 2</m> system of liner equations. There is also a section that connects the 
-        <xref ref="sec-4-6-Point_Slope_Form" text="title" /> to graphs transformations that are covered in the chapter on 
+        <xref ref="sec-4-6-Point_Slope_Form_of_a_Line" text="title" /> to graphs transformations that are covered in the chapter on 
         <xref ref="ch-I-5-Quadratics_Polynomials_and_Rational_Expressions" text="title"/>.</p>
   </introduction>
 
   <!-- include sections -->
+  <xi:include href="sec-4-1-Solving_a_Linear_Equation_in_one_Variable.ptx" />
+  <xi:include href="sec-4-2-Rates_of_Change.ptx" />
+  <xi:include href="sec-4-3-Linear_Growth_Recursion_and_Slope.ptx" />
+  <xi:include href="sec-4-4-The_Slope_of_a_Line.ptx" />
   <xi:include href="sec-4-5-Slope_Intercept_Form.ptx" />
+  <xi:include href="sec-4-6-Point_Slope_Form_of_a_Line.ptx" />
+  <xi:include href="sec-4-7-Point_Point_Form_of_a_Line.ptx" />
   <xi:include href="sec-4-8-Parallel_and_Perpendicular_Lines.ptx" />
-
+  <xi:include href="sec-4-9-Point_Slope_Form_Graph_Transformation.ptx" />
+  <xi:include href="sec-4-10-Equations_of_Lines.ptx" />
+  <xi:include href="sec-4-11-The_Absolute_Value_Function.ptx" />
+  <xi:include href="sec-4-12-Solving_Absolute_Value_Equations_and_Inequalities.ptx" />
 </chapter>

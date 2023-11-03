@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-1-Graphs_of_Waves" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphs of Waves</title>
+    <p><em>Graphs of Waves</em> shows the details of the graphs of 
+        <m>y = \sin x</m> and <m>y = \cos x</m>. Close attention is paid to graphing one 
+        complete wave from <m>0</m> to <m>2 \pi</m>, including points corresponding to each of 
+        the special unit circle angles. This is far more detail than is necessary for 
+        most applications, but does show the roundedness of the waves. The pattern 
+        then repeats and this periodic nature is shown briefly to give students an understanding 
+        of the long range behavior of the functions.</p>
+        
+  <video youtube="xfR_JPiVN98"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Graphs-of-Waves-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Graphs-of-Waves.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Graphs-of-Waves.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Graphs-of-Waves.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

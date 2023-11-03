@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-2-Amplitude" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Amplitude</title>
+    <p><em>Amplitude</em> is the first of three lessons building toward the 
+        general wave function. Future lessons deal with <xref ref="sec-2-3-Frequency_Wavelength_and_Period" text="title"/>
+         and <xref ref="sec-2-5-Phase_Shift" text="title"/>. By the end of this lesson, students 
+         should be able 
+        to write an equation from the graph, and should be able to graph the wave, 
+        given its equation.</p>
+        
+  <video youtube="xX9xfLq_Gd0"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Amplitude-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Amplitude.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Amplitude.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Amplitude.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

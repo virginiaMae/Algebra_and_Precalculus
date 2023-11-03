@@ -9,7 +9,7 @@
     <url href="">Transcript</url>
   </p>
   <p>Slideshow: 
-    <url href="h">Full</url>
+    <url href="">Full</url>
     <url href="">4-per-page</url>
     <url href="">9-per-page</url>
   </p>
@@ -18,7 +18,7 @@
   <exercises>
     <exercise>
       <!-- Doenet problems here -->
-      <xi:include href="./ex-1-3/BA-Basics_27.xml" />
+      <xi:include href="" />
     </exercise>
   </exercises>
   </section>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-3-Trig_Formulas_and_Inverse_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Trig Formulas and Inverse Functions</title>
+
+  <introduction>
+    <p>This chapter begins with the inverse functions <m>\arcsin</m> and 
+        <m>\arccos</m> and a discussion of domain and range. The middle sections are devoted 
+        to many of the trig identities, like double and half angle formulas. 
+        The last two sections deal with solving trig equations.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-3-1-The_Inverse_Functions_of_Sine_and_Cosine.ptx" />
+  <xi:include href="sec-3-2-Tangent_and_Inverse_Tangent.ptx" />
+  <xi:include href="sec-3-3-Domain_and_Range_of_Trig_and_Inverse_Trig.ptx" />
+  <xi:include href="sec-3-4-Combining_Trig_Functions_and_Inverse_Trig_Functions.ptx" />
+  <xi:include href="sec-3-5-Angle_Sum_Formulas.ptx" />
+
+</chapter>

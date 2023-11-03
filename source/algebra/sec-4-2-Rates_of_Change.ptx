@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-2-Rates_of_Change" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rates of Change</title>
+    <p><em>Rates of Change</em> discusses slope in its formal mathematical presentation. 
+        It introduces the symbol <m>\Delta</m> to denote the change in a variable. Examples 
+        of interpolation and extrapolation are given, as well as an example solving 
+        for the input variable.</p>
+        
+  <video youtube="76l3pcKEkz0"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Rates-of-Change-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-8.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-8.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-7.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 and MA1051 HWI 4.2 -->
+      <!-- <xi:include href="./ex-4-2/BA-Lines_1.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

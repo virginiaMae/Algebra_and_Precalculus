@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-4-Combining_Trig_Functions_and_Inverse_Trig_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Combining Trig Functions and Inverse Trig Functions</title>
+    <p><em>Combining Trig and Inverse Trig Functions – Part I</em> covers several examples of how 
+      these functions can be combined. The emphasis is on developing the notation and understanding 
+      at each step whether the object in question is an angle or a number. Attention is given to 
+      the domain and range of the functions. These issues are important for lessons in solving 
+      triangles using <xref ref="sec-4-1-Solving_Triangles_Using_Law_of_Sines_I" text="title"/>
+      and <xref ref="sec-4-2-Solving_Triangles_Using_Law_of_Cosines" text="title"/>The Law of Cosines. 
+      Example 2 in the video is a repeat from 
+      <xref ref="sec-1-6-Pythagorean_Theorem_Trig_Version" text="title"/>.</p>
+        
+  <video youtube="aphyuFddW4c"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-I-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-I.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-I.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-I.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 3.4 -->
+      <!-- <xi:include href="./ex-3-4/TR-Inv_20.doenet" />
+      <xi:include href="./ex-3-4/TR-Inv_21.doenet" />
+      <xi:include href="./ex-3-4/TR-Inv_22.doenet" />
+      <xi:include href="./ex-3-4/TR-Inv_23.doenet" />
+      <xi:include href="./ex-3-4/TR-Inv_24.doenet" />
+      <xi:include href="./ex-3-4/TR-Inv_25.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

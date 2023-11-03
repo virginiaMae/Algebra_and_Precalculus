@@ -20,7 +20,18 @@
   <exercises>
     <exercise>
       <!-- Doenet problems here -->
-      from MA1051 HWM 6.3
+      <!-- from MA1051 HWM 6.3 -->
+      <!-- <xi:include href="./ex-6-3/BA-ExpLog_3.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_4.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_5.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_6.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_12.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_27.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_28.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_29.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_30.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_33.doenet" />
+      <xi:include href="./ex-6-3/BA-ExpLog_37.doenet" /> -->
       
       
     </exercise>

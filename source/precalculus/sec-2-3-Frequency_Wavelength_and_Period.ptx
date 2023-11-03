@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-3-Frequency_Wavelength_and_Period" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Frequency, Wavelength and Period</title>
+    <p><em>Frequency, Wavelength and Period</em> extends the techniques for graphing waves 
+        begun in the lesson on <xref ref="sec-2-2-Amplitude" text="title"/>. The 
+        physical concepts of wavelength and frequency are defined here, but are not 
+        stressed. The term period is used in place of wavelength in most examples. 
+        The wave model <m>y = A \sin(Bx)</m> is established in this lesson. A final 
+        lesson on <xref ref="sec-2-5-Phase_Shift" text="title"/> realizes the full 
+        generalization <m>y = A \sin(Bx + C) + D</m>.</p>
+        
+  <video youtube="fa9bwj1qcjg"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Frequency-Wavelength-and-Period-script-1.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Frequency-Wavelength-and-Period.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Frequency-Wavelength-and-Period.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Frequency-Wavelength-and-Period.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

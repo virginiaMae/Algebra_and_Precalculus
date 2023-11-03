@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3-Linear_Growth_Recursion_and_Slope" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Linear Growth, Recursion and Slope</title>
+    <p><em>Linear Growth, Recursion and Slope</em> examines linear equations from a 
+        recursive definition. The intent is to connect the standard formulation of slope 
+        with the more intuitive notion of arithmetic sequences. It stresses the 
+        time sequence where future values are found be repeated addition. It pays 
+        close attention to the notation used in sequences, particularly the subscripts on 
+        the variables and how they relate to the input of a function.</p>
+        
+  <video youtube="7KB1Qk44s0g"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Linear-Growth-Recursion-and-Slope.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-9.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-9.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-8.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

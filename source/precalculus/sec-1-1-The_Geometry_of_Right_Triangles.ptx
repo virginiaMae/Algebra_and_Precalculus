@@ -31,7 +31,16 @@
   
   <exercises>
     <exercise>
-      <url href="https://www.doenet.org/public?doenetId=_Kncj6VbcdreQikZVKhp9y#page1"></url> 
+      <!-- from MA1151 HWI 1.1 -->
+      <!-- <xi:include href="./ex-1-1/TR-Triangles_1.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_2.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_3.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_4.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_5.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_6.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_7.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_8.doenet" />
+      <xi:include href="./ex-1-1/TR-Triangles_9.doenet" /> -->
     </exercise>
   </exercises>
   </section>

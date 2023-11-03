@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-6-Pythagorean_Theorem_Trig_Version" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Pythagorean Theorem - Trig Version</title>
+    <p><em>Pythagorean Theorem – Trig Version</em> allows students to find the value of sin 
+        when given cos and vice versa. Examples are done using the standard trigonometric 
+        method with the hypotenuse of length 1, and also using the geometric definition 
+        where the hypotenuse can have arbitrary length.</p>
+        
+  <video youtube="VAbUm27KurU"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Pyth-Thm-Trig-Version-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-Pythagorean-Theorem-Trig-Version.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-4-Pythagorean-Theorem-Trig-Version.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-9-Pythagorean-Theorem-Trig-Version.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 1.6A -->
+      <!-- <xi:include href="./ex-1-6/TR-Basics_54.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_57.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_59.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_60.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_64.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_65.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_67.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_70.doenet" /> -->
+
+
+      <!-- from MA1151 HWI 1.6B -->
+      <!-- <xi:include href="./ex-1-6/TR-Basics_55.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_56.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_58.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_61.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_63.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_66.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_68.doenet" />
+      <xi:include href="./ex-1-6/TR-Basics_69.doenet" /> -->
+  
+    </exercise>
+  </exercises>
+  </section>
