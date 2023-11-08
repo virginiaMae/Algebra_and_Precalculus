@@ -24,15 +24,33 @@
   <exercises>
     <exercise>
       <!-- Doenet problems here -->
-      <!--for MA1049 HW5-->
-      <!--<xi:include href="./ex-5-3/BA-Quadratics_24.xml" />
-      <xi:include href="./ex-5-3/BA-Quadratics_25.xml" />
-      <xi:include href="./ex-5-3/BA-Quadratics_26.xml" />-->
+      <!-- for MA1051 HWI 5.3, also include #6 as indicated below -->
+      <!-- <xi:include href="./ex-5-3/BA-Quadratics_1.xml" />
+      <xi:include href="./ex-5-3/BA-Quadratics_2.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_3.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_4.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_6.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_7.doenet" /> -->
+      <!-- <xi:include href="./ex-5-3/TR-Conics_14.doenet" />
+      <xi:include href="./ex-5-3/TR-Conics_16.doenet" /> -->
+
+
+
       
-      <!-- for MA1049 HW10 - second problem
-      <xi:include href="./ex-5-3/BA-Quadratics_5.xml" /> -->
+
+      <!--for MA1049 HW5-->
+      <!--<xi:include href="./ex-5-3/BA-Quadratics_24.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_25.doenet" />
+      <xi:include href="./ex-5-3/BA-Quadratics_26.doenet" />-->
+      
+      <!-- for MA1049 HW10 - second problem, and for MA1051 HWI 5.3-->
+      <!-- <xi:include href="./ex-5-3/BA-Quadratics_5.doenet" /> -->
+
       <!-- for old MA1031 HWM 5.3 & current MA1051 HWM 5.3-->
-      <!-- <xi:include href="./ex-5-3/BA-Quadratics_10.xml" /> -->
+      <!-- <xi:include href="./ex-5-3/BA-Quadratics_10.doenet" /> -->
+
+      
+
       
     </exercise>
   </exercises>

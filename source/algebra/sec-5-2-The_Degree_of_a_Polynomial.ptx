@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-2-The_Degree_of_a_Polynomial" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Degree of a Polynomial</title>
+    <p><em>The Degree of a Polynomial</em> takes a constructionist viewpoint to 
+        create the set of polynomials from real numbers, an indeterminant 
+        variable <m>x</m>, and the operations of addition and multiplication. 
+        The definitions of polynomial, term and degree are given. The main 
+        point of this lesson is to prepare students for a discussion 
+        of Parabolas as polynomials of degree = 2.</p>
+        
+  <video youtube="vHMZWkGOGFY"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/The-Degree-of-a-Polynomial.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim4.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim9.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

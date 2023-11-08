@@ -14,6 +14,9 @@
   </introduction>
 
   <!-- include sections -->
+  <!-- where is the content for section 5.1? -->
+  <xi:include href="sec-5-1-Graph_Transformations.ptx" />
+  <xi:include href="sec-5-2-The_Degree_of_a_Polynomial.ptx" />
   <xi:include href="sec-5-3-Parabolas.ptx" />
   <xi:include href="sec-5-5-Root_Form_of_a_Parabola.ptx" />
   <xi:include href="sec-5-6-Optimization_using_Parabolas.ptx" />

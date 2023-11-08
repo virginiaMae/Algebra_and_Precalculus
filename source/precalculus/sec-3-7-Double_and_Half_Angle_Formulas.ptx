@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-7-Double_and_Half_Angle_Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Double and Half Angle Formulas</title>
+    <p><em>Double and Half Angle Formulas</em> covers examples similar to 
+        <xref ref="sec-3-4-Combining_Trig_Functions_and_Inverse_Trig_Functions" text="title"/>
+         and <xref ref="sec-3-6-Combining_Trig_Functions_and_Inverse_Trig_Functions_II" text="title"/>
+         . Students should be able to derive the formulas on their own, or otherwise be 
+         presented with the formulas. The emphasis is on calculating numerical answers, and 
+         on the selection of the appropriate formula and finding the necessary values to 
+         input. Details of the simplification are not dealt with in the video. Students will 
+         need practice, or otherwise be adept at handling the simplification of complicated 
+         fractional expressions with radicals.</p>
+        
+  <video youtube="Ah2i85Swtak"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Double-and-Half-Angle-Formulas-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Double-and-Half-Angle-Formulas.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Double-and-Half-Angle-Formulas.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Double-and-Half-Angle-Formulas.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 3.7B, select first 2, and then one from each subsequent grouping -->
+      <!-- <xi:include href="./ex-3-7/TR-Formulas_24.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" /> 
+
+      <xi:include href="./ex-3-7/TR-Formulas_21.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_22.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_23.doenet" /> 
+
+      <xi:include href="./ex-3-7/TR-Formulas_27.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_29.doenet" /> 
+
+      <xi:include href="./ex-3-7/TR-Formulas_30.doenet" /> 
+      <xi:include href="./ex-3-7/TR-Formulas_31.doenet" />  -->
+    </exercise>
+  </exercises>
+  </section>

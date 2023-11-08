@@ -23,9 +23,24 @@
     <exercise>
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 3.5A select 2 from each grouping-->
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_1.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_2.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_3.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_4.doenet" /> -->
+
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_6.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_7.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_9.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_10.doenet" /> -->
+
+      
       
 
       <!-- from MA1151 HWI 3.5B  -->
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_5a.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_5b.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_8a.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_8b.doenet" /> -->
     </exercise>
   </exercises>
   </section>
