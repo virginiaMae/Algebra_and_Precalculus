@@ -1,15 +1,17 @@
 <problem>
 <setup>
-  <selectFromSequence name="A" from="15" to="40"/>
-  <selectFromSequence name="b" from="8" to="20"/>
-  <number name="C">90</number>
-  <math name="a">$c sin($A pi/180)</math>
-  <math name="c">$b / cos($A pi/180)</math>
-  <math name="B" simplify>90 - $A</math>
- 
-  <number name="an" displayDecimals="2" padZeros>$a</number>
-  <number name="cn" displayDecimals="2" padZeros>$c</number>
-  <number name="Bn" displayDecimals="1" padZeros>$B</number>
+  <selectFromSequence name="C" from="20" to="59"/>
+  <selectFromSequence name="B" from="40" to="95"/>
+  <selectFromSequence name="c" from="4" to="15"/>
+  <math name="A" simplify>180 - $B - $C</math>
+  <math name="a" simplify>$c sin(($A)pi/180)/(sin(($C) pi/180))</math>
+  <math name="b" simplify>$c sin($B pi/180)/(sin(($C) pi/180))</math>
+  <number name="An">$A</number>
+  <number name="Bn">$B</number>
+  <number name="Cn">$C</number>
+  <number name="an">$a</number>
+  <number name="bn">$b</number>
+  <number name="cn">$c</number>
 </setup>
   
 <!--testing-->
@@ -21,27 +23,39 @@
 <p>c = $c</p>
 <p>An = $An</p>
 <p>Bn = $Bn</p>
-<p>bn = $bn</p> -->
+<p>Cn = $Cn</p>
+<p>an = $an</p>a
+<p>bn = $bn</p>
+<p>cn = $cn</p> -->
 <!--testing-->
 
-<p>Given the following right triangle, determine the missing lengths and angles.  Express angles in degrees and round angles to the nearest <m>0.1</m> degree. Round lengths to the nearest <m>0.01</m>.  Do not put the degree symbol in your answer.</p>
-
-  
 <p>Find the missing parts of the triangle.  Round lengths to the nearest 0.01. </p>
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>b &= $b</mrow>
-    <mrow>A &= $A^{\circ}</mrow>
+    <mrow>B &= $B^{\circ}</mrow>
     <mrow>C &= $C^{\circ}</mrow>
+    <mrow>c &= $cn</mrow>
   </md>
 
+<!-- testing -->
+<!-- <p>aSeg.length = $aSeg.length</p>
+<p>bSeg.length = $bSeg.length</p>
+<p>cSeg.length = $cSeg.length</p>
+<p>angleA.degrees = $angleA.degrees</p>
+<p>angleB.degrees = $angleB.degrees</p>
+<p>angleC.degrees = $angleC.degrees</p> -->
+<!-- /testing -->
+
+<!--*********************************************
+            Graph
+**********************************************-->
   
-<graph name="g1" size="medium" fixAxes displayXAxis="false" displayYAxis="false" xmin="-$b/2" xmax="$b + $b/2" ymin="-$a" ymax="$pB.y + $a" identicalAxisScales>
+<graph name="g1" size="medium" fixAxes displayXAxis="false" displayYAxis="false" xmin="-4" xmax="$b + 3" ymin="-3" ymax="$pB.y + 3" identicalAxisScales>
   <point name="pA" fixed labelPosition="left" styleNumber="5">(0,0)
     <label><m>A</m></label>
   </point>
-  <point name="pB" fixed styleNumber="5">($c cos($A pi/180), $c sin($A pi/180))
+  <point name="pB" fixed styleNumber="5" labelPosition="left">($c cos($A pi/180), $c sin($A pi/180))
     <label><m>B</m></label>
   </point>
   <point name="pC" fixed styleNumber="5">($b,0)
@@ -53,55 +67,54 @@
   
   <triangle name="triABC" vertices="$pA $pC $pB" fixed hide/>
   
-  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2">
-    <label>$angleA.degrees</label>
+  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2" emphasizeRightAngle="false"/>
+  <angle name="angleB" through="$pA $pB $pC" radius="0.1 $b" styleNumber="3" emphasizeRightAngle="false">
+    <label><m>$angleB.degrees</m></label>
   </angle>
-  <angle name="angleB" through="$pA $pB $pC" radius="0.1 $b" styleNumber="3"/>
-  <angle name="angleC" through="$pA $pC $pB" radius="0.1 $b" styleNumber="4"/>
+  <angle name="angleC" through="$pA $pC $pB" radius="0.1 $b" styleNumber="4" emphasizeRightAngle="false">
+    <label><m>$angleC.degrees</m></label>
+  </angle>
 
-
-  <textInput name="Binput" anchor="($pB.x - 0.25$b, $pB.y + 0.1$a)" width="25px">
-    <label><m>B = </m></label>
+  <textInput name="Ainput" anchor="($pA.x + 0.1$b, $pA.y - 1)" width="25px">
+    <label><m>A = </m></label>
   </textInput>
-  
-  <textInput name="ainput" anchor="(($pB.x + $pC.x)/2 + 0.25$b, $pB.y/2)" width="30px">
+ 
+  <label name="cLabel" anchor="($pB.x/2 - 0.18$b, $pB.y/2)">
+    <m>c = $c</m>
+  </label>
+  <textInput name="binput" anchor="($b/2, -1)" width="30px">
+    <label><m>b = </m></label>
+  </textInput>
+  <textInput name="ainput" anchor="(($pB.x + $pC.x)/2 + 0.15$b, $pB.y/2)" width="30px">
     <label><m>a = </m></label>
   </textInput>
 
-  <textInput name="cinput" anchor="($b/2 - 0.2$b, $a/2 + 1)" width="30px">
-    <label><m>c = </m></label>
-  </textInput>
-
-  <label name="b_label" anchor="($pC.x/2, -1.5)">
-    <m>b = $b</m>
-  </label>
 </graph>
 
+
+<!--*********************************************
+            User Input
+**********************************************-->
   
+  
+<p><m>A = </m><mathInput name="userA" bindValueTo="$Ainput"/><m>^{\circ}</m></p>
 <p><m>a = </m><mathInput name="usera" bindValueTo="$ainput"/></p>
-<p><m>c = </m><mathInput name="userc" bindValueTo="$cinput"/></p>
-<p><m>B = </m><mathInput name="userB" bindValueTo="$Binput"/><m>^{\circ}</m></p>  
+<p><m>b = </m><mathInput name="userb" bindValueTo="$binput"/></p>  
   
-
-<setup>  
-<boolean name="atrue" allowedErrorInNumbers="0.01" allowedErrorIsAbsolute>$usera = $a</boolean>
-<boolean name="ctrue" allowedErrorInNumbers="0.01" allowedErrorIsAbsolute>$userc = $c</boolean>  
-<boolean name="Btrue" allowedErrorInNumbers="0.1" allowedErrorIsAbsolute>$userB = $B</boolean>
-
-<boolean name="aclose" allowedErrorInNumbers=".1" allowedErrorIsAbsolute>$usera = $a and $atrue = false</boolean>
-<boolean name="cclose" allowedErrorInNumbers=".1" allowedErrorIsAbsolute>$userc = $c and $ctrue = false</boolean>  
-<boolean name="Bclose" allowedErrorInNumbers="1" allowedErrorIsAbsolute>$userB = $B and $Btrue = false</boolean>
-<boolean name="someRoundingError">$aclose or $cclose or $Bclose</boolean>
-</setup>
-  
-<answer name="ans1">
-      <award name="correct" matchPartial>   
-        <when>$atrue and $ctrue and $Btrue</when>
+    <answer name="ans1">
+      <award name="correct" allowedErrorInNumbers="0.01" allowedErrorIsAbsolute matchPartial matchByExactPositions>   
+        <when>
+          ($userA, $usera, $userb) = ($A, $a, $b)
+        </when>
       </award>
-      <award name="rounding" matchPartial credit="0.25">
-        <when>$aclose or $cclose or $Bclose</when>
+      <award name="rounding" allowedErrorInNumbers="0.1" allowedErrorIsAbsolute matchByExactPositions matchPartial credit="0.5">   
+        <when>
+          ($userA, $usera, $userb) = ($A, $a, $b)
+        </when>
       </award>
     </answer>
+
+
 
 
 <!--*********************************************
@@ -121,7 +134,7 @@
 </setup>
   <feedback condition="$correct and $ans1.creditAchieved = 1">$correctFeedback</feedback>
 
-  <feedback condition="$someRoundingError and $ans1.creditAchieved != 1 and $ans1.responseHasBeenSubmitted">Try carrying more decimal places in your computation. It looks like you are close but you made a rounding error in one or more of your results!</feedback>
+  <feedback condition="$rounding1 or $rounding2 or $rounding3 and $ans1.creditAchieved != 1">Try carrying more decimal places in your computation. It looks like you are close but you made a rounding error!</feedback>
 
 
 <!--*********************************************
@@ -133,9 +146,9 @@
             Solution
 **********************************************-->  
 <solution>
-<p><m>a \approx $an</m></p>
-<p><m>c \approx $cn</m></p>
-<p><m>B = $B^{\circ}</m></p>
+<p><m>A = $A^{\circ}</m></p>
+<p><m>a = $an</m></p>
+<p><m>b = $bn</m></p>
 </solution>
 </problem>
 

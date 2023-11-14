@@ -53,14 +53,12 @@
   
   <triangle name="triABC" vertices="$pA $pC $pB" fixed hide/>
   
-  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2"/>
+  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2">
+    <label>$angleA.degrees</label>
+  </angle>
   <angle name="angleB" through="$pA $pB $pC" radius="0.1 $b" styleNumber="3"/>
   <angle name="angleC" through="$pA $pC $pB" radius="0.1 $b" styleNumber="4"/>
 
-
-  <label name="A_label" anchor="($pA.x - 0.15$b, $pA.y + 0.2$a)" >
-    <m>A = $A^{\circ}</m>
-  </label>
 
   <textInput name="Binput" anchor="($pB.x - 0.25$b, $pB.y + 0.1$a)" width="25px">
     <label><m>B = </m></label>
@@ -176,14 +174,13 @@
   
   <triangle name="triABC" vertices="$pA $pC $pB" fixed hide/>
   
-  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2"/>
+  <angle name="angleA" through="$pB $pA $pC" radius="0.1 $b" styleNumber="2">
+    <label>$angleA.degrees</label>
+  </angle>
   <angle name="angleB" through="$pA $pB $pC" radius="0.1 $b" styleNumber="3"/>
   <angle name="angleC" through="$pA $pC $pB" radius="0.1 $b" styleNumber="4"/>
 
 
-  <label name="A_label" anchor="($pA.x - 0.15$b, $pA.y + 0.2$a)" >
-    <m>A = $A^{\circ}</m>
-  </label>
 
   <textInput name="Binput" anchor="($pB.x - 0.25$b, $pB.y + 0.1$a)" width="25px">
     <label><m>B = </m></label>

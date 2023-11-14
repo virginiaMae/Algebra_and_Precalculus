@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-4-Solving_Triangles" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Triangles</title>
+
+  <introduction>
+    <p>Chapter 4 uses the Law of Sines and Law of Cosines to 
+        extend the ability to solve triangles beyond just right triangles. 
+        Formulas for the area of a triangle using trig functions can also be found.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-4-1-Solving_Triangles_Using_the_Law_of_Sines_Part_I.ptx" />
+  <xi:include href="sec-4-2-Solving_Triangles_Using_the_Law_of_Cosines.ptx" />
+  <xi:include href="sec-4-3-Solving_Triangles_Using_the_Law_of_Sines_Part_II.ptx" />
+  <xi:include href="sec-4-4-Solving_Triangles.ptx" />
+
+</chapter>

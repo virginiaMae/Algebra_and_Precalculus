@@ -43,6 +43,8 @@
     <xi:include href="./precalculus/ch-III-1-Unit_Circle_and_Definitions.ptx"/>
     <xi:include href="./precalculus/ch-III-2-Graphing.ptx"/>
     <xi:include href="./precalculus/ch-III-3-Trig_Formulas_and_Inverse_Functions.ptx"/>
+    <xi:include href="./precalculus/ch-III-4-Solving_Triangles.ptx"/>
+    <xi:include href="./precalculus/ch-III-5-Vector_Applications.ptx"/>
   </part>
 
     <!-- Include backmatter  -->

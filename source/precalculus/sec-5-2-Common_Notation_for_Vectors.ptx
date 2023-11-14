@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-2-Common_Notation_for_Vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Common Notation for Vectors</title>
+    <p><em>Common Notation for Vectors</em> introduces the basis vectors <m>\overrightarrow{i}</m> and 
+        <m>\overrightarrow{j}</m> , along with terminology and notation used in vector applications. 
+        It reviews the rectangular to polar conversion. There is little mathematical content in this lesson, the focus instead being on familiarity with the presentation seen in vector applications within other disciplines</p>
+        
+  <video youtube="qkAmq2CvBFA"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Common-Notation-for-Vectors-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Common-Notation-for-Vectors.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Common-Notation-for-Vectors.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Common-Notation-for-Vectors.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>
