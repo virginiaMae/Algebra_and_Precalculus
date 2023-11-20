@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-2-General_Equation_of_an_Ellipse" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>General Equation of an Ellipse</title>
+    <p><em>The General Equation of an Ellipse</em> expands on the 
+        <xref ref="sec-6-1-General_Equation_of_a_Circle" text="title"/> by applying graph transformations 
+        to stretch the axes. The conversion from the general form to the standard form is saved for a 
+        lesson on <xref ref="sec-6-5-Completing_the_Square" text="title"/>.</p>
+        
+  <video youtube="HO-XMY1g8Hc"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/General-Equation-of-an-Ellipse-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-General-Equation-of-an-Ellipse.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-General-Equation-of-an-Ellipse.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-General-Equation-of-an-Ellipse.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 6.2 -->
+      <!-- <xi:include href="./ex-6-2/TR-Conics_8.doenet" />
+      <xi:include href="./ex-6-2/TR-Conics_9.doenet" />
+      <xi:include href="./ex-6-2/TR-Conics_10.doenet" />
+      <xi:include href="./ex-6-2/TR-Conics_11.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

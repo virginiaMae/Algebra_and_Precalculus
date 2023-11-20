@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-III-7-Systems_of_Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Systems of Equations</title>
+
+  <introduction>
+    <p>Chapter 7 cover solving systems of equations. The first two topics cover solving systems of linear 
+        equations, first, the <m>2\times2</m> case, and then the <m>3\times3</m> case. Solutions are 
+        found purely by elementary algebraic operations. No attempt is made here to make deeper 
+        connections to the study of liner algebra. The third topic 
+        <xref ref="sec-7-3-Solving_Systems_of_Non-Linear_Equations" text="title"/> examines the intersection of 
+        conic sections, and familiarity with the equations of the circle, ellipse, parabola and ellipse is assumed.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-7-1-Solving_2x2_Systems.ptx" />
+
+</chapter>

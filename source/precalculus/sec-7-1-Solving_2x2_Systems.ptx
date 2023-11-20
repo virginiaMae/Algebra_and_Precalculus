@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-1-Solving_2x2_Systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving <m>2\times2</m> Systems of Linear Equations</title>
+    <p><em>Solving <m>2\times2</m> Systems of Linear Equations</em> demonstrates the substitution 
+        method and the elimination method for solving a system of two linear equations in two variables. 
+        The connection to linear algebra, vector spaces and matrices is not done in this lesson.</p>
+        
+  <video youtube="riM2v1JgY94"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Solving-2x2-Systems-of-Linear-Equations-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-Solving-2-x-2-Systems-of-Linear-Equations.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-4-Solving-2-x-2-Systems-of-Linear-Equations.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-9-Solving-2-x-2-Systems-of-Linear-Equations.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 7.1A, shuffle the following: -->
+      <!-- <xi:include href="./ex-7-1/TR-SysOfEq_5a.doenet" />
+      <xi:include href="./ex-7-1/TR-SysOfEq_5b.doenet" />
+      <xi:include href="./ex-7-1/TR-SysOfEq_6a.doenet" />
+      <xi:include href="./ex-7-1/TR-SysOfEq_6b.doenet" />
+      <xi:include href="./ex-7-1/TR-SysOfEq_7.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

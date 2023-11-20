@@ -20,9 +20,10 @@
   <exercises>
     <exercise>
       <!-- Doenet problems here -->
-      <!-- from MA1051 HWI 5.9 -->
-      <!-- <xi:include href="./ex-5-9/TR-Conics_1.xml" />
-      <xi:include href="./ex-5-9/TR-Conics_2.xml" /> -->
+      <!-- from MA1051 HWI 5.9 , note some of these questions housed in the precalculus book-->
+      <!-- <xi:include href="../precalculus/ex-6-1/TR-Conics_1.doenet" />
+      <xi:include href="../precalculus/ex-6-1/TR-Conics_2.doenet" /> -->
+     
       
     </exercise>
   </exercises>

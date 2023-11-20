@@ -10,5 +10,7 @@
   <!-- include sections -->
   <xi:include href="sec-5-1-Polar_Coordinates.ptx" />
   <xi:include href="sec-5-2-Common_Notation_for_Vectors.ptx" />
+  <xi:include href="sec-5-3-Adding_and_Subtracting_Vectors.ptx" />
+  <xi:include href="sec-5-4-Applications_of_Vectors.ptx" />
 
 </chapter>
