@@ -28,6 +28,11 @@
         <!-- <xi:include href="./ex-2-3/BA-Seq_1.xml" />
         <xi:include href="./ex-2-3/TR-Series_7.xml" />
         <xi:include href="./ex-2-3/TR-Series_9.xml" /> -->
+
+        <!-- Unassigned -->
+        <!-- <xi:include href="./ex-2-3/TR-Series_3.doenet" /> 
+        <xi:include href="./ex-2-3/TR-Series_4.doenet" />  -->
+        
     </exercise>
   </exercises>
   </section>

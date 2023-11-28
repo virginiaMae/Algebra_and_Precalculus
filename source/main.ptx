@@ -47,6 +47,7 @@
     <xi:include href="./precalculus/ch-III-5-Vector_Applications.ptx"/>
     <xi:include href="./precalculus/ch-III-6-Conic_Sections.ptx"/>
     <xi:include href="./precalculus/ch-III-7-Systems_of_Equations.ptx"/>
+    <xi:include href="./precalculus/ch-III-8-Sequences_and_Series.ptx"/>
   </part>
 
     <!-- Include backmatter  -->

@@ -13,5 +13,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-7-1-Solving_2x2_Systems.ptx" />
+  <xi:include href="sec-7-2-Solving_3x3_Systems.ptx" />
 
 </chapter>

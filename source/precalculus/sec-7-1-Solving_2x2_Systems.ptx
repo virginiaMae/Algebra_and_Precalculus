@@ -20,6 +20,9 @@
   <exercises>
     <exercise>
       <!-- Doenet problems here -->
+      <!-- unassigned: -->
+      <!-- <xi:include href="./ex-7-1/BA-MultChoice_2.doenet" /> -->
+      
       <!-- from MA1151 HWI 7.1A, shuffle the following: -->
       <!-- <xi:include href="./ex-7-1/TR-SysOfEq_5a.doenet" />
       <xi:include href="./ex-7-1/TR-SysOfEq_5b.doenet" />

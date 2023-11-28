@@ -14,5 +14,7 @@
   <xi:include href="sec-2-1-Graphs_of_Waves.ptx" />
   <xi:include href="sec-2-2-Amplitude.ptx" />
   <xi:include href="sec-2-3-Frequency_Wavelength_and_Period.ptx" />
+  <xi:include href="sec-2-4-Graphs_of_other_Trig_Functions.ptx" />
+  <xi:include href="sec-2-5-Phase_Shift.ptx" />
 
 </chapter>
