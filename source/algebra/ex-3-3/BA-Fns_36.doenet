@@ -1,0 +1,174 @@
+ <problem>
+  <setup>
+    <selectFromSequence name="a" from="1" to="10"/>
+    <math name="b" simplify>$a^2</math>
+    <select name="c">-1 1</select>
+    <function name="f" simplify="numbersPreserveOrder" styleNumber="5">$c sqrt($b - x^2)
+      <label><m>f(x)</m></label>
+    </function>
+    <math name="interval">
+      <conditionalContent>
+        <case condition="$c = -1">
+          [-$a,0]
+        </case>
+        <case condition="$c = 1">
+          [0,$a]
+        </case>
+      </conditionalContent>
+    </math>
+  </setup>
+  
+  
+  <!--testing-->
+  <!-- <p>a = $a</p>
+  <p>b = $b</p>
+  <p>f = $f</p>
+  <p>interval = $interval</p> -->
+  
+  <!--testing-->
+  
+  
+    
+  <sideBySide margins="5%" widths="30% 70%">
+  <div></div>
+    
+  <div>
+    <graph size="small" xmin="-$a-2" xmax="$a + 2" ymin="-$a - 2" ymax="$a + 2" showNavigation="false" showBorder="false">
+      $f
+    </graph>
+  </div>
+  </sideBySide>
+  
+  
+  <p>What is the <alert>range</alert> of the function:</p>
+  <m>\large{f(x) = $f.formula{simplify="numbersPreserveOrder"}}</m>
+  
+  
+  
+  
+  <p></p>
+  <subsetOfRealsInput name="userInterval"/>
+  
+    
+  <sideBySide margins="5%">
+  <div></div>
+  
+  <div>
+  <p><alert>Range:</alert> <mathInput name="userDomain" bindValueTo="$userInterval"/>
+    <answer name="ans1">
+      <award name="allCorrect">
+        <when>$userInterval = $interval
+        </when>
+      </award>
+    </answer>
+  </p>
+  <p>This interval expressed as an inequality is: 
+    <subsetOfReals displayMode="inequalities">$userInterval</subsetOfReals>
+  </p>
+  </div>
+  </sideBySide>  
+  
+  
+  <p><alert>Tip!</alert> You can answer in one of two ways:
+    <ul>
+      <li><alert>draw</alert> the interval using the number line tool</li>
+      <li>or <alert>write</alert> the interval in the input box</li>
+    </ul>
+  </p>
+  
+  
+  <!--*********************************************
+              Feedbacks
+  **********************************************-->
+  <setup>
+    <select name="correctFeedback" type="text">
+      <option>Awesome!</option>
+      <option>Great job!</option>
+      <option>Fantastic!</option>
+      <option>Nice work!</option>
+      <option>Amazing!</option>
+      <option>Excellent!</option>
+      <option>Right on!</option>
+      <option>Perfect!</option>
+    </select>
+  </setup>
+    <feedback condition="$allCorrect">$correctFeedback</feedback>
+  
+   
+    
+  
+  <!--*********************************************
+              Hint
+  **********************************************-->
+  <hint name="helpSection"><title>Worked Example</title>
+  
+  <p>Here is a similar worked example:</p> 
+  
+  <example newNameSpace>
+    <setup>
+    <math name="a">12</math>
+    <math name="b" simplify>$a^2</math>
+    <function name="f">sqrt($b - x^2)</function>
+    <math name="interval">[0,$a]</math>
+  </setup>
+  <p><em>The range of the function, <m>f(x) = $f</m> <nbsp/><nbsp/> is:</em></p>
+  
+  <graph size="small" xmin="-$a-2" xmax="$a + 2" ymin="-$a - 2" ymax="$a + 2" showNavigation="false">
+      $f
+  </graph>
+  
+    
+  <p><em><alert>Solution.</alert></em></p>
+  <ul>
+    <li><p>The <term>range</term> of a function consists of the interval of output values mapped by the function over its entire domain. Notice that the given function involves a square root operation and is not defined for values of <m>x</m> which make the expression under the square root negative. Therefore, the <em>domain</em> is
+      <md>
+        <mrow>$b - x^2 &\geq 0</mrow>
+        <mrow>$b &\geq x^2</mrow>
+        <mrow>\pm \sqrt{$b} &\geq x</mrow>
+        <mrow>\pm $a &\geq x</mrow>
+      </md>
+  Now that we know the domain, we can observe the graph of the function and determine its range. The function appears to be at its minimum value at the endpoints of its domain, or at <m>x = \pm 12</m>. Therefore, we evaluate the function at these points (one will suffice since the function is symmetric.)
+      <me>f(12) =  \sqrt{144 - 12^2} = 0.</me>
+    </p>
+  <p>Notice that <m>f</m> appears to be maximum for this function at <m>x = 0</m>. Therefore, we evaluate the function at <m>0</m> to determine the upper limit of the function's range.
+      <me>f(0) = \sqrt{144 - 0^2} = 12.</me></p>
+    </li>
+  
+    <li><p>The lowest value the function takes on is <m>f(-12) = 0</m> or <m>f(12) = 0</m>, and the maximum value the function takes on is <m>f(0) = 12</m>. In interval notation, we can write this as <math>[0,12]</math>.</p>
+    </li>
+  </ul>
+  </example>
+  
+
+  </hint>
+    
+  
+  <!--*********************************************
+              Solution
+  **********************************************-->
+  <solution>
+  <p>$interval or <subsetOfReals displayMode="inequalities">$interval</subsetOfReals></p>
+  </solution>
+  </problem>
+  
+  <!--******************************************************
+          Style Definitions
+  *******************************************************-->  
+  
+  <setup>
+  <styleDefinitions>
+  <!--blue, styleNumber 1 corrolary-->
+  <styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+  <!--red, styleNumber 2 corrolary-->
+  <styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7"  lineWidth="4"/>
+  <!--orange, styleNumber 3 corrolary-->
+  <styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143" lineColor="#F19143" lineOpacity="0.7"  lineWidth="4"/>
+  <!--purple, styleNumber 4 corrolary-->
+  <styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineOpacity="0.7" lineWidth="4"/>
+  <!--black, styleNumber 5 corrolary-->
+  <styleDefinition styleNumber="11" fillColor="black" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" lineColor="black" lineOpacity="0.7" lineWidth="4"/>
+  <!--green, styleNumber 1 but green corrolary-->
+  <styleDefinition styleNumber="12" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="4"/>
+  </styleDefinitions>
+  </setup>
+  

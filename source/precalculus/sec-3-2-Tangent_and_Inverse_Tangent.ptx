@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2-Tangent_and_Inverse_Tangent" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Tangent and Inverse Tangent</title>
+    <p><em>Tangent and Inverse Tangent</em> develops values of the tangent function for unit 
+        circle angles and the inverse tangent function. It is assumed that students are familiar 
+        with <m>y = \sin^{-1}(x)</m> and <m>y = \cos^{-1}(x)</m> which are found in 
+        <xref ref="sec-3-1-The_Inverse_Functions_of_Sine_and_Cosine" text="title"/>. It is 
+        also assumed that students are well-versed in handling the simplification of 
+        <!-- <xref ref="../algebra/sec-1-6-Fractions_within_Fractions.ptx" text="title"/>  -->
+        fractions within fractions
+        involving radicals, for example, being able to simplify <m>\frac{\frac{1}{2}}{\frac{\sqrt(3)}{2}}</m>. 
+        We are neutral on whether <m>\frac{\sqrt(3)}{3}</m> or <m>\frac{1}{\sqrt(3)}</m> is the preferred 
+        form for <m>\tan(\frac{\pi}{6})</m> and present both. We intentionally chose not to 
+        address inverses for <m>y = \cot(x)</m>, <m>y = \sec(x)</m> and <m>y= \csc(x)</m> since these 
+        inverse functions are not widely used.</p>
+        
+  <video youtube="rns66yGUE8Y"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Values-of-Tangent-and-Inverse-Tangent-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Values-of-Tangent-and-Inverse-Tangent.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Values-of-Tangent-and-Inverse-Tangent.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Values-of-Tangent-and-Inverse-Tangent.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- general practice problems -->
+      <!-- <xi:include href="./ex-3-2/TR-Basics_90.doenet" />  
+      <xi:include href="./ex-3-2/TR-Basics_91.doenet" />  
+      <xi:include href="./ex-3-2/TR-Basics_92.doenet" />  
+      <xi:include href="./ex-3-2/TR-Basics_93.doenet" />  -->
+
+
+      <!-- from MA1151 HWI 3.2A -->
+      <!-- <xi:include href="./ex-3-2/TR-Basics_95.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_96.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_97.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_98.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_99.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_100.doenet" />
+      <xi:include href="./ex-3-2/TR-Basics_101.doenet" /> -->
+
+      
+      <!-- from MA1151 HWI 3.2B -->
+      <!-- <xi:include href="./ex-3-2/TR-Inv_9a.doenet" />
+      <xi:include href="./ex-3-2/TR-Inv_9b.doenet" />
+      <xi:include href="./ex-3-2/TR-Inv_9c.doenet" />
+      <xi:include href="./ex-3-2/TR-Inv_9d.doenet" /> -->
+
+    </exercise>
+  </exercises>
+  </section>

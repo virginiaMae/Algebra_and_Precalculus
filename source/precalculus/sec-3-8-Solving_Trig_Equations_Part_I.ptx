@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-8-Solving_Trig_Equations_Part_I" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Trig Equations - Part I</title>
+    <p><em>Solving Trig Equations – Part I</em> covers examples where it is necessary to find a set of 
+        angles that solve an equation involving trig functions. We choose to find all solutions, not 
+        just those on the interval <m>[0, 2\pi)</m> to emphasize the periodicity of the solutions. 
+        Several examples employ algebraic techniques and students may need to review solving 
+        algebraic equations. Further examples involving more complicated angles are saved for 
+        <xref ref="sec-3-9-Solving_Trig_Equations_Part_II" text="title"/>.</p>
+        
+  <video youtube="9oWtjECoW_4"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Solving-Trig-Equations-Part-I-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Solving-Trig-Equations-Part-I.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Solving-Trig-Equations-Part-I.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Solving-Trig-Equations-Part-I.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-2-Sigma_Notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sigma Notation</title>
+    <p><em>Sigma Notation</em> establishes the general notation used for the sum of a series. 
+        Standard techniques for <xref ref="sec-8-3-Arithmetic_Sequences_and_Series" text="title"/> and 
+        <xref ref="sec-8-4-Geometric_Sequences_and_Series" text="title"/> are saved for later lessons.</p>
+        
+  <video youtube="lFpDZ8UFRcU"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Sigma-Notation-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-Sigma-Notation.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-4-Sigma-Notation.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-9-Sigma-Notation.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 8.2  -->
+
+      <!-- <xi:include href="./ex-8-2/TR-Series_5.doenet" />
+      <xi:include href="./ex-8-2/TR-Series_6.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-5-Root_Form_of_a_Parabola" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Root Form of a Parabola</title>
+    <p><em>Root Form of a Parabola</em> uses the 
+        <xref ref="sec-5-4-Factor_Root_Theorem" text="title"/> to graph parabolas of the form <m>y = a(x-r)(x-s)</m>. The axis 
+        of symmetry, and therefore the vertex is found easily in this case. 
+        Activities in this chapter help to connect the <em>Root Form of a Parabola</em> with the 
+        general and standard forms.</p>
+        
+  <video youtube="yECKY3Y5U_w"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/RootFormscript.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-4.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim4-4.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim9-4.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- From Old MA1031 HWM 5.5 & also current MA1051 HWM 5.5-->
+
+      <!-- <xi:include href="./ex-5-5/BA-Quadratics_11.xml" />
+      <xi:include href="./ex-5-5/BA-Quadratics_12.xml" />
+      <xi:include href="./ex-5-5/BA-Quadratics_13.xml" />
+      <xi:include href="./ex-5-5/BA-Quadratics_14.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

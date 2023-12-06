@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-4-Multiplying_and_Dividing_Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Multiplying and Dividing Fractions</title>
+    <p><em>Multiplying and Dividing Fractions</em> covers the process to write a product or 
+        quotient of rational expressions in reduced form, by cancelling common factors. 
+        This lesson relies on a knowledge of <xref ref="sec-1-2-Factoring" text="title"/> 
+        Polynomials and <xref ref="sec-1-3-Reducing_Fractions" text="title"/>.</p>
+        
+  <video youtube="THzV6d-pM30"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Multiplying-Fractions-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-1.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-1.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-1.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- For MA1049 HW1 #3,4 -->
+      <!-- <xi:include href="./ex-1-4/BA-Basics_29.xml" />
+      <xi:include href="./ex-1-4/BA-Basics_30.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

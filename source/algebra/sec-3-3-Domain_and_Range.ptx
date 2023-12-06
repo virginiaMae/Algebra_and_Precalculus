@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3-Domain_and_Range" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Domain and Range of a Function</title>
+    <p><em>The Domain and Range of a Function</em> discusses restrictions placed on the 
+        set of possible inputs and outputs. The two primary example are rational functions 
+        and square roots. The connection to the graph of a function is emphasized.</p>
+        
+  <video youtube="NJI9CEfG77k"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/AL31-Domain-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-6.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-6.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-6.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWM 3.3 , first part -->
+      <!-- <xi:include href="./ex-3-3/BA-Fns_6.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_7.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_8.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_9.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_10.doenet" /> -->
+      
+      <!-- from MA1049 HW 6, also MA1051 second part of HWM 3.3 -->
+      <!-- <xi:include href="./ex-3-3/BA-Fns_35.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_36.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_37.doenet" />
+      <xi:include href="./ex-3-3/BA-Fns_38.doenet" /> -->
+
+
+      <!-- from MA1051 HWV 3.3 -->
+      <!-- <xi:include href="./ex-3-3/BA-Fns_39.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-3-Linear_Growth_and_Arithmetic_Sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Linear Growth and Arithmetic Sequences</title>
+    <p><em>Linear Growth and Arithmetic Sequences</em> discusses the recursion of repeated addition to 
+        arrive at an arithmetic sequence. The explicit formula is also discussed, including 
+        its connection to the recursive formula and to the <xref ref="sec-4-5-Slope_Intercept_Form" text="title"/>
+         of a Line. We prefer sequences to begin with the term <m>a_0</m>  rather than <m>a_1</m> so that 
+         the connection between the starting point <m>a_0</m> and the <m>y</m>-intercept of a line 
+         can be established. Therefore, the explicit formula is given as
+         <m>a_n = a_0 + n d</m> rather than <m>a_n = a_1 + (n - 1)d</m>.</p>
+        
+  <video youtube="L-KJmDsOSj4"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Linear-Growth-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-3.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-3.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-3.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+        <!-- from MA1031 and MA1051 HWI 2.3 -->
+        <!-- <xi:include href="./ex-2-3/BA-Seq_1.xml" />
+        <xi:include href="./ex-2-3/TR-Series_7.xml" />
+        <xi:include href="./ex-2-3/TR-Series_9.xml" /> -->
+
+        <!-- Unassigned -->
+        <!-- <xi:include href="./ex-2-3/TR-Series_3.doenet" /> 
+        <xi:include href="./ex-2-3/TR-Series_4.doenet" />  -->
+        
+    </exercise>
+  </exercises>
+  </section>

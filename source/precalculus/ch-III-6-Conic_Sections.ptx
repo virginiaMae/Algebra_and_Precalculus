@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-6-Conic_Sections" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Conic Sections</title>
+
+  <introduction>
+    <p>Chapter 6 covers conic sections (circle, ellipse, parabola, hyperbola) including 
+        completing the square to convert from general form to standard form. Rotations are not 
+        discussed, as they are more appropriate for a course in linear algebra.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-6-1-General_Equation_of_a_Circle.ptx" />
+  <xi:include href="sec-6-2-General_Equation_of_an_Ellipse.ptx" />
+  <xi:include href="sec-6-3-General_Equation_of_a_Parabola.ptx" />
+  <xi:include href="sec-6-4-General_Equation_of_a_Hyperbola.ptx" />
+  <xi:include href="sec-6-5-Completing_the_Square.ptx" />
+
+</chapter>

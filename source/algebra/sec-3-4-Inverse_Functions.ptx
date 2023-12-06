@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-4-Inverse_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Inverse Functions</title>
+    <p></p>
+        
+  <video youtube="kpOVLX7L_hU"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Inverse-Functions.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-7.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-7.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-7.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="./ex-3-4/BA-Fns_42.xml" />
+      <xi:include href="./ex-3-4/BA-Fns_43.xml" />
+      <xi:include href="./ex-3-4/BA-Fns_46.xml" />
+      <xi:include href="./ex-3-4/BA-Fns_47.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

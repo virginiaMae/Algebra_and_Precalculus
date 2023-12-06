@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-4-The_Slope_of_a_Line" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Slope of a Line</title>
+    <p><em>Slope of a Line</em> gives the formal definition of slope in the standard notation and 
+        covers examples of interpolation and extrapolation. It also foreshadows the point-point 
+        form of a line, using the analytic geometry approach of finding the slope to an 
+        arbitrary point (x, y).</p>
+        
+  <video youtube="iZ92FUeUWsM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Slope-of-a-Line.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-6.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-6.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-6.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

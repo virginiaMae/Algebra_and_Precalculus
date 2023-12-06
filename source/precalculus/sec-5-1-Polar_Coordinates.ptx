@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-1-Polar_Coordinates" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polar Coordinates</title>
+    <p><em>Polar Coordinates</em> covers the navigational system using distance and direction from a 
+        given point, compared to the Cartesian ‘city grid’ system. Conversions between Polar 
+        Coordinates and Cartesian Coordinates are stressed. This lesson prepares students for the 
+        study of vectors and these conversion reappear in the lesson on 
+        <xref ref="sec-5-4-Applications_of_Vectors" text="title"/>.</p>
+
+        <p>Equations of <m>r</m> as a function of <m>\theta</m> are not discussed here.</p>
+        
+  <video youtube="N9ijuhfMp2I"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Polar-Coordinates-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Polar-Coordinates.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Polar-Coordinates.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Polar-Coordinates.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 5.1 all 3 of first set, 3/4 of second set -->
+
+      <!-- <xi:include href="./ex-5-1/TR-Vectors_2a.doenet" />
+      <xi:include href="./ex-5-1/TR-Vectors_2b.doenet" />
+      <xi:include href="./ex-5-1/TR-Vectors_2c.doenet" /> -->
+
+      <!-- <xi:include href="./ex-5-1/TR-Vectors_3a.doenet" />
+      <xi:include href="./ex-5-1/TR-Vectors_3b.doenet" />
+      <xi:include href="./ex-5-1/TR-Vectors_3c.doenet" />
+      <xi:include href="./ex-5-1/TR-Vectors_3d.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

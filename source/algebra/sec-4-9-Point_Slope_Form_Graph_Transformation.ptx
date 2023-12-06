@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-9-Point_Slope_Form_Graph_Transformation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Point-Slope Form of a Line as a Graph Transformation</title>
+    <p><em>Point-Slope Form of a Line as a Graph Transformation</em> graphically demonstrates 
+        the stretching and shifting of the line <m>y = x</m> to arrive at the point-slope form.</p>
+        
+  <video youtube="kDo9DGktOgE"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Point-Slope-Form-of-a-Line-as-a-Graph-Transformation.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-14.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-14.pdf">4-per-page</url>
+    <!-- <url href="">9-per-page</url> -->
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 and MA1051 HWI 4.9 -->
+      <!-- <xi:include href="./ex-4-9/BA-Lines_3.doenet" />
+      <xi:include href="./ex-4-9/BA-Lines_4.doenet" />
+      <xi:include href="./ex-4-9/BA-Lines_8.doenet" />
+      <xi:include href="./ex-4-9/BA-Lines_10.doenet" />
+      <xi:include href="./ex-4-9/BA-Lines_13.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-10-Equations_of_Lines" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Equations of Lines</title>
+    <p><em>Equations of Lines</em> gives a brief review of finding equations of lines. 
+        The key step is to find the slope, which may be given directly, may be found using 
+        two given points, or may be found using information about other parallel or 
+        perpendicular lines. The point-slope form is emphasized.</p>
+        
+  <video youtube="ivdYYrRpK1M"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/AL30-Equations-of-Lines-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-15.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-15.pdf">4-per-page</url>
+   
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 HWI 4.10 -->
+      <!-- <xi:include href="./ex-4-10/TR-SysOfEq_1.doenet" />
+      <xi:include href="./ex-4-10/TR-SysOfEq_2.doenet" />
+      <xi:include href="./ex-4-10/TR-SysOfEq_3.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

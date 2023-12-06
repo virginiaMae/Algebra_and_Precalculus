@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-7-Finding_Values_of_tan_cot_sec_csc.ptx" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Finding Values of tan, cot, sec, csc</title>
+    <p><em>Finding Values of tan, cot, sec, csc</em> defines the four 
+        functions <em>tan, sec, cot</em> and <em>csc</em>. Given the value of any one 
+        of the six trig functions, the values of the other trig 
+        functions can be found and several examples are given.</p>
+        
+  <video youtube="--6n9AoL8Wo"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Values-of-tan-...-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-Finding-Values-of-tan-cot-sec-csc.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-4-Finding-Values-of-tan-cot-sec-csc.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-9-Finding-Values-of-tan-cot-sec-csc.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- for MA1151 HW1.7A - pick 2 from the following: -->
+      <!-- <xi:include href="./ex-1-7/TR-Basics_71.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_72.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_73.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_74.xml" /> -->
+      <!-- for MA1151 HW1.7A - pick 2 from the following: -->
+      <!-- <xi:include href="./ex-1-7/TR-Basics_79.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_80.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_81.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_82.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_83.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_84.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_85.xml" />
+      <xi:include href="./ex-1-7/TR-Basics_86.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-5-Vector_Applications" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vector Applications</title>
+
+  <introduction>
+    <p>Chapter 5 introduces the concepts and notation for vectors, with applications to physical forces and navigation.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-5-1-Polar_Coordinates.ptx" />
+  <xi:include href="sec-5-2-Common_Notation_for_Vectors.ptx" />
+  <xi:include href="sec-5-3-Adding_and_Subtracting_Vectors.ptx" />
+  <xi:include href="sec-5-4-Applications_of_Vectors.ptx" />
+
+</chapter>

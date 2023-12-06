@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-10-The_Distance_Formula" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Distance Formula</title>
+    
+    <p><em>The Distance Formula</em> covers finding the distance between two points in the 
+      Cartesian plane by using the Pythagorean Theorem.</p>
+
+<video youtube="dEKNfZxuokw"/>
+<p>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/1.10-Distance-Formula-script.pdf">Transcript</url>
+</p>
+<p>Slideshow: 
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim.pdf">Full</url>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4.pdf">4-per-page</url>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9.pdf">9-per-page</url>
+</p>
+
+
+
+<exercises>
+  <exercise>
+  <!-- from MA1031 and MA1051 HWI 1.10 -->
+  <!-- <xi:include href="./ex-1-10/BA-Basics_84.xml" />  
+  <xi:include href="./ex-1-10/BA-Basics_85.xml" />   -->
+  </exercise>
+</exercises>
+</section>

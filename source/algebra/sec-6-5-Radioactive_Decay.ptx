@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-5-Radioactive_Decay" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Radioactive Decay</title>
+    <p><em>Radioactive Decay</em> develops the concept of <term>half-life</term> and solves problems 
+        related to exponential decay using the standard exponential model. Notations in this 
+        subject vary, and we chose one that is used in physics applications, 
+        though the introduction refers to the exponential growth model for 
+        continuously <xref ref="sec-6-4-Compounding_Interest" text="title"/>. The 
+        discussion relies on the definition of 
+        half-life to build intuition for solving problems rather than a strict reliance 
+        on the formula connecting the half-life to the decay rate.</p>
+        
+  <video youtube="9m1nTrGdOa0"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Radioactive-Decay-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-10.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-10.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-10.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 HWI 6.5 and MA1051 HWI 6.5 -->
+      <!-- <xi:include href="./ex-6-5/BA-ExpLog_47.xml" />
+      <xi:include href="./ex-6-5/BA-ExpLog_48.xml" />
+      <xi:include href="./ex-6-5/BA-ExpLog_49.xml" /> -->
+      
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-7-Completing_the_Square" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Completing the Square</title>
+    <p><em>Completing the Square</em> covers the technique to convert the general form of 
+        a conic section to standard form. The process here does not involve any memorization, 
+        instead focusing on the final form from the beginning, and retroactively supplying 
+        missing constants from the desired factors. Three examples are shown (circle, parabola, 
+        hyperbola). Knowledge of conic sections is reviewed early in the lesson.</p>
+        
+  <video youtube="0q5SdxIIT50"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Completing-the-Square-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-Completing-the-Square.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-4-Completing-the-Square.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/07/Trim-9-Completing-the-Square.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWI 5.7, first part -->
+      <!-- <xi:include href="./ex-5-7/BA-Quadratics_19.xml" /> -->
+
+      <!-- from old MA1031 HWM 5.7 , and last problem in MA1051 HWI 5.7-->
+      <!-- <xi:include href="./ex-5-7/TR-Conics_21.xml" /> -->
+
+      <!-- from MA1051 HWM 5.7 -->
+      <!-- <xi:include href="./ex-5-7/BA-Quadratics_19.xml"/>
+      <xi:include href="./ex-5-7/BA-Quadratics_21.xml"/>
+      <xi:include href="./ex-5-7/BA-Quadratics_22.xml"/> -->
+    </exercise>
+  </exercises>
+  </section>

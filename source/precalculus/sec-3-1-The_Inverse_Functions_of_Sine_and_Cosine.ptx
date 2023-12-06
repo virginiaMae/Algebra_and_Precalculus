@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-1-The_Inverse_Functions_of_Sine_and_Cosine" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Inverse Fuctions of Sine and Cosine</title>
+    <p><em>The Inverse Functions of Sine and Cosine</em> introduces the inverses to the basic trig 
+        functions. These functions <m>y = \sin^{-1}(x)</m>  and <m>y = \cos^{-1}(x)</m> are also denoted 
+        <m>y = \arcsin(x)</m> and <m>y = \arccos(x)</m> respectively, as is mentioned in 
+        <xref ref="sec-1-1-The_Geometry_of_Right_Triangles">Right Triangle Geometry</xref>. It 
+        relies on the unit circle values found in <xref ref="sec-1-2-The_Unit_Circle-Part_I" text="title"/>
+         and <xref ref="sec-1-4-The_Unit_Circle-Part_II" text="title"/>. It is helpful to 
+         have an understanding of how the graph of a function illustrates the domain and range of 
+         a function, and further details of the domain and range of the inverse trig functions are 
+         given in <xref ref="sec-3-3-Domain_and_Range_of_Trig_and_Inverse_Trig" text="title"/>.</p>
+        
+  <video youtube="czCdMwefhoM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/The-Inverse-Functions-of-Sine-and-Cosine-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-The-Inverse-Functions-of-Sine-and-Cosine.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-The-Inverse-Functions-of-Sine-and-Cosine.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-The-Inverse-Functions-of-Sine-and-Cosine.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 3.1A  -->
+      <!-- <xi:include href="./ex-3-1/TR-Inv_5a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_5b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_6a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_6b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_7a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_7b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_8a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_8b.doenet" /> -->
+
+      <!-- from MA1151 HW3.1B -->
+      <!-- <xi:include href="./ex-3-1/TR-Inv_1a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_1b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_2a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_2b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_3a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_3b.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_4a.doenet" />
+      <xi:include href="./ex-3-1/TR-Inv_4b.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

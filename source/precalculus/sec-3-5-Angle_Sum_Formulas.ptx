@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-5-Angle_Sum_Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Angle Sum Formulas</title>
+    <p><em>Angle Sum Formulas</em> covers the calculation aspects of working with 
+        the angle sum formulas. It is assumed the students already know each formula, 
+        as no attempt to derive them is made here. They are most commonly proved by geometric 
+        means, but we prefer a more algebraic approach which can be found in the 
+        corresponding in-class activity.</p>
+        
+  <video youtube="b1PkF_k0Qeo"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Angle-Sum-Formulas-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Angle-Sum-Formulas.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Angle-Sum-Formulas.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Angle-Sum-Formulas.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 3.5A select 2 from each grouping-->
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_1.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_2.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_3.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_4.doenet" /> -->
+
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_6.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_7.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_9.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_10.doenet" /> -->
+
+      
+      
+
+      <!-- from MA1151 HWI 3.5B  -->
+      <!-- <xi:include href="./ex-3-5/TR-Formulas_5a.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_5b.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_8a.doenet" />
+      <xi:include href="./ex-3-5/TR-Formulas_8b.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

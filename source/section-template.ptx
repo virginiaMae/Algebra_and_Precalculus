@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>put title here</title>
+    <p></p>
+        
+  <video youtube=""/>
+  <p>
+    <url href="">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="">Full</url>
+    <url href="">4-per-page</url>
+    <url href="">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <xi:include href="" />
+    </exercise>
+  </exercises>
+  </section>

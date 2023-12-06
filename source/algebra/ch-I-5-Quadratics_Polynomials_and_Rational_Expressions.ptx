@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-I-5-Quadratics_Polynomials_and_Rational_Expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratics, Polynomials, and Rational Expressions</title>
+
+  <introduction>
+    <p>This chapter covers the graphical, general, standard and root forms of a parabola, 
+      and the activities establish the connections between them. This leads to several 
+      approaches to the quadratic formula and finding roots of a quadratic polynomial, 
+      as well as several approaches to find the vertex of a parabola, a key step in 
+      optimization problems. The latter half of this chapter expands these ideas to 
+      general polynomials and then to rational expressions to build the basics of curve 
+      sketching techniques used in calculus.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <!-- where is the content for section 5.1? -->
+  <xi:include href="sec-5-1-Graph_Transformations.ptx" />
+  <xi:include href="sec-5-2-The_Degree_of_a_Polynomial.ptx" />
+  <xi:include href="sec-5-3-Parabolas.ptx" />
+  <xi:include href="sec-5-5-Root_Form_of_a_Parabola.ptx" />
+  <xi:include href="sec-5-6-Optimization_using_Parabolas.ptx" />
+  <xi:include href="sec-5-7-Completing_the_Square.ptx" />
+  <!-- where is section 5.8? -->
+  <xi:include href="sec-5-9-Equation_of_a_Circle.ptx" />
+
+</chapter>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-6-Combining_Trig_Functions_Part_II" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Combining Trig Functions and Inverse Trig Functions - Part II</title>
+    <p><em>Combining Trig and Inverse Trig Functions – Part II</em> covers several 
+        examples of how these functions can be combined. The emphasis is on the 
+        selection of the appropriate formula and finding the necessary values to input. 
+        Details of the simplification are not dealt with in the video. Students will 
+        need practice, or otherwise be adept at handling the simplification of complicated 
+        fractional expressions with radicals.</p>
+        
+  <video youtube="cYp-4ByOXNM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-II-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-II.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-II.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-II.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWM 3.6A; choose 1 from first grouping + 1 from second grouping -->
+      <!-- <xi:include href="./ex-3-6/TR-Formulas_11.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_12.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_13.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_14.doenet"/>
+
+      <xi:include href="./ex-3-6/TR-Formulas_16.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_17.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_19.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_20.doenet"/> -->
+
+      <!-- from MA1151 HWM 3.6B -->
+      <!-- <xi:include href="./ex-3-6/TR-Formulas_15.doenet"/>
+      <xi:include href="./ex-3-6/TR-Formulas_18.doenet"/> -->
+
+      
+    </exercise>
+  </exercises>
+  </section>

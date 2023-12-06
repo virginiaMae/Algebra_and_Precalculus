@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-1-Recursion">
+  <title>Recursion</title>
+
+  <p>Recursion discusses processes with repeat patterns and establishes the conceptual 
+    foundation for a formal discussion of Sequences, in particular 
+    <xref ref="sec-2-3-Linear_Growth_and_Arithmetic_Sequences">Arithmetic Sequences</xref>  
+    and <xref ref="sec-2-4-Exponential_Growth_and_Geometric_Sequences">Geometric Sequences</xref>.</p>
+        
+    <video youtube="fJoNetqxm20"/>
+    <p>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/2.1-Recursion.pdf">Transcript</url>
+    </p>
+    <p>Slideshow: 
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-1.pdf">Full</url>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-1.pdf">4-per-page</url>
+      <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-1.pdf">9-per-page</url>
+    </p>
+    
+    
+    <exercises>
+      <exercise>
+        <!-- Doenet problems here -->
+      
+      </exercise>
+    </exercises>
+    
+</section>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-4-Applications_of_Vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Applications of Vectors</title>
+    <p><em>Applications of Vectors</em> covers two examples. The first is adding physical force vectors, 
+        the second is the navigation of a ship in moving water (a current) which is equivalent to a 
+        plane flying in moving air (wind). The initial vectors are given in polar form and need to 
+        be added by converting to Cartesian coordinates.</p>
+        
+  <video youtube="JqMq_Yie94A"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Applications-of-Vectors-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Applications-of-Vectors.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Applications-of-Vectors.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Applications-of-Vectors.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 5.4 -->
+      <!-- <xi:include href="./ex-5-4/TR-Vectors_17.doenet" />
+      <xi:include href="./ex-5-4/TR-Vectors_18.doenet" />
+      <xi:include href="./ex-5-4/TR-Vectors_19.doenet" />
+      <xi:include href="./ex-5-4/TR-Vectors_20.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

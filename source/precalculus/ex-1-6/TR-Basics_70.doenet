@@ -1,0 +1,161 @@
+<problem>
+<setup>
+  <selectFromSequence name="p" from="2" to="6"/>
+  <selectFromSequence name="q" from="1" to="4"/>
+  <math name="expr" simplify>$p / ($p + $q)</math>
+  <math name="sol" simplify>sqrt($q^2 + 2 $p $q) / ($p + $q)</math>
+  <number name="solN">sqrt($q^2 + 2 $p $q) / ($p + $q)</number>
+  <number name="zeroF" fixed>0</number>
+</setup>
+
+<!--testing-->
+<!-- <p>a = $a</p>
+<p>gcd = $gcd</p>
+<p>angle = $angle</p> 
+<p>expr = $expr</p>
+<p>sol = $sol</p>
+<p>solN = $solN</p> -->
+<!--testing-->
+
+<p>If <m>\sin \theta = $expr</m> and <m>0 < \theta < \frac{\pi}{2}</m>,
+	find <m>\cos \theta</m>.  </p>
+<p>Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
+
+<aside><title>Graphing Tool</title>
+<p>Answer the following question to open the tool:</p>
+<p>In which quadrant is <m>\theta</m> ? <nbsp/>
+  <answer name="pickQ" inline weight="0">
+    <choice credit="1">Quadrant I</choice>
+    <choice>Quadrant II</choice>
+    <choice>Quadrant III</choice>
+    <choice>Quadrant IV</choice>
+  </answer></p>
+
+<div hide="$pickQ.creditAchieved != 1">
+<p>Adjust the triangle to match the problem at hand. (Note triangle distances are always positive.)</p>
+<sideBySide widths="30% 70%" >
+<div>
+<p><m>a = </m><mathInput name="A" prefill="4"/></p>
+<p><m>b = </m><mathInput name="B" prefill="3"/></p>
+<p><m>c = </m><mathInput name="C" prefill="5"/></p>
+<p hide="$actualLine3.length = $C">Triangle does not close.</p>
+</div>
+
+ <graph grid="1 1" xmin="-2" xmax="12" ymin="-2" ymax="12">
+    <point name="p1" styleNumber="2" fixed coords="(0,0)"/>
+    <point name="p2" styleNumber="5" coords="($A,$zeroF)">
+    </point>
+    <point name="p3" styleNumber="5" coords="($A, $B)" layer="2">
+    </point>
+    <point name="p3UserC">($C cos($theta), $C sin($theta))</point>
+    <triangle name="userTri" vertices="$p1 $p2 $p3" styleNumber="6"/>
+    <lineSegment name="line1" endpoints="$p1 $p2">
+      <label><m>a = $A</m></label>
+    </lineSegment>
+    <lineSegment name="line2" endpoints="$p2 $p3">
+      <label><m>b = $B</m></label>
+    </lineSegment>
+    <lineSegment name="line3" endpoints="$p3UserC $p1">
+      <label><m>c = $C</m></label>
+    </lineSegment>
+    <lineSegment name="actualLine3" endpoints="$p3 $p1" hide/>
+    <angle name="theta" through="$p2 $p1 $p3">
+      <label><m>\theta</m></label>
+    </angle>
+  </graph>
+</sideBySide>
+</div>
+</aside>
+  
+<p><m>\cos \theta = </m><answer name="ans1">
+      <mathInput name="userAns"/>
+      <award name="correct" symbolicEquality expandOnCompare>   
+        <when>
+          $userAns = $sol
+        </when>
+      </award>
+      <award name="exactNumerical">
+        <when>$userAns = $solN</when>
+      </award>
+      <award name="numerical" allowedErrorInNumbers="0.01" allowedErrorIsAbsolute credit="0.5">   
+        <when>
+          $userAns = $solN
+        </when>
+      </award>
+    </answer></p>
+
+
+
+<!--*********************************************
+            Feedbacks
+**********************************************-->
+<setup>
+  <select name="correctFeedback" type="text">
+    <option>Awesome!</option>
+    <option>Great job!</option>
+    <option>Fantastic!</option>
+    <option>Nice work!</option>
+    <option>Amazing!</option>
+    <option>Excellent!</option>
+    <option>Right on!</option>
+    <option>Perfect!</option>
+  </select>
+</setup>
+  <feedback condition="$correct and $ans1.creditAchieved = 1">$correctFeedback</feedback>
+
+  <feedback condition="$exactNumerical and $ans1.creditAchieved = 1">$correctFeedback</feedback>
+
+  <feedback condition="$numerical">Your answer should be an integer or an exact rational number, not a decimal approximation.</feedback>
+
+
+   <feedback condition="$userAns = -$sol or $userAns = -$solN">Check the sign of your answer. Is <m>\cos \theta</m> positive or negative for the given range of <m>\theta</m>?</feedback>
+
+
+
+<!--*********************************************
+            Hint
+**********************************************-->
+<!-- <hint name="helpSection"><title>Worked Example</title>
+
+<p>Here is a similar worked example:</p> 
+<example newNameSpace>
+
+  
+<p><alert><em>Solution.</em></alert></p>
+
+</example>
+
+  
+</hint> -->
+
+<!--*********************************************
+            Solution
+**********************************************-->  
+<solution>
+<p>$sol</p>
+<p><em>Note, your answer might be more or less simplifed than the one shown. This will not affect validation.</em></p>
+</solution>
+</problem>
+
+
+
+
+<!--******************************************************
+        Style Definitions
+*******************************************************-->  
+<setup>
+<styleDefinitions>
+<!--blue, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+<!--red, styleNumber 2 corrolary-->
+<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7"  lineWidth="4"/>
+<!--orange, styleNumber 3 corrolary-->
+<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143" lineColor="#F19143" lineOpacity="0.7"  lineWidth="4"/>
+<!--purple, styleNumber 4 corrolary-->
+<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineOpacity="0.7" lineWidth="4"/>
+<!--black, styleNumber 5 corrolary-->
+<styleDefinition styleNumber="11" fillColor="black" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" lineColor="black" lineOpacity="0.7" lineWidth="4"/>
+<!--green, styleNumber 1 but green corrolary-->
+<styleDefinition styleNumber="12" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="4"/>
+</styleDefinitions>
+</setup>

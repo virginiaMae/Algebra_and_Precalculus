@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-3-Arithmetic_Sequences" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Arithmetic Sequences and Series</title>
+    <p><em>Arithmetic Sequences and Series</em> establishes the notation used for sequences in 
+        general and covers the standard types of problems involving arithmetic sequences. Connections 
+        are made to similar problems involving equations of lines. In particular, the explicit 
+        formula for an arithmetic sequence is given as <m>a_n = d(n) + a_0</m>. This differs from 
+        others formulation of <m>a_n = a_1 + d(n - 1)</m> as the former more closely matches the 
+        slope-intercept form of a line <m>y = mx + b</m>. The standard technique to find the 
+        sum of an arithmetic series is presented.</p>
+        
+  <video youtube="BA1gJcxXMNM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Arithmetic-Sequences-and-Series-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-Arithmetic-Sequences-and-Series.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-4-Arithmetic-Sequences-and-Series.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-9-Arithmetic-Sequences-and-Series.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 8.3 -->
+      <!-- <xi:include href="./ex-8-3/TR-Series_7.doenet" />
+      <xi:include href="./ex-8-3/TR-Series_9.doenet" />
+      <xi:include href="./ex-8-3/TR-Series_10.doenet" />
+      <xi:include href="./ex-8-3/TR-Series_11.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>
