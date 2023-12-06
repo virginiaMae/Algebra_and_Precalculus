@@ -24,9 +24,9 @@
     <!-- unassigned -->
     <!-- <xi:include href="./ex-1-1/BA-MultChoice_3.doenet" /> -->
     
-    <!-- <interactive xml:id="interactive-doenet-interactive2" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+    <interactive xml:id="interactive-doenet-interactive2" preview="interactive-doenet-interactive-preview.png" doenet="yes">
       <xi:include href="./ex-1-1/BA-MultChoice_3.doenet" parse="text"/>
-    </interactive> -->
+    </interactive>
   </exercise>
 </exercises>
 </section>
