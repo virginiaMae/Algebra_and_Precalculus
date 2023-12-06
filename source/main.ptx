@@ -1,141 +1,59 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
 
-  <docinfo>
-    <macros>
-      \newcommand{\R}{\mathbb R}
-    </macros>
-    <latex-image-preamble>
-      \usepackage{tikz}
-    </latex-image-preamble>
-    <document-id>doenet</document-id>
-  </docinfo>
+  <book xml:id="college-algebra_basic-probability_precalculus">
+    <title>College Algebra, Basic Probability and Precalculus</title>
+  
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
 
-    <frontmatter xml:id="frontmatter">
-      <titlepage>
-        <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
-        </author>
-        <date>
-          <today />
-        </date>
-      </titlepage>
+   <!-- Include parts-->
+   <part xml:id="part-algebra">
+    <title>Algebra</title>
 
-      <colophon>
+    <!-- Include chapters for Part I - Algebra -->
+    <xi:include href="./algebra/ch-I-1-Algebraic_Notation.ptx"/> 
+    <xi:include href="./algebra/ch-I-2-Sequences_and_Recursion.ptx"/> 
+    <xi:include href="./algebra/ch-I-3-Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-4-Lines_and_Linear_Equations.ptx"/> 
+    <xi:include href="./algebra/ch-I-5-Quadratics_Polynomials_and_Rational_Expressions.ptx"/> 
+    <xi:include href="./algebra/ch-I-6-Exponential_and_Logarithmic_Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-11-Review_Topics.ptx"/> 
 
-        <website>
-          <name>
-            <c>example.org</c>
-          </name>
-          <address>https://example.org</address>
-        </website>
+   </part>
 
-        <copyright>
-          <year>2020<ndash />2023</year>
-          <holder>You</holder>
-          <shortlicense> 
-            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
-          </shortlicense>
-        </copyright>
-      </colophon>
-    </frontmatter>
+  <part xml:id="part-basic_probability">
+    <title>Basic Probability</title>
 
-    <chapter xml:id="chapter-title">
-      <title>Chapter title</title>
+    <!-- Include chapters for Part II - Basic Probability -->
+    <xi:include href="./probability/ch-II-1-Counting_Techniques.ptx"/>
+    <xi:include href="./probability/ch-II-2-Probability.ptx"/>
 
-      <section xml:id="section-doenet-iframe">
-        <title>Hosted Doenet iframe</title>
-        <figure xml:id="figure-doenet-iframe">
-          <caption>Hosted doenet embedded as an iframe</caption>
-          <interactive xml:id="interactive-doenet-iframe" iframe="https://www.doenet.org/portfolioviewer/_zXRWUzprTKQ9N2wC1xUUT" width="95%" />
-        </figure>
-      </section>
-      <section xml:id="section-doenet-interactive">
-        <title>DoenetML in PreTeXt source</title>
-        <figure xml:id="figure-doenet-interactive-another">
-          <caption>DoenetML rendered from source</caption>
-          <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
-            <xi:include href="doenet1.dml" parse="text"/>
-            <xi:include href="doenet2.dml" parse="text"/>
-          </interactive>
-        </figure>
-        <exercises xml:id="parsons-exercises">
-            <title>Parsons Exercises</title>
+  </part>
 
-            <exercise label="number-theory-proof" adaptive="yes">
-                <title>Parsons Problem, Mathematical Proof</title>
-                <idx>even numbers</idx>
-                <statement>
-                    <p>Create a proof of the theorem: If <m>n</m> is an even number, then <m>n\equiv 0\mod 2</m>.</p>
-                </statement>
-                <blocks>
-                    <block order="2">
-                        <p>Suppose <m>n</m> is even.</p>
-                    </block>
-                    <block order="3">
-                        <choice><p>Then <m>n</m> is a prime number.</p></choice>
-                        <choice correct="yes"><p>Then there exists an <m>m</m> so that <m>n = 2m</m>.</p></choice>
-                        <choice><p>Then there exists an <m>m</m> so that <m>n = 2m + 1</m>.</p></choice>
-                    </block>
-                    <block order="1" correct="no">
-                        <p>Click the heels of your ruby slippers together three times.</p>
-                    </block>
-                    <block order="5">
-                        <p>So <m>n = 2m + 0</m>.</p>
-                        <p>This is a superfluous second paragraph in this block.</p>
-                    </block>
-                    <block order="4">
-                        <p>Thus <m>n\equiv 0\mod 2</m>.</p>
-                    </block>
-                    <block order="6" correct="no">
-                        <p>And a little bit of irrelevant multi-line math
-                            <md>
-                                <mrow>c^2&amp;a^2+b^2</mrow>
-                                <mrow>&amp;x^2+y^2</mrow>
-                            </md>.
-                        </p>
-                    </block>
-                </blocks>
-                <hint>Dorothy will not be much help with this proof.</hint>
-            </exercise>
-        </exercises>
-      </section>
-      <section xml:id="section-doenet-interactive2">
-        <title>DoenetML in PreTeXt source 2</title>
-        <figure xml:id="figure-doenet-interactive2">
-          <caption>DoenetML rendered from source</caption>
-          <interactive xml:id="interactive-doenet-interactive2" preview="interactive-doenet-interactive-preview.png" doenet="yes">
-            <xi:include href="doenet2.dml" parse="text"/>
-          </interactive>
-        </figure>
-      </section>
-      <section xml:id="section-doenet-interactive3">
-        <title>DoenetML in PreTeXt source 3</title>
-        <figure xml:id="figure-doenet-interactive3">
-          <caption>DoenetML rendered from source</caption>
-          <interactive xml:id="interactive-doenet-interactive3" preview="interactive-doenet-interactive-preview.png" doenet="yes">
-            <xi:include href="doenet3.dml" parse="text"/>
-          </interactive>
-        </figure>
-      </section>
+  <part xml:id="part-precalculus">
+    <title>Precalculus</title> 
 
-    </chapter>
 
-    <backmatter xml:id="backmatter">
-      <title>Backmatter</title>
+    <!-- Include chapters for Part III - Precalculus -->
+    <xi:include href="./precalculus/ch-III-1-Unit_Circle_and_Definitions.ptx"/>
+    <xi:include href="./precalculus/ch-III-2-Graphing.ptx"/>
+    <xi:include href="./precalculus/ch-III-3-Trig_Formulas_and_Inverse_Functions.ptx"/>
+    <xi:include href="./precalculus/ch-III-4-Solving_Triangles.ptx"/>
+    <xi:include href="./precalculus/ch-III-5-Vector_Applications.ptx"/>
+    <xi:include href="./precalculus/ch-III-6-Conic_Sections.ptx"/>
+    <xi:include href="./precalculus/ch-III-7-Systems_of_Equations.ptx"/>
+    <xi:include href="./precalculus/ch-III-8-Sequences_and_Series.ptx"/>
+  </part>
 
-      <colophon>
-        <p> This book was authored in <pretext />. </p>
-      </colophon>
-
-    </backmatter>
+    <!-- Include backmatter  -->
+    <xi:include href="./backmatter.ptx" />
 
   </book>
+
+
 </pretext>
