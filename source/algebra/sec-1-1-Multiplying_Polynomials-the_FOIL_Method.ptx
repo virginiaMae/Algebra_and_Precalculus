@@ -18,12 +18,17 @@
   <url href="https://open.lib.umn.edu/app/uploads/sites/230/2019/04/Trim9.pdf">9-per-page</url>
 </p>
 
+<figure xml:id="figure-doenet-interactive-another">
+  <caption>DoenetML rendered from source</caption>
+  <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+    <xi:include href="./ex-1-1/BA-MultChoice_3.doenet" parse="text"/>
+  </interactive>
+</figure>    
 
 <exercises>
   <exercise>
     <!-- unassigned -->
     <!-- <xi:include href="./ex-1-1/BA-MultChoice_3.doenet" /> -->
-    
   </exercise>
 </exercises>
 </section>

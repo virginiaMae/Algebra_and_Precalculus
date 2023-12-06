@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <macros>
+      \newcommand{\R}{\mathbb R}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+    </latex-image-preamble>
+    <document-id>doenet</document-id>
+  </docinfo>
+
+  <book xml:id="my-great-book">
+    <title>My Great Book</title>
+    <subtitle>An example to get you started</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>You</personname>
+          <department>Your department</department>
+          <institution>Your institution</institution>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <website>
+          <name>
+            <c>example.org</c>
+          </name>
+          <address>https://example.org</address>
+        </website>
+
+        <copyright>
+          <year>2020<ndash />2023</year>
+          <holder>You</holder>
+          <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+    </frontmatter>
+
+    <chapter xml:id="chapter-title">
+      <title>Chapter title</title>
+
+      <section xml:id="section-doenet-iframe">
+        <title>Hosted Doenet iframe</title>
+        <figure xml:id="figure-doenet-iframe">
+          <caption>Hosted doenet embedded as an iframe</caption>
+          <interactive xml:id="interactive-doenet-iframe" iframe="https://www.doenet.org/portfolioviewer/_zXRWUzprTKQ9N2wC1xUUT" width="95%" />
+        </figure>
+      </section>
+      <section xml:id="section-doenet-interactive">
+        <title>DoenetML in PreTeXt source</title>
+        <figure xml:id="figure-doenet-interactive-another">
+          <caption>DoenetML rendered from source</caption>
+          <interactive xml:id="interactive-doenet-interactive" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+            <xi:include href="doenet1.dml" parse="text"/>
+            <xi:include href="doenet2.dml" parse="text"/>
+          </interactive>
+        </figure>
+        <exercises xml:id="parsons-exercises">
+            <title>Parsons Exercises</title>
+
+            <exercise label="number-theory-proof" adaptive="yes">
+                <title>Parsons Problem, Mathematical Proof</title>
+                <idx>even numbers</idx>
+                <statement>
+                    <p>Create a proof of the theorem: If <m>n</m> is an even number, then <m>n\equiv 0\mod 2</m>.</p>
+                </statement>
+                <blocks>
+                    <block order="2">
+                        <p>Suppose <m>n</m> is even.</p>
+                    </block>
+                    <block order="3">
+                        <choice><p>Then <m>n</m> is a prime number.</p></choice>
+                        <choice correct="yes"><p>Then there exists an <m>m</m> so that <m>n = 2m</m>.</p></choice>
+                        <choice><p>Then there exists an <m>m</m> so that <m>n = 2m + 1</m>.</p></choice>
+                    </block>
+                    <block order="1" correct="no">
+                        <p>Click the heels of your ruby slippers together three times.</p>
+                    </block>
+                    <block order="5">
+                        <p>So <m>n = 2m + 0</m>.</p>
+                        <p>This is a superfluous second paragraph in this block.</p>
+                    </block>
+                    <block order="4">
+                        <p>Thus <m>n\equiv 0\mod 2</m>.</p>
+                    </block>
+                    <block order="6" correct="no">
+                        <p>And a little bit of irrelevant multi-line math
+                            <md>
+                                <mrow>c^2&amp;a^2+b^2</mrow>
+                                <mrow>&amp;x^2+y^2</mrow>
+                            </md>.
+                        </p>
+                    </block>
+                </blocks>
+                <hint>Dorothy will not be much help with this proof.</hint>
+            </exercise>
+        </exercises>
+      </section>
+      <section xml:id="section-doenet-interactive2">
+        <title>DoenetML in PreTeXt source 2</title>
+        <figure xml:id="figure-doenet-interactive2">
+          <caption>DoenetML rendered from source</caption>
+          <interactive xml:id="interactive-doenet-interactive2" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+            <xi:include href="doenet2.dml" parse="text"/>
+          </interactive>
+        </figure>
+      </section>
+      <section xml:id="section-doenet-interactive3">
+        <title>DoenetML in PreTeXt source 3</title>
+        <figure xml:id="figure-doenet-interactive3">
+          <caption>DoenetML rendered from source</caption>
+          <interactive xml:id="interactive-doenet-interactive3" preview="interactive-doenet-interactive-preview.png" doenet="yes">
+            <xi:include href="doenet3.dml" parse="text"/>
+          </interactive>
+        </figure>
+      </section>
+
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <colophon>
+        <p> This book was authored in <pretext />. </p>
+      </colophon>
+
+    </backmatter>
+
+  </book>
+</pretext>

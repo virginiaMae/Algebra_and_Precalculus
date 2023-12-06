@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="college-algebra_basic-probability_precalculus">
+    <title>College Algebra, Basic Probability and Precalculus</title>
+  
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+   <!-- Include parts-->
+   <part xml:id="part-algebra">
+    <title>Algebra</title>
+
+    <!-- Include chapters for Part I - Algebra -->
+    <xi:include href="./algebra/ch-I-1-Algebraic_Notation.ptx"/> 
+    <xi:include href="./algebra/ch-I-2-Sequences_and_Recursion.ptx"/> 
+    <xi:include href="./algebra/ch-I-3-Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-4-Lines_and_Linear_Equations.ptx"/> 
+    <xi:include href="./algebra/ch-I-5-Quadratics_Polynomials_and_Rational_Expressions.ptx"/> 
+    <xi:include href="./algebra/ch-I-6-Exponential_and_Logarithmic_Functions.ptx"/> 
+    <xi:include href="./algebra/ch-I-11-Review_Topics.ptx"/> 
+
+   </part>
+
+  <part xml:id="part-basic_probability">
+    <title>Basic Probability</title>
+
+    <!-- Include chapters for Part II - Basic Probability -->
+    <xi:include href="./probability/ch-II-1-Counting_Techniques.ptx"/>
+    <xi:include href="./probability/ch-II-2-Probability.ptx"/>
+
+  </part>
+
+  <part xml:id="part-precalculus">
+    <title>Precalculus</title> 
+
+
+    <!-- Include chapters for Part III - Precalculus -->
+    <xi:include href="./precalculus/ch-III-1-Unit_Circle_and_Definitions.ptx"/>
+    <xi:include href="./precalculus/ch-III-2-Graphing.ptx"/>
+    <xi:include href="./precalculus/ch-III-3-Trig_Formulas_and_Inverse_Functions.ptx"/>
+    <xi:include href="./precalculus/ch-III-4-Solving_Triangles.ptx"/>
+    <xi:include href="./precalculus/ch-III-5-Vector_Applications.ptx"/>
+    <xi:include href="./precalculus/ch-III-6-Conic_Sections.ptx"/>
+    <xi:include href="./precalculus/ch-III-7-Systems_of_Equations.ptx"/>
+    <xi:include href="./precalculus/ch-III-8-Sequences_and_Series.ptx"/>
+  </part>
+
+    <!-- Include backmatter  -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+
+
+</pretext>
