@@ -1,0 +1,542 @@
+<title>Algebra Applet: Check your Algebra!</title>
+<p><em> Type two algebraic expressions below to see if they are equivalent. Enter all angles in radians. See the "What functions can I use" section below for additional information about entering logarithmic and trigonometric functions.</em></p>
+
+<setup>
+<m name="OOOLabel">\frac{1}{3} \bigg( \frac{2 \cdot 12 - 3}{7} \bigg)^{2}</m>
+<m name="logLabel">\log_2 {x} = 3</m>
+<m name="expLabel">\bigg( \frac{x^2x^3}{x^5} \bigg)^4</m>
+<m name="rootsLabel">\sqrt[4]{x^3}</m>
+<m name="ratLabel">x^{-(\frac{1}{2})}</m>
+<m name="factorialLabel">5!</m>
+<m name="basicFactoringLabel">x^2 - 16</m>
+<m name="factoringLabel">(x + y)^5</m>
+<m name="binomCoeffLabel">\binom{8}{3}</m>
+<m name="combinationsLabel">C(5,2)</m>
+<m name="permutationsLabel">P(8,3)</m>
+  
+</setup>
+
+
+<section name="demoSection" hide="!$showDemo">
+  <sideBySide widths="75% 25%" margins="5%">
+  <video size="small" youtube="db2734c5,vid:iRNl0iWE490"/>
+    <stack>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+<updateValue target="showDemo" newValue="false" type="boolean">
+    <label>Close Demo</label>
+  </updateValue>
+    </stack>
+  </sideBySide> 
+</section>
+
+<sideBySide name="sBs0" widths="40% 10% 40% 10%">
+  <div><em>Expression</em><nbsp/><nbsp/><nbsp/><m>1</m></div>
+  <div><alert>Check</alert></div>
+  <div><em>Expression</em><nbsp/><nbsp/><nbsp/><m>2</m></div>
+  <div><alert>Continue</alert></div>
+</sideBySide>
+
+<sideBySide name="sBs1" widths="40% 10% 40% 10%">
+  <div><mathInput name="left" prefill="x+x+x+x"/></div>
+  <div><answer submitLabel="= ?"><when>$left = $right</when>
+  </answer></div>
+  <div><mathInput name="right" prefill="4x"/></div>
+  <div><updateValue name="copyLine_1" target="sBs2.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+    <updateValue target="copyLine_1.disabled" newValue="true" triggerWith="copyLine_1" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs2" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left2" prefill="$right"/></div>
+  <div><answer submitLabel="= ?"><when>$left2 = $right2</when></answer></div>
+  <div><mathInput name="right2"/></div>
+  <div><updateValue name="copyLine_2" target="sBs3.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+    <updateValue target="copyLine_2.disabled" newValue="true" triggerWith="copyLine_2" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs3" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left3" prefill="$right2"/></div>
+  <div><answer submitLabel="= ?"><when>$left3 = $right3</when></answer></div>
+  <div><mathInput name="right3"/></div>
+  <div><updateValue name="copyLine_3" target="sBs4.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_3.disabled" newValue="true" triggerWith="copyLine_3" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs4" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left4" prefill="$right3"/></div>
+  <div><answer submitLabel="= ?"><when>$left4 = $right4</when></answer></div>
+  <div><mathInput name="right4"/></div>
+  <div><updateValue name="copyLine_4" target="sBs5.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_4.disabled" newValue="true" triggerWith="copyLine_4" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs5" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left5" prefill="$right4"/></div>
+  <div><answer submitLabel="= ?"><when>$left5 = $right5</when></answer></div>
+  <div><mathInput name="right5"/></div>
+  <div><updateValue name="copyLine_5" target="sBs6.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_5.disabled" newValue="true" triggerWith="copyLine_5" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs6" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left6" prefill="$right5"/></div>
+  <div><answer submitLabel="= ?"><when>$left6 = $right6</when></answer></div>
+  <div><mathInput name="right6"/></div>
+  <div><updateValue name="copyLine_6" target="sBs7.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_6.disabled" newValue="true" triggerWith="copyLine_6" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs7" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left7" prefill="$right6"/></div>
+  <div><answer submitLabel="= ?"><when>$left7 = $right7</when></answer></div>
+  <div><mathInput name="right7"/></div>
+  <div><updateValue name="copyLine_7" target="sBs8.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_7.disabled" newValue="true" triggerWith="copyLine_7" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs8" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left8" prefill="$right7"/></div>
+  <div><answer submitLabel="= ?"><when>$left8 = $right8</when></answer></div>
+  <div><mathInput name="right8"/></div>
+  <div><updateValue name="copyLine_8" target="sBs9.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_8.disabled" newValue="true" triggerWith="copyLine_8" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs9" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left9" prefill="$right8"/></div>
+  <div><answer submitLabel="= ?"><when>$left9 = $right9</when></answer></div>
+  <div><mathInput name="right9"/></div>
+  <div><updateValue name="copyLine_9" target="sBs10.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_9.disabled" newValue="true" triggerWith="copyLine_9" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs10" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left10" prefill="$right9"/></div>
+  <div><answer submitLabel="= ?"><when>$left10 = $right10</when></answer></div>
+  <div><mathInput name="right10"/></div>
+  <div><updateValue name="copyLine_10" target="sBs11.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_10.disabled" newValue="true" triggerWith="copyLine_10" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs11" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left11" prefill="$right10"/></div>
+  <div><answer submitLabel="= ?"><when>$left11 = $right11</when></answer></div>
+  <div><mathInput name="right11"/></div>
+  <div><updateValue name="copyLine_11" target="sBs12.hide" newValue="false" type="boolean"><label>Add line</label></updateValue>
+  <updateValue target="copyLine_11.disabled" newValue="true" triggerWith="copyLine_11" type="boolean"/>
+  </div>
+</sideBySide>
+
+<sideBySide name="sBs12" widths="40% 10% 40% 10%" hide>
+  <div><mathInput name="left12" prefill="$right11"/></div>
+  <div><answer submitLabel="= ?"><when>$left12 = $right12</when></answer></div>
+  <div><mathInput name="right12"/></div>
+  <div></div>
+</sideBySide>
+
+
+<triggerSet name="clearCalcs">
+<updateValue target="left" newValue="" type="math"/>
+<updateValue target="right" newValue="" type="math"/>
+<updateValue target="left1" newValue="" type="math"/>
+<updateValue target="right1" newValue="" type="math"/>
+<updateValue target="left2" newValue="" type="math"/>
+<updateValue target="right2" newValue="" type="math"/>
+<updateValue target="left3" newValue="" type="math"/>
+<updateValue target="right3" newValue="" type="math"/>
+<updateValue target="left4" newValue="" type="math"/>
+<updateValue target="right4" newValue="" type="math"/>
+<updateValue target="left5" newValue="" type="math"/>
+<updateValue target="right5" newValue="" type="math"/>
+<updateValue target="left6" newValue="" type="math"/>
+<updateValue target="right6" newValue="" type="math"/>
+<updateValue target="left7" newValue="" type="math"/>
+<updateValue target="right7" newValue="" type="math"/>
+<updateValue target="left8" newValue="" type="math"/>
+<updateValue target="right8" newValue="" type="math"/>
+<updateValue target="left9" newValue="" type="math"/>
+<updateValue target="right9" newValue="" type="math"/>
+<updateValue target="left10" newValue="" type="math"/>
+<updateValue target="right10" newValue="" type="math"/>
+<updateValue target="left11" newValue="" type="math"/>
+<updateValue target="right11" newValue="" type="math"/>
+<updateValue target="left12" newValue="" type="math"/>
+<updateValue target="right12" newValue="" type="math"/>
+<updateValue target="copyLine_1.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_2.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_3.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_4.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_5.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_6.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_7.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_8.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_9.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_10.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_11.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_12.disabled" newValue="false" type="boolean"/> 
+  <label>Clear all calculations</label>
+</triggerSet>
+<nbsp/><nbsp/><nbsp/><nbsp/>
+
+
+<triggerSet>
+<updateValue target="left" newValue="" type="math"/>
+<updateValue target="right" newValue="" type="math"/>
+<updateValue target="left1" newValue="" type="math"/>
+<updateValue target="right1" newValue="" type="math"/>
+<updateValue target="left2" newValue="" type="math"/>
+<updateValue target="right2" newValue="" type="math"/>
+<updateValue target="left3" newValue="" type="math"/>
+<updateValue target="right3" newValue="" type="math"/>
+<updateValue target="left4" newValue="" type="math"/>
+<updateValue target="right4" newValue="" type="math"/>
+<updateValue target="left5" newValue="" type="math"/>
+<updateValue target="right5" newValue="" type="math"/>
+<updateValue target="left6" newValue="" type="math"/>
+<updateValue target="right6" newValue="" type="math"/>
+<updateValue target="left7" newValue="" type="math"/>
+<updateValue target="right7" newValue="" type="math"/>
+<updateValue target="left8" newValue="" type="math"/>
+<updateValue target="right8" newValue="" type="math"/>
+<updateValue target="left9" newValue="" type="math"/>
+<updateValue target="right9" newValue="" type="math"/>
+<updateValue target="left10" newValue="" type="math"/>
+<updateValue target="right10" newValue="" type="math"/>
+<updateValue target="left11" newValue="" type="math"/>
+<updateValue target="right11" newValue="" type="math"/>
+<updateValue target="left12" newValue="" type="math"/>
+<updateValue target="right12" newValue="" type="math"/>
+  
+<updateValue target="sBs2.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs3.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs4.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs5.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs6.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs7.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs8.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs9.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs10.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs11.hide" newValue="true" type="boolean"/>
+<updateValue target="sBs12.hide" newValue="true" type="boolean"/>
+
+<updateValue target="copyLine_1.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_2.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_3.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_4.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_5.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_6.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_7.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_8.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_9.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_10.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_11.disabled" newValue="false" type="boolean"/> 
+<updateValue target="copyLine_12.disabled" newValue="false" type="boolean"/> 
+<label>Start over</label>
+</triggerSet>
+
+<hint><title>Example</title>
+<sideBySide margins="5%">
+  <div>
+   <booleanInput name="showDemo1" asToggleButton>
+      <label>Factoring Video Demo</label>
+  </booleanInput>
+  </div>
+  
+  <div>
+  <booleanInput name="showDemo2" asToggleButton>
+    <label>Log Video Demo</label>
+  </booleanInput>
+  </div>
+
+  <div>
+  <booleanInput name="showDemo3" asToggleButton>
+    <label>Trig Video Demo</label>
+  </booleanInput>
+  </div>
+</sideBySide>
+
+<video hide="!$showDemo1" youtube="LZBtU0hZ3dY" size="medium"/>
+
+<video hide="!$showDemo2" youtube="Fsw6YKl997o" size="medium"/>
+
+<video hide="!$showDemo3" youtube="488AiO6JXh4" size="medium"/>
+
+  <triggerSet triggerWhen="$showDemo1">
+    <updateValue target="showDemo2" newValue="false" type="boolean"/>
+    <updateValue target="showDemo3" newValue="false" type="boolean"/>
+  </triggerSet>
+
+  <triggerSet triggerWhen="$showDemo2">
+    <updateValue target="showDemo1" newValue="false" type="boolean"/>
+    <updateValue target="showDemo3" newValue="false" type="boolean"/>
+  </triggerSet>
+
+  <triggerSet triggerWhen="$showDemo3">
+    <updateValue target="showDemo1" newValue="false" type="boolean"/>
+    <updateValue target="showDemo2" newValue="false" type="boolean"/>
+  </triggerSet>
+
+<p><alert>Quick Guide:</alert></p>
+<table suppressTableNameInTitle>
+  <ol>
+    <li>Type an algebraic expression in the left box<p></p></li>
+    <li>Type a simplified, or equivalent algebraic expression in the right box<p></p></li>
+    <li>Click the blue button in the middle to see if they are equivalent!<p></p></li>
+    <li>Click the "Add line" button to add another line of calculations (up to 12 lines are supported at this time)<p></p></li>
+  </ol>
+  <tabular top="minor" bottom="minor" left="minor" right="minor">
+    <row>
+      <cell><em>Expression <m>1</m></em></cell>
+      <cell>Check equality</cell>
+      <cell><em>Expression <m>2</m></em></cell>
+      <cell>
+      </cell>
+    </row>
+    <row>
+      <cell><mathInput name="miL_d" prefillLatex="x^2 + 2x + 1"/></cell>
+      <cell>
+        <answer name="ansd" submitLabel=" = ?">
+          <award><when>$miL_d = $miR_d</when></award>
+        </answer>
+      </cell>
+      <cell><mathInput name="miR_d" prefillLatex="(x+1)^2"/></cell>
+      <cell>
+        <triggerSet name="demoChange">
+         <updateValue target="miL_d" newValue="sin(pi/2)" type="math"/>
+         <updateValue target="miR_d" newValue="1" type="math"/>
+          <updateValue target="demoChange.disabled" newValue="true" type="boolean"/>
+           <label>Get new example</label>
+        </triggerSet>
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+  
+<p><alert>Entering Logarithms:</alert> The default base for logarithms in Doenet is <m>e</m>. Entering <c>log(x)</c> will be interpreted the same as <c>ln(x)</c>. To enter a logarithm with an arbitrary base, <m>b</m>, or base 10, type <c>log_b</c> or <c>log_10</c> into the box. Alternatively, you can use the math keyboard.</p>
+</hint>
+
+<hint><title>What functions can I use?</title>
+<p>The following functions/notation are currently supported by this applet. More will be added in future semesters.</p>
+  <ul>
+    <li><p>Rational algebraic expressions (i.e. fractions), factored expressions, and all trigonometric functions can be evaluated. Degrees must be entered in radians.</p></li>
+    <li><p>The default base for the logarithm function is <m>e</m>. Therefore, entering <m>\log(x)</m> is equivalent to entering <m>\ln(x)</m>. Logarithmic functions of base 10 or any base other than <m>e</m> should be entered as <m>\log_{10} (x)</m>. To type a subscript, you can either use the underscore key, _ , or you can use the math keyboard.</p></li>
+    <li><p>To enter the permutations function, type or use the math keyboard function <m>\text{nPr}</m>. To enter the function for combinations, type or use the math keyboard function <m>\text{nCr}</m>. Both functions take two arguments as follows: <m>\text{nPr}(n,k)</m> and <m>\text{nCr}(n,k)</m>, where <m>n</m> is the number of objects in the set that you are choosing from, and <m>k</m> is the number of objects chosen.</p></li>
+    <li>Calculus functions are not yet supported.<p></p></li>
+    <li>Hyperbolic trigonometric functions are not yet supported.<p></p></li>
+  </ul>
+</hint>
+
+<section><title></title>  
+  <section><title>See an unfamiliar expression? Click below to learn more about...</title>
+<sideBySide widths="20% 80%">
+<div>
+<choiceInput name="helpChoice">
+  <choice>$logLabel<p></p></choice>
+  <choice>$expLabel<p></p></choice>
+  <choice>$rootsLabel<p></p></choice>
+  <choice>$ratLabel<p></p></choice>
+  <choice>$factorialLabel<p></p></choice>
+  <choice>$basicFactoringLabel<p></p></choice>
+  <choice>$factoringLabel<p></p></choice>
+  <choice>$binomCoeffLabel<p></p></choice>
+  <choice>$combinationsLabel<p></p></choice>
+  <choice>$permutationsLabel<p></p></choice>
+</choiceInput>
+</div>
+
+<div>
+<section boxed hide><title>Order of Operations</title>
+  <p>Simplification of algebraic expressions follows the Order of Operations, or PEMDAS:</p>
+    <ul>
+      <li><alert>P</alert> arentheses</li>
+      <li><alert>E</alert> exponents</li>
+      <li><alert>M</alert> ultiplication</li>
+      <li><alert>D</alert> ivision</li>
+      <li><alert>A</alert> ddition</li>
+      <li><alert>S</alert> ubtraction</li>
+    </ul>
+  </section>
+  
+<section boxed hide="$helpChoice.selectedIndex != 1"><title>Properties of Logarithms</title>
+  <p>Logarithmic expressions have the following properties:</p>
+  <md>
+    <mrow>\log_b{x} \amp= m \iff b^m = x</mrow>
+    <mrow>\log_b{\frac{1}{x}} \amp= -\log_b{x}</mrow>
+    <mrow>\log_b{x y} \amp= \log_b{x} + \log_b{y}</mrow>
+    <mrow>\log_b{\frac{x}{y}} \amp= \log_b{x} - \log_b{y}</mrow>
+    <mrow>\log_b{x^n} \amp= n \log_b{x}</mrow>
+  </md>
+  <p>So, for this example,</p>
+  <md>
+    <mrow>\log_2 {x} \amp= 3 \iff 2^3 = x</mrow>
+    <mrow>\text{so,}\;\;\;x \amp= 8</mrow>
+  </md>
+  <p><alert>Entering Logarithms:</alert> The default base for logarithms in Doenet is <m>e</m>. Entering <c>log(x)</c> will be interpreted the same as <c>ln(x)</c>. To enter a logarithm with an arbitrary base, <m>b</m>, or base 10, type <c>log_b</c> or <c>log_10</c> into the box. Alternatively, you can use the math keyboard.</p>
+</section>
+<section boxed hide="$helpChoice.selectedIndex != 2"><title>Properties of Exponents</title>
+  <p>Exponential expressions have the following properties:</p>
+  <md>
+    <mrow>b^1 \amp= b</mrow>
+    <mrow>b^0 \amp= 1</mrow>
+    <mrow>b^{-x} \amp= \frac{1}{b^x}</mrow>
+    <mrow>b^x b^y \amp= b^{x + y}</mrow>
+    <mrow>\frac{b^x}{b^y} \amp= b^{x - y}</mrow>
+    <mrow>\left(a b \right)^x \amp= a^x b^x \;\;\;\text{and}\;\;\;\bigg(\frac{a}{b}\bigg)^x = \frac{a^x}{b^x}</mrow>
+    <mrow>\left(b^x\right)^y \amp= b^{x\cdot y}</mrow>
+  </md>
+
+  <p>So, for this example,</p>
+  <md>
+    <mrow>\bigg(\frac{x^2 x^3}{x^5}\bigg)^4 \amp= \bigg(\frac{x^5}{x^5}\bigg)^4</mrow>
+    <mrow>\amp= (x^0)^4</mrow>
+    <mrow>\amp= (1)^4 = 1</mrow>
+  </md>
+</section>
+    
+<section boxed hide="$helpChoice.selectedIndex != 3"><title>Properties of Square, Cube, and <m>n^{th}</m> Roots</title>
+  <p>Roots are another way to represent rational exponents:</p>
+  <md>
+    <mrow>b^{\frac{1}{n}} \amp= \sqrt[n] b\;\;\;\amp\text{for example,}\;\;\;9^{\frac{1}{2}} = \sqrt 9</mrow> 
+    <mrow>b^{\frac{m}{n}} \amp= \sqrt[n]{b^m} = \left(\sqrt[n]{b}\right)^m\;\;\;\amp\text{for example,}\;\;\;8^{\frac{2}{3}} = \left(\sqrt[3]8\right)^2</mrow>
+    
+  </md>
+  <p>So, for this example,</p>
+  <md>
+    <mrow>\sqrt[4]{x^3} \amp= x^{\frac{3}{4}}</mrow>
+  </md>
+</section>
+
+    
+<section boxed hide="$helpChoice.selectedIndex != 4"><title>Properties of Rational Exponents</title>
+
+  <p>Rational exponents are another way to represent roots:</p>
+  <md>
+    <mrow>b^{\frac{1}{n}} \amp= \sqrt[n] b\;\;\;\amp\text{for example,}\;\;\;9^{\frac{1}{2}} = \sqrt 9</mrow>
+    <mrow>b^{\frac{m}{n}} \amp= \sqrt[n]{b^m} = \left(\sqrt[n]{b}\right)^m\;\;\;\amp\text{for example,}\;\;\;8^{\frac{2}{3}} = \left(\sqrt[3]8\right)^2</mrow>   
+  </md>
+  <p>...and negative exponents can be simplified as follows:</p>
+  <md>
+    <mrow>b^{-x} \amp= \frac{1}{b^x}\;\;\;\text{for example,}\;\;\;9^{-(\frac{1}{2})} = \frac{1}{9^{(\frac{1}{2})}} = \frac{1}{\sqrt{9}} = \frac{1}{3}</mrow>
+  </md>
+
+    <p>So, for this example,</p>
+  <md>
+    <mrow>\left(x \right)^{-\frac{1}{2}} \amp= \frac{1}{x^{\frac{1}{2}}} </mrow>
+    <mrow>\amp= \frac{1}{\sqrt{x}}</mrow>
+  </md>
+</section>
+
+<section boxed hide="$helpChoice.selectedIndex != 5"><title>Factorials</title>
+  <p>The notation <m>n!</m> is read "<m>n</m> factorial" and represents the following computation:</p>
+  <md>
+    <mrow>n! \amp= n\cdot (n - 1) \cdot(n - 2)\cdot\cdot\cdot 3 \cdot 2 \cdot 1</mrow>
+    <mrow>\text{so,}\;\;\;7! \amp= 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 5040</mrow>
+  </md>
+
+   <p>So, for this example,</p>
+  <md>
+    <mrow>5! \amp= 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1</mrow>
+    <mrow>\amp= 120</mrow>
+  </md>
+
+</section>  
+
+<section boxed hide="$helpChoice.selectedIndex != 6"><title>Factoring Formulas</title>
+<p>Basic Factoring formulas:</p>
+  <md>
+    <mrow>x^2 - y^2 \amp= (x + y)(x - y)\;\;\amp\text{Difference of squares}</mrow>
+    <mrow>x^3 + y^3 \amp= (x + y)(x^2 - xy + y^2)\;\;\amp\text{Sum of cubes}</mrow>
+    <mrow>x^3 - y^3 \amp= (x - y)(x^2 + xy + y^2)\;\;\amp\text{Difference of cubes}</mrow>
+  </md>
+
+    <p>So, for this example,</p>
+  <md>
+    <mrow>x^2 - 16 \amp= x^2 - 4^2 = (x + 4)(x - 4)</mrow>
+  </md> 
+</section>
+  
+<section boxed hide="$helpChoice.selectedIndex != 7"><title>Factoring Binomials</title>
+<p>Factoring binomials:</p>
+  <md>
+    <mrow>(x + y)^2 \amp= x^2 + 2xy + y^2</mrow>
+    <mrow>(x + y)^3 \amp= x^3 + 3x^2 y + 3x y^2 + y^3</mrow>
+    <mrow>(x + y)^4 \amp= x^4 + 4x^3 y + 6x^2 y^2 + 4x y^3 + y^4</mrow>
+  </md>
+  <p>The Binomial Theorem:</p>
+  
+    <me>(x + y)^n = x^n + n x^{n-1}y + \frac{n(n - 1)}{2} x^{n - 2}y^2 +...+ \binom{n}{k}x^{n - k}y^k + ... + n x y^{n - 1} + y^n</me>
+
+    <p>So, for this example,</p>
+  <md>
+    <mrow>(x + y)^5 \amp= x^5 + 5x^4 y + 10x^3 y^2 + 10 x^2 y^3 + 5x y^4 + y^5</mrow>
+  </md> 
+</section>
+
+  
+<section boxed hide="$helpChoice.selectedIndex != 8"><title>the Binomial Coefficient</title>
+<p>The notation <m>\binom{n}{k}</m> is read "<m>n </m> choose <m>k</m>" and is known as the binomial coefficient. It is computed as follows:</p>
+  <me>\binom{n}{k} = \frac{n!}{k!(n-k)!} = \frac{n(n-1)\cdot\cdot\cdot(n - k + 1)}{k\cdot\cdot\cdot3\cdot2\cdot1}</me>
+  <p>So, for this example,</p>
+  <md>
+    <mrow>\binom{8}{3} \amp= \frac{8\cdot7\cdot6\cdot{5}\cdot{4}\cdot3\cdot2\cdot1}{(3\cdot2\cdot1)(5\cdot4\cdot3\cdot2\cdot1)}</mrow>
+    <mrow>\amp=\frac{8\cdot7\cdot6}{3\cdot2\cdot1}</mrow>
+    <mrow>\amp=56</mrow>
+  </md> 
+
+  <p>Note, the notation <m>\binom{n}{k}</m> is not yet supported by this applet. Instead, you can use the combinations function, <m>\text{nCr}(n,k)</m> by typing it in or using the corresponding button on the math keyboard.</p> 
+</section>
+  
+<section boxed hide="$helpChoice.selectedIndex != 9"><title>Combinations</title>
+  <p>The number of combinations of a set of <m>k</m> objects picked from a set of size <m>n</m> is given by the binomial coefficient:</p>
+  <md>
+    <mrow>C(n,k) = \binom{n}{k} = \frac{n!}{k!(n-k)!}</mrow>
+  </md>
+  <p>It is also denoted by,</p>
+    <me>C(n,k) = \text{nCr}(n,k)</me> 
+  or by,
+  <me>C(n,k) = {}_n C_k</me> 
+
+  <p>So, for this example,</p>
+  <md>
+    <mrow>C(5,2) \amp=\binom{5}{2}</mrow>
+    <mrow>\amp=\frac{5!}{2! 3!}</mrow>
+    <mrow>\amp=10</mrow>
+  </md> 
+<p>Note, the notations <m>{}_n C_k</m> and <m>C(n,k)</m> are not yet supported by this applet. Instead, you can use the combinations function, <m>\text{nCr}(n,k)</m> by typing it in or using the corresponding button on the math keyboard.</p> 
+</section>
+
+  
+<section boxed hide="$helpChoice.selectedIndex != 10"><title>Permutations</title>
+  <p>The number of permutations of a set of <m>k</m> objects picked from a set of size <m>n</m> is given by:</p>
+  <md>
+    <mrow>P(n,k)= \frac{n!}{(n-k)!}</mrow>
+  </md>
+  <p>It is also denoted by,</p>
+    <me>P(n,k) = \text{nPr}(n,k)</me> 
+  or by,
+    <me>P(n,k) = {}_n P_k</me> 
+
+  <p>So, for this example,</p>
+  <md>
+    <mrow>P(8,3) \amp=\frac{8!}{5!}</mrow>
+    <mrow>\amp=336</mrow>
+  </md> 
+  <p>Note, the notations <m>{}_n P_k</m> and <m>P(n,k)</m> are not yet supported by this applet. Instead, you can use the combinations function, <m>\text{nPr}(n,k)</m> by typing it in or using the corresponding button on the math keyboard.</p> 
+</section>
+</div>
+</sideBySide>
+  </section>
+</section>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-7-Bell_Curve" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Bell Curve</title>
+    <p>This lesson discussed the <em>bell curve</em> as a limit, but without the 
+        formalities necessary to truly talk about the <em>Central Limit Theorem</em>. The lesson 
+        begins with some <em>binomial distributions</em> to develop an understanding of where 
+        the bell curve comes from. The standardization process (<m>z</m>-scores) are discussed with 
+        examples. Additionally, examples involving confidence intervals are presented, 
+        though no attempt is made to discuss the formalities of <em>Hypothesis Testing</em>.</p>
+        
+  <video youtube="-m6zl6EDxYM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/08/Bell-Curve-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/08/Trim-Bell-Curve.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/08/Trim-4-Bell-Curve.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/08/Trim-9-Bell-Curve.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 HWM P2.8 -->
+      <!-- <xi:include href="./ex-2-7/PR-Stat_2.xml" />
+      <xi:include href="./ex-2-7/PR-Basics_12.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

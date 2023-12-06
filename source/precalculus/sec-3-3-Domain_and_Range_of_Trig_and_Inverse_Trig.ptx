@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3-Domain_and_Range_of_Trig_and_Inverse_Trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Domain and Range of Trig and Inverse Trig Functions</title>
+    <p><em>Domain and Range of Trig and Inverse Trig Functions</em> covers the specifics of the 
+        domain and range of <m>y = \sin(x)</m>, <m>y = \cos(x)</m> and <m>y = \tan(x)</m> and their 
+        inverses. It is assumed that students are familiar with these functions and can find values 
+        for the unit circle. Background material can be found in 
+        <xref ref="sec-3-1-The_Inverse_Functions_of_Sine_and_Cosine" text="title"/> 
+        and <xref ref="sec-3-2-Tangent_and_Inverse_Tangent" text="title"/>.</p>
+        
+  <video youtube="5S1dAeHwwzM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Domain-and-Range-of-Trig-and-Inverse-Trig-Functions-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Domain-and-Range-of-Trig-and-Inverse-Trig-Functions.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Domain-and-Range-of-Trig-and-Inverse-Trig-Functions.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Domain-and-Range-of-Trig-and-Inverse-Trig-Functions.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 3.3 -->
+      <!-- <xi:include href="./ex-3-3/TR-Basics_102.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_103.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_104.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_105.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_106.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_107.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_108.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_109.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_110.doenet" />
+      <xi:include href="./ex-3-3/TR-Basics_111.doenet" /> -->
+     
+    </exercise>
+  </exercises>
+  </section>

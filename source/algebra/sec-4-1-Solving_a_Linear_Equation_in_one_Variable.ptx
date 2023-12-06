@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-1-Solving_a_Linear_Equation_in_one_Variable" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving a Linear Equation in One Variable</title>
+    <p><em>Solving a Linear Equation in One Variable</em> demonstrates the process for solving for a single 
+        variable x in an equation that has no exponents. You may be asked to distribute and combine like 
+        terms prior to isolating the variable.</p>
+        
+  <video youtube="nWlAbSJifWE"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/4.1-Solving-a-Linear-Equation.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-7.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-7.pdf">4-per-page</url>
+    <!-- <url href="">9-per-page</url> -->
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 and MA 1051 HWI 4.1 -->
+      <!-- <xi:include href="./ex-4-1/BA-Lines_17.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

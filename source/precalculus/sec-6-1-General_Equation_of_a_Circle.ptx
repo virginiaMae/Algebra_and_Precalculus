@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1-General_Equation_of_a_Circle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>General Equation of a Circle</title>
+    <p><em>The General Equation of a Circle</em> builds the equation from the Pythagorean Theorem. 
+        Of fundamental importance is the geometric definition and the method by which we 
+        convert geometric descriptions into algebraic formulas. The lesson on 
+        <xref ref="../algebra/ch-I-10-Introduction_to_Analytic_Geometry" text="title"/> may be useful for 
+        students trying to understand the connection between algebra and geometry. The conversion from 
+        the general form to the standard form is saved for a lesson on 
+        <xref ref="sec-6-5-Completing_the_Square" text="title"/>.</p>
+        
+  <video youtube="omXOfQfZo5c"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/General-Equation-of-a-Circle-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-General-Equation-of-a-Circle.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-General-Equation-of-a-Circle.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-General-Equation-of-a-Circle.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 6.1
+      select #2, select 1 of #1 or #3 -->
+
+      <!-- <xi:include href="./ex-6-1/TR-Conics_1.doenet" />
+      <xi:include href="./ex-6-1/TR-Conics_2.doenet" />
+      <xi:include href="./ex-6-1/TR-Conics_3.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

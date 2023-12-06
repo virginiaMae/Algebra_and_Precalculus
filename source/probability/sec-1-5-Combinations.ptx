@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-5-Combinations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Combinations</title>
+    <p>This lesson develops an understanding of Combinations as they 
+        relate to <xref ref="sec-1-3-Permutations" text="title"/>. The connection between ordered lists 
+        (Permutations) and unordered sets (Combinations) is of fundamental 
+        importance and time should be spent developing this connection. The 
+        recursion of Pascal’s Triangle and its connection to the recursion for 
+        Combinations is presented here. That connection is also of fundamental 
+        importance in understanding probability. This idea is also used in the  
+        standard formula for calculating binomial probabilities (<em>i.e.</em> calculating 
+        using the Binomial Distribution).</p>
+        
+  <video youtube="JiDvkbYU4Fo"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Combinations-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-Combinations.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-4-Combinations.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-9-Combinations.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+        <!-- MA1031 HWI P1.5: the following 3 problems  -->
+        <!-- <xi:include href="./ex-1-5/PR-Counting_2.xml" /> -->
+        <!-- <xi:include href="./ex-1-5/PR-Counting_3.xml" /> -->
+        <!-- <xi:include href="./ex-1-5/PR-Counting_4.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

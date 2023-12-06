@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-2-Solving_3x3_Systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving <m>3\times3</m> Systems of Linear Equations</title>
+    <p><em>Solving <m>3\times3</m> Systems of Linear Equations</em> demonstrates the substitution method and 
+        the elimination method for solving a system of three linear equations in three variables. As was done in 
+        the <xref ref="sec-7-1-Solving_2x2_Systems" text="title"/> lesson, the connection to linear 
+        algebra, vector spaces and matrices is not mentioned.</p>
+        
+  <video youtube="x-mskJrH6Q4"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Solving-3-x-3-Systems-of-Linear-Equations-script.pdf">Transcript</url>
+
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-Solving-3-x-3-Systems-of-Linear-Equations.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-4-Solving-3-x-3-Systems-of-Linear-Equations.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-9-Solving-3-x-3-Systems-of-Linear-Equations.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 7.2 -->
+      <!-- <xi:include href="./ex-7-2/TR-SysOfEq_8.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

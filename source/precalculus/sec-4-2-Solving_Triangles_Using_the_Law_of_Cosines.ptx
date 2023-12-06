@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-2-Solving_Triangles_Using_the_Law_of_Cosines" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Triangles Using the Law of Cosines</title>
+    <p><em>Solving Triangles Using the Law of Cosines</em> solves triangles in the Side-Angle-Side (SAS) and 
+        Side-Side-Side (SSS) cases. It refers to the Law of Sines to complete the solving process, so 
+        familiarity with <xref ref="sec-4-1-Solving_Triangles_Using_the_Law_of_Sines_Part_I" text="title"/> is helpful, 
+        but not necessary. Each problem could be solved using only the Law of Cosines. The remaining case, the 
+        ambiguous Side-Side-Angle (SSA) case is shown in 
+        <xref ref="sec-4-3-Solving_Triangles_Using_the_Law_of_Sines_Part_II" text="title"/>.  
+        The proof of the Law of Cosines is not given here, only examples where the Law of Cosines 
+        is used to solve triangles</p>
+        
+  <video youtube="xp_HVqkMs_w"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/07/Solving-Triangles-Using-the-Law-of-Cosines-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/07/Trim-Solving-Triangles-Using-the-Law-of-Cosines.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/07/Trim-4-Solving-Triangles-Using-the-Law-of-Cosines.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/07/Trim-9-Solving-Triangles-Using-the-Law-of-Cosines.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 4.2 -->
+
+      <!-- <xi:include href="./ex-4-2/TR-Triangles_25.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_26.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_27.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_28a.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_28b.doenet" /> -->
+
+      <!-- from MA1151 HWI 4.b.A -->
+      <!-- <xi:include href="./ex-4-2/TR-Triangles_41.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_42.doenet" />
+      <xi:include href="./ex-4-2/TR-Triangles_43.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

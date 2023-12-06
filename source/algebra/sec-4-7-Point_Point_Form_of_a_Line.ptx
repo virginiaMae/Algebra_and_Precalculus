@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-7-Point_Point_Form_of_a_Line" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Point-Point Form of a Line</title>
+    <p><em>Point-Point Form of a Line</em> relies on the 
+        <xref ref="sec-4-6-Point_Slope_Form_of_a_Line" text="title"/> 
+        and adds no new notation or formula. It is connected to the 
+        <xref ref="sec-4-5-Slope_Intercept_Form" text="title"/> in two examples, 
+        including the <em>Intercept-Intercept Form of a Line</em>, which 
+        is treated as a special case here.</p>
+        
+  <video youtube="oA7VrhjxVQU"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Point-Point-Form-of-a-Line-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-12.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-12.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-11.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

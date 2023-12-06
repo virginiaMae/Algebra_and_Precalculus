@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-8-Rational_Exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rational Exponents</title>
+    <p><em>Rational Exponents</em> uses the definition of an exponent to develop 
+        the connection between rational exponents and roots. Examples using 
+        both roots and powers are discussed. For this lesson, we assume 
+        that the base is a positive real number, and for practical purposes, 
+        the base is greater than 1 (otherwise we could just use a negative exponent). 
+        It is assumed that the output will also be a positive real number; 
+        the exponent 1/2 denotes the <alert>positive</alert> square root.</p>
+        
+  <video youtube="U3-XxQnoCSQ"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Rational-Exponents-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-5.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-5.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-5.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- MA1049 HW2 first two problems. technically, this is review for this section but no where else to
+      put it...
+      <xi:include href="./ex-1-8/BA-Basics_112.xml" />
+      <xi:include href="./ex-1-8/BA-Basics_113.xml" />
+      <xi:include href="./ex-1-8/BA-Basics_114.xml" /> -->
+
+      <!-- MA1051 HW M1.9 / MA1031 HW M1.9 select 2-->
+      <!-- <xi:include href="./ex-1-8/BA-ExpLog_16.xml" />
+      <xi:include href="./ex-1-8/BA-ExpLog_17.xml" />
+      <xi:include href="./ex-1-8/BA-ExpLog_18.xml" />
+      <xi:include href="./ex-1-8/BA-ExpLog_19.xml" />
+      <xi:include href="./ex-1-8/BA-ExpLog_20.xml" />
+      <xi:include href="./ex-1-8/BA-ExpLog_21.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

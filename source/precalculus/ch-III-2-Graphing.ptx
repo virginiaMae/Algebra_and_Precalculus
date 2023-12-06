@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-2-Graphing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphing</title>
+
+  <introduction>
+    <p>Chapter 2 is devoted to the graphs of trig functions. 
+      Most of the attention is spent on sine and cosine waves, and understanding 
+      amplitude, frequency, wavelength and phase shift. The graphs of the other 
+      four trig functions are discussed briefly.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-2-1-Graphs_of_Waves.ptx" />
+  <xi:include href="sec-2-2-Amplitude.ptx" />
+  <xi:include href="sec-2-3-Frequency_Wavelength_and_Period.ptx" />
+  <xi:include href="sec-2-4-Graphs_of_other_Trig_Functions.ptx" />
+  <xi:include href="sec-2-5-Phase_Shift.ptx" />
+
+</chapter>

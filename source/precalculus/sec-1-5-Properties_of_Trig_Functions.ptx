@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-5-Properties_of_Trig_Functions">
+    <title>Properties of Trig Functions</title>
+    <p><em>Properties of Trig Functions</em> expands the special unit circle values from 
+        <m>0\; \text{to } 2 \pi</m> to include angles larger than <m>2 \pi</m> and negative angles. 
+        By the end of the lesson, students should be able to find the sine and cosine values for 
+        arbitrarily large angles. Information about the quadrant an angle is in should allow students 
+        to find these values having only memorized the unit circle from <m>0^{\circ} \; \text{to } 90^{\circ}</m>.</p>
+        
+  <video youtube="M69oB6ScxFc"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Properties-of-Trig-Fns-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-Properties-of-Trig-Functions.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-4-Properties-of-Trig-Functions.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-9-Properties-of-Trig-Functions.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 1.5 -->
+      <!-- <xi:include href="./ex-1-5/TR-Basics_36.doenet" />
+      <xi:include href="./ex-1-5/TR-Basics_41.doenet" />
+      <xi:include href="./ex-1-5/TR-Basics_46.doenet" />
+      <xi:include href="./ex-1-5/TR-Basics_48.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-3-General_Equation_of_a_Parabola" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>General Equation of a Parabola</title>
+    <p><em>The General Equation of a Parabola</em> applies graph transformations to 
+        the standard parabola <m>y = x^2</m>. It also discusses the parabola 
+        <m>x = y^2</m>. The conversion from the general form 
+        to the standard form is saved for a lesson on 
+        <xref ref="sec-6-5-Completing_the_Square" text="title"/>.</p>
+        
+  <video youtube="u5V-sytPAig"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/General-Equation-of-a-Parabola-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-General-Equation-of-a-Parabola.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-General-Equation-of-a-Parabola.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-General-Equation-of-a-Parabola.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="./ex-6-3/TR-Conics_14.doenet" />
+      <xi:include href="./ex-6-3/TR-Conics_15.doenet" />
+      <xi:include href="./ex-6-3/TR-Conics_16.doenet" />
+      <xi:include href="./ex-6-3/TR-Conics_17.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

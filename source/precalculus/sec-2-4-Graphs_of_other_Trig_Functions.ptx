@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-4-Graphs_of_other_Trig_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphs of Other Trig Functions</title>
+    <p><em>Graphs of Other Trig Functions</em> shows the graphs of 
+        <m>y = \tan x</m>, <m>y = \cot x</m>, <m>y = \sec x</m> and <m>y = \csc x</m>. The lesson does 
+        not cover transformations of these graphs as they have little application. The main use of the 
+        graph of <m>y = \tan x</m> is to be able to talk about <m>y = \arctan x</m>, which is useful 
+        in some contexts.</p>
+        
+  <video youtube="pzuAUc55qrw"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Graphs-of-Other-Trig-Functions-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Graphs-of-Other-Trig-Functions.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Graphs-of-Other-Trig-Functions.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Graphs-of-Other-Trig-Functions.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

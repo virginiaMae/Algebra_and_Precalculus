@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-8-Piecewise_Defined_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Piecewise-Defined Functions</title>
+    <p><em>Piecewise-Defined Functions</em> demonstrates the process for graphing functions 
+        which are defined separately for different parts of the domain. The absolute value 
+        function is discussed in detail.</p>
+        
+  <video youtube="gQcoCfu-cHw"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Piecewise-Defined-Functions.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim-3.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim4-3.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/10/Trim9-3.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- from MA1051 HWV 3.8 -->
+      <!-- <xi:include href="./ex-3-8/BA-Fns_49.doenet" />
+      <xi:include href="./ex-3-8/BA-Fns_50.doenet" /> -->
+      
+    </exercise>
+  </exercises>
+  </section>

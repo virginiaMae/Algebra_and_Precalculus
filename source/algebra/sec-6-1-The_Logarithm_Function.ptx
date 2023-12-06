@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1-The_Logarithm_Function" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Logarithm Function</title>
+    <p><em>The Logarithm Function</em> is developed as the inverse to the exponential function, 
+        and these connections are stressed throughout, including later in the topic 
+        <xref ref="./sec-6-2-Properties_of_Logarithms" text="title"/>. The 
+        domain and range of both the exponential and logarithm functions are 
+        dealt with, though no attempt is made here to have students solve for the 
+        domain of a logarithmic function.</p>
+        
+  <video youtube="sYoYw_lQdmk"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Log-Fn-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim-11.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim4-11.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-11.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1031 HWI 6.1 and MA 1051 HWI 6.1,
+      select 3 from the following list-->
+      <!-- <xi:include href="./ex-6-1/BA-ExpLog_1.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_2.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_3.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_23.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_24.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_26.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_31.xml" />
+      <xi:include href="./ex-6-1/BA-ExpLog_38.xml" /> -->
+
+     
+    </exercise>
+  </exercises>
+  </section>

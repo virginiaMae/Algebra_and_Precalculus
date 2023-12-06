@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-3-Adding_and_Subtracting_Vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Adding and Subtracting Vectors</title>
+    <p><em>Adding and Subtracting Vectors</em> develops the standard operations (addition, scalar multiplication) 
+        for two-dimensional vectors. The graphic interpretation is shown, as well as the formal computations. 
+        This lesson is the final step in the preparation for 
+        <xref ref="sec-5-3-Applications_of_Vectors" title="text"/>.</p>
+        
+  <video youtube="iDekun1SHgg"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Adding-and-Subtracting-Vectors-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Adding-and-Subtracting-Vectors.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Adding-and-Subtracting-Vectors.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Adding-and-Subtracting-Vectors.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 5.3 -->
+      <!-- <xi:include href="./ex-5-3/TR-Vectors_9a.doenet" />
+      <xi:include href="./ex-5-3/TR-Vectors_9b.doenet" />
+      <xi:include href="./ex-5-3/TR-Vectors_10.doenet" />
+      <xi:include href="./ex-5-3/TR-Vectors_11.doenet" />
+      <xi:include href="./ex-5-3/TR-Vectors_12.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-5-Phase_Shift" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Phase Shift</title>
+    <p><em>Phase Shift</em> is the third and final lesson in establishing the general wave model
+        <me>y = A \sin(Bx + C) + D</me>
+        It relies on earlier lessons on <xref ref="sec-2-2-Amplitude" text="title"/> and 
+        <xref ref="sec-2-3-Frequency_Wavelength_and_Period" text="title"/>.</p>
+        
+  <video youtube="BNc9d6VZx0g"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Phase-Shift-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-Phase-Shift.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-4-Phase-Shift.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Phase-Shift.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- <xi:include href="" /> -->
+    </exercise>
+  </exercises>
+  </section>

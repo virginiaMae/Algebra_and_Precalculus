@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-1-Sequences_and_Recursion" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sequences and Recursion</title>
+    <p><em>Sequences and Recursion</em> introduces the notation and terminology associated with sequences of numbers. 
+        The connection between <em>sequences</em> and <em>functions</em> is discussed. The details 
+        <xref ref="sec-8-2-Sigma_Notation" text="title"/>, <xref ref="sec-8-3-Arithmetic_Sequences_and_Series" text="title"/>
+         and <xref ref="sec-8-4-Geometric_Sequences_and_Series" text="title"/> are saved for other lessons, 
+         though they are foreshadowed in this topic.</p>
+        
+  <video youtube="ob4hmqdqBPk"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Sequences-and-Recursion-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-Sequences-and-Recursion.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-4-Sequences-and-Recursion.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-9-Sequences-and-Recursion.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWI 8.1 -note problems located in algebra ex-2-2 -->
+      <!-- <xi:include href="../algebra/ex-2-2/TR-Series_1a.doenet" />
+      <xi:include href="../algebra/ex-2-2/TR-Series_1b.doenet" />
+      <xi:include href="../algebra/ex-2-2/TR-Series_2a.doenet" />
+      <xi:include href="../algebra/ex-2-2/TR-Series_2b.doenet" /> -->
+    </exercise>
+  </exercises>
+  </section>

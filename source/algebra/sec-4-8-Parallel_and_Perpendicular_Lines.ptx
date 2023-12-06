@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-8-Parallel_and_Perpendicular_Lines" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Parallel and Perpendicular Lines</title>
+    <p><em>Parallel and Perpendicular Lines</em> uses the 
+        <xref ref="sec-4-6-Point_Slope_Form_of_a_Line" text="title"/> of a Line to write equations of lines in the two cases; 
+        finding the line parallel (perpendicular) to a given line, passing through a 
+        given point.</p>
+        
+  <video youtube="jkGLwWeUt7U"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Parallel-and-Perp-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-13.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-13.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-12.pdf">9-per-page</url>
+  </p>
+  
+  
+  <exercises>
+    <exercise>
+      <!-- Doenet problems here -->
+      <!-- From MA1051 HWM 4.8 -->
+      <!-- <xi:include href="./ex-4-8/BA-Lines_9.xml" />
+      <xi:include href="./ex-4-8/BA-Lines_11.xml" />
+      <xi:include href="./ex-4-8/BA-Lines_14.xml" />
+      <xi:include href="./ex-4-8/BA-Lines_16.xml" /> -->
+    </exercise>
+  </exercises>
+  </section>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-I-6-Exponential_and_Logarithmic_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Functions</title>
+
+  <introduction>
+    <p>This chapter establishes the exponential growth model, 
+      connecting it to geometric sequences. Applications of the exponential growth model, 
+      such as Continuously <xref ref="sec-6-4-Compounding_Interest" text="title"/>, 
+      <xref ref="sec-6-5-Radioactive_Decay" text="title"/> and 
+      <xref ref="sec-6-6-Newtons_Law_of_Cooling" text="title"/> 
+      are emphasized. <xref ref="sec-6-1-The_Logarithm_Function" text="title"/> 
+      is defined as a tool to solve for certain 
+      parameters in the exponential growth model and the 
+      <xref ref="sec-6-2-Properties_of_Logarithms" text="title"/> are presented.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-6-1-The_Logarithm_Function.ptx" />
+  <xi:include href="sec-6-2-Properties_of_Logarithms.ptx" />
+  <xi:include href="sec-6-3-Examples_Using_the_Properties_of_Logarithms.ptx" />
+  <xi:include href="sec-6-4-Compounding_Interest.ptx" />
+  <xi:include href="sec-6-5-Radioactive_Decay.ptx" />
+  <xi:include href="sec-6-6-Newtons_Law_of_Cooling.ptx" />
+  
+
+</chapter>
