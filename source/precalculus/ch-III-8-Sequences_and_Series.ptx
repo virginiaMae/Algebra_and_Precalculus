@@ -7,7 +7,7 @@
     <p>Chapter 8 gives a brief introduction to sequences and series. 
         <xref ref="sec-8-2-Sigma_Notation" text="title"/> is introduced, as well as 
         <xref ref="sec-8-3-Arithmetic_Sequences" text="title"/> and 
-        <xref ref="sec-8-4-Geometric_Sequences" text="title"/>. Connections are made between 
+        <xref ref="sec-8-4-Geometric_Sequences_and_Series" text="title"/>. Connections are made between 
          sequences and equations of lines and the explicit formula for an arithmetic sequence is 
         given as  <m>a_n = d(n) + a_0</m>. This differs from others formulation of  <m>a_n = a_1 + d(n - 1)</m>
           as the former more closely matches the slope-intercept form of a line <m>y = mx + b</m>. Similarly, a 
@@ -19,5 +19,6 @@
   <xi:include href="sec-8-1-Sequences_and_Recursion.ptx" />
   <xi:include href="sec-8-2-Sigma_Notation.ptx" />
   <xi:include href="sec-8-3-Arithmetic_Sequences.ptx" />
+  <xi:include href="sec-8-4-Geometric_Sequences_and_Series.ptx" />
 
 </chapter>

@@ -21,22 +21,25 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
       <!-- MA1049 HW2 first two problems. technically, this is review for this section but no where else to
-      put it...
-      <xi:include href="./ex-1-8/BA-Basics_112.xml" />
-      <xi:include href="./ex-1-8/BA-Basics_113.xml" />
-      <xi:include href="./ex-1-8/BA-Basics_114.xml" /> -->
+      put it...-->
+    
+      <!-- MA1051 HW M1.9 / MA1031 HW M1.9 select 2 from second grouping-->
+ 
+  <figure xml:id="figure-1-8-1">
+    <interactive xml:id="int-1-8-1" doenet="yes">
+      <xi:include href="./ex-1-8/BA-Basics_112.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-Basics_113.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-Basics_114.doenet" parse="text"/>
 
-      <!-- MA1051 HW M1.9 / MA1031 HW M1.9 select 2-->
-      <!-- <xi:include href="./ex-1-8/BA-ExpLog_16.xml" />
-      <xi:include href="./ex-1-8/BA-ExpLog_17.xml" />
-      <xi:include href="./ex-1-8/BA-ExpLog_18.xml" />
-      <xi:include href="./ex-1-8/BA-ExpLog_19.xml" />
-      <xi:include href="./ex-1-8/BA-ExpLog_20.xml" />
-      <xi:include href="./ex-1-8/BA-ExpLog_21.xml" /> -->
-    </exercise>
-  </exercises>
+      <xi:include href="./ex-1-8/BA-ExpLog_16.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-ExpLog_17.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-ExpLog_18.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-ExpLog_19.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-ExpLog_20.doenet" parse="text"/>
+      <xi:include href="./ex-1-8/BA-ExpLog_21.doenet" parse="text"/> 
+    </interactive>
+  </figure>
   </section>

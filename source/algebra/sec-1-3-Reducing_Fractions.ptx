@@ -21,25 +21,29 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
-      <!-- For MA1049 HW1 #1-2
-      <xi:include href="./ex-1-3/BA-Basics_27.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_28.xml" /> -->
 
-      <!-- for MA1031 HWM 1.3 and MA1051 HWI 1.3, select 2 from below: -->
-      <!-- <xi:include href="./ex-1-3/BA-Basics_74.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_75.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_76.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_77.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_78.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_79.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_80.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_81.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_82.xml" />
-      <xi:include href="./ex-1-3/BA-Basics_83.xml" /> -->
+      <!-- For MA1049 HW1 #1-2, select first grouping-->
 
-    </exercise>
-  </exercises>
+      <!-- for MA1031 HWM 1.3 and MA1051 HWI 1.3, select 2 from second grouping: -->
+      <figure xml:id="figure-1-3-1">
+        <interactive xml:id="int-1-3-1" doenet="yes">
+          <xi:include href="./ex-1-3/BA-Basics_27.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_28.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_74.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_75.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_76.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_77.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_78.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_79.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_80.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_81.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_82.doenet" parse="text"/>
+          <xi:include href="./ex-1-3/BA-Basics_83.doenet" parse="text"/>
+        </interactive>
+      </figure>
+       
+
+   
   </section>

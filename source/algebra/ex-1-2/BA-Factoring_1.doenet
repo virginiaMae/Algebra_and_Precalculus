@@ -1,0 +1,79 @@
+<problem newNameSpace>
+<setup>
+<select assignNames="x y" numToSelect="2">x xy y^2z xz z^3 yz z^2 x^2 xz^2</select>
+<selectFromSequence name="a" from="-5" to="5" exclude="-1 0 1"/>
+<select assignNames="b c d"numToSelect="3">1 2 3 4 5 7 9 11 13</select>
+<math name="factoredExpr">$a($b $x + $c $y + $d)</math> 
+<number name="term1">$a $b</number>
+<number name="term2">$a $c</number>
+<number name="term3">$a $d</number>
+<number><gcd name="gcd">$a $term1 $term2 $term3</gcd></number>
+<boolean name="test">$gcd = $a</boolean>
+<math name="sol" simplify="numberspreserveorder">$factoredExpr</math>
+</setup>
+
+
+<!--testing-->
+<!-- <p>a = $a</p>
+<p>b = $b</p>
+<p>c = $c</p>
+<p>d = $d</p>
+<p>gcd = $gcd</p>
+<p>test = $test</p>
+<p>factoredExpr = $factoredExpr</p>
+<p>sameFactoring check: <hasSameFactoring>$userExpr $factoredExpr</hasSameFactoring>
+</p> -->
+<!--testing-->
+
+  
+<p>Factor 
+  <me>$factoredExpr{expand simplify}.</me></p>
+
+  
+<p><m>$factoredExpr{expand simplify} = </m>
+  <answer name="ans1">
+    <mathInput name="userExpr"/>
+    <award>
+      <when>
+        <hasSameFactoring>$userExpr $factoredExpr</hasSameFactoring>
+      </when>
+    </award>
+    <award name="noFactoring" symbolicEquality simplifyOnCompare credit="0">
+      <when>$userExpr = $factoredExpr{expand}</when>
+    </award>
+  </answer></p>
+
+<!--*********************************************
+            Feedbacks
+**********************************************-->
+<setup>
+  <select name="correctFeedback" type="text">
+    <option>Awesome!</option>
+    <option>Great job!</option>
+    <option>Fantastic!</option>
+    <option>Nice work!</option>
+    <option>Amazing!</option>
+    <option>Excellent!</option>
+    <option>Right on!</option>
+    <option>Perfect!</option>
+  </select>
+</setup>
+  <feedback condition="$ans1.creditAchieved = 1">$correctFeedback</feedback>
+
+  <feedback condition="$noFactoring">This expression will have a <term>Greatest Common Factor</term> that can be factored out of the entire expression.</feedback>
+
+<!--*********************************************
+            Hint
+**********************************************-->
+
+
+
+<!--*********************************************
+            Solution
+**********************************************-->
+<solution>
+<p>This expression has a greatest common factor of <m>$gcd</m>. Factoring out the GCF gives
+  <me>$sol</me>
+</p>
+</solution>
+</problem>

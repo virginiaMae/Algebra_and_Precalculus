@@ -15,10 +15,12 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <xi:include href="" />
-    </exercise>
-  </exercises>
+  <!-- Doenet problems here -->
+  <figure xml:id="fig-7-3-1">
+    <interactive xml:id="int-7-3-1" doenet="yes">
+      <xi:include href="./ex-7-3/TR-Conics_34.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_35.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_36.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

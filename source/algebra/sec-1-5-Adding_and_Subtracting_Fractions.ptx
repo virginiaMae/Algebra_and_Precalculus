@@ -18,23 +18,28 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
-      <!-- From MA1049 HW1 #5,6 -->
-      <!-- <xi:include href="./ex-1-5/BA-Basics_31.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_32.xml" /> -->
+      <!-- From MA1049 HW1 #5,6, first 2 problems-->
+   
+      <!-- from MA1031 HWM 1.5 and MA1051 HWI 1.5 select 4 from second grouping -->
+      
+      <figure xml:id="figure-1-5-1">
+        <interactive xml:id="int-1-5-1" doenet="yes">
+          <xi:include href="./ex-1-5/BA-Basics_31.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_32.doenet" parse="text"/>
 
-      <!-- from MA1031 HWM 1.5 and MA1051 HWI 1.5 select 4 from below -->
-      <!-- <xi:include href="./ex-1-5/BA-Basics_91.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_92.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_93.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_94.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_95.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_96.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_97.xml" />
-      <xi:include href="./ex-1-5/BA-Basics_98.xml" /> -->
 
-    </exercise>
-  </exercises>
+          <xi:include href="./ex-1-5/BA-Basics_91.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_92.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_93.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_94.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_95.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_96.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_97.doenet" parse="text"/>
+          <xi:include href="./ex-1-5/BA-Basics_98.doenet" parse="text"/>
+        </interactive>
+      </figure>
+
+   
   </section>

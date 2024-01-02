@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-3-Solving_Systems_of_Non-Linear_Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Systems of Non-Linear Equations</title>
+    <p><em>Solving Systems of Non-Linear Equations</em> covers several examples of finding the points of 
+      intersection of conic sections with each other and with lines. It moves quickly through the 
+      underlying algebraic manipulations and serves mostly as a quick review of the many techniques 
+      which may be used. Students should enter this video with a firm understanding of the algebraic 
+      techniques used to solve polynomial equations in one variable.</p>
+        
+  <video youtube="D40_OGhoFVU"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Solving-Systems-of-Non-linear-Equations-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-Solving-Systems-of-Non-linear-Equations.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-4-Solving-Systems-of-Non-linear-Equations.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-9-Solving-Systems-of-Non-linear-Equations.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <figure xml:id="fig-7-3-1">
+    <interactive xml:id="int-7-3-1" doenet="yes">
+      <xi:include href="./ex-7-3/TR-Conics_34.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_35.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_36.doenet" parse="text"/>
+    </interactive>
+  </figure>
+  </section>

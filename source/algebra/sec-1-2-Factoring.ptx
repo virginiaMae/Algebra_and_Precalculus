@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1-2-Factoring">
+<section xml:id="sec-1-2-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Factoring</title>
     
     <p>Factoring discusses the inverse process to expanding binomials. The 
@@ -8,9 +8,19 @@
         as well as general guidelines for factoring trinomials.</p>
      
 <video youtube="3yXEyF_5yF0"/>
-<exercises>
-  <exercise>
-    
-  </exercise>
-</exercises>
+
+<p>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Factoring-script.pdf">Transcript</url>
+</p>
+<p>Slideshow: 
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim-18.pdf">Full</url>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim4-18.pdf">4-per-page</url>
+  <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-15.pdf">9-per-page</url>
+</p>
+
+<figure xml:id="figure-1-2-1">
+  <interactive xml:id="int-1-2-1" doenet="yes">
+    <xi:include href="./ex-1-2/BA-Factoring_1.doenet" parse="text"/>
+  </interactive>
+</figure>
 </section>

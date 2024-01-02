@@ -22,10 +22,10 @@
 </p>
 
 
-<exercises>
-  <exercise>
-    <!-- unassigned -->
-    <!-- <xi:include href="./ex-1-6/BA-MultChoice_1.doenet" /> -->
-  </exercise>
-</exercises>
+
+<figure xml:id="figure-1-6-1">
+  <interactive xml:id="int-1-6-1" doenet="yes">
+    <xi:include href="./ex-1-6/BA-MultChoice_1.doenet" parse="text"/>
+  </interactive>
+</figure>
 </section>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-9-Solving_Trig_Equations_Part_II" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Trig Equations - Part II</title>
+    <p><em>Solving Trig Equations – Part II</em> covers examples where the angle is more 
+        complicated than simply <m>\theta</m>. Students will need to perform algebraic 
+        steps, both before and after finding angles that solve a simple trig equation.</p>
+        
+  <video youtube="CX8plyEU4ro"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Solving-Trig-Equations-Part-II-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Solving-Trig-Equations-Part-II.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Solving-Trig-Equations-Part-II.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Solving-Trig-Equations-Part-II.pdf">9-per-page</url>
+  </p>
+  
+
+      <!-- Doenet problems here -->
+      <!-- from MA1151 HWM 3.9
+      select one from the set of 2 -->
+      <figure xml:id="fig-3-9">
+        <interactive xml:id="int-3-9" doenet="yes">
+          <xi:include href="./ex-3-9/TR-Inv_52.doenet" parse="text"/>
+          <xi:include href="./ex-3-9/TR-Inv_56.doenet" parse="text"/>
+        </interactive>
+      </figure>
+
+  </section>

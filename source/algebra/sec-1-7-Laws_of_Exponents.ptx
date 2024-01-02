@@ -17,12 +17,12 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- for MA1049 HW 8 -->
-      <!-- <xi:include href="./ex-1-7/BA-ExpLog_13.xml" />
-      <xi:include href="./ex-1-7/BA-ExpLog_14.xml" /> -->
-    </exercise>
-  </exercises>
+   <!-- Doenet problems here -->
+   <!-- for MA1049 HW 8 -->
+  <figure xml:id="figure-1-7-1">
+    <interactive xml:id="int-1-7-1" doenet="yes">
+      <xi:include href="./ex-1-7/BA-ExpLog_13.doenet" parse="text"/>
+      <xi:include href="./ex-1-7/BA-ExpLog_14.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

@@ -23,8 +23,7 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 3.7B, select first 2, and then one from each subsequent grouping -->
       <!-- <xi:include href="./ex-3-7/TR-Formulas_24.doenet" /> 
@@ -40,6 +39,23 @@
 
       <xi:include href="./ex-3-7/TR-Formulas_30.doenet" /> 
       <xi:include href="./ex-3-7/TR-Formulas_31.doenet" />  -->
-    </exercise>
-  </exercises>
+  
+
+  <!-- from MA1151 HWM 3.7B #25 and #26 -->
+  <figure xml:id="fig-3-7">
+    <interactive xml:id="int-3-7" doenet="yes">
+      <xi:include href="./ex-3-7/TR-Formulas_24.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_21.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_22.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_23.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_27.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_29.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_30.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_31.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_25.doenet" parse="text"/>
+      <xi:include href="./ex-3-7/TR-Formulas_26.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

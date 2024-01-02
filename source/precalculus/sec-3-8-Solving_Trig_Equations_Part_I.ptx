@@ -20,10 +20,29 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
-      <!-- <xi:include href="" /> -->
-    </exercise>
-  </exercises>
+      <!-- from MA1151 HW3.8M include first problem, and select one from each following set of two problems -->
+      <!-- <xi:include href="./ex-3-8/TR-Inv_51.doenet" />
+
+
+      <xi:include href="./ex-3-8/TR-Inv_49.doenet" />
+      <xi:include href="./ex-3-8/TR-Inv_53.doenet" />
+
+
+      <xi:include href="./ex-3-8/TR-Inv_50.doenet" />
+      <xi:include href="./ex-3-8/TR-Inv_54.doenet" /> -->
+
+      <!-- unassigned, but related: -->
+      <!-- <xi:include href="./ex-3-8/TR-Inv_55.doenet" /> -->
+  <figure xml:id="fig-3-8">
+    <interactive xml:id="int-3-8" doenet="yes">
+      <xi:include href="./ex-3-8/TR-Inv_51.doenet" parse="text"/>
+      <xi:include href="./ex-3-8/TR-Inv_49.doenet" parse="text"/>
+      <xi:include href="./ex-3-8/TR-Inv_53.doenet" parse="text"/>
+      <xi:include href="./ex-3-8/TR-Inv_50.doenet" parse="text"/>
+      <xi:include href="./ex-3-8/TR-Inv_54.doenet" parse="text"/>
+      <xi:include href="./ex-3-8/TR-Inv_55.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

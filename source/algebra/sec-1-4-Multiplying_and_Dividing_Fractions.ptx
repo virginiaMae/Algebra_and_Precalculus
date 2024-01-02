@@ -17,13 +17,13 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-1.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
+  <!-- Doenet problems here -->
       <!-- For MA1049 HW1 #3,4 -->
-      <!-- <xi:include href="./ex-1-4/BA-Basics_29.xml" />
-      <xi:include href="./ex-1-4/BA-Basics_30.xml" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-1-4-1">
+    <interactive xml:id="int-1-4-1" doenet="yes">
+      <xi:include href="./ex-1-4/BA-Basics_29.doenet" parse="text"/>
+      <xi:include href="./ex-1-4/BA-Basics_30.doenet" parse="text"/>
+    </interactive>
+  </figure>
+
   </section>

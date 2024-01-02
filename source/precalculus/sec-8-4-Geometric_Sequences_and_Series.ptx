@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-4-Geometric_Sequences_and_Series" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Geometric Sequences and Series</title>
+    <p><em>Geometric Sequences and Series</em> focuses primarily on the sum of an infinite geometric series. 
+        General terminology and notation for geometric sequences are introduced as well as the sum of a 
+        finite geometric series.</p>
+        
+  <video youtube="DUtnYdGd7Ik"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Geometric-Sequences-and-Series-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-Geometric-Sequences-and-Series.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-4-Geometric-Sequences-and-Series.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-9-Geometric-Sequences-and-Series.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <figure xml:id="fig-8-4-1">
+    <interactive xml:id="int-8-4-1" doenet="yes">
+      <xi:include href="./ex-8-4/TR-Series_15a.doenet" parse="text"/>
+      <xi:include href="./ex-8-4/TR-Series_15b.doenet" parse="text"/>
+      <xi:include href="./ex-8-4/TR-Series_15c.doenet" parse="text"/>
+      <xi:include href="./ex-8-4/TR-Series_18.doenet" parse="text"/>
+    </interactive>
+  </figure>
+  </section>

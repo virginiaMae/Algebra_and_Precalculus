@@ -17,10 +17,21 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
-      <!-- <xi:include href="" /> -->
-    </exercise>
-  </exercises>
-  </section>
+      <figure xml:id="fig-4-3-1">
+        <interactive xml:id="int-4-3-1" doenet="yes">
+          <xi:include href="./ex-4-3/TR-Triangles_31a.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_31b.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_31c.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_31d.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_31e.doenet" parse="text"/> 
+          <xi:include href="./ex-4-3/TR-Triangles_35.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_36.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_37a.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_37b.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_44.doenet" parse="text"/>
+          <xi:include href="./ex-4-3/TR-Triangles_45.doenet" parse="text"/>
+        </interactive>
+      </figure>
+</section>
