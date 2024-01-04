@@ -17,10 +17,9 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- <xi:include href="" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-4-12-1">
+    <interactive xml:id="int-4-12-1" doenet="yes"> 
+      <xi:include href="./ex-4-12/BA-Lines_18.doenet" parse="text" /> 
+    </interactive>
+  </figure>
   </section>

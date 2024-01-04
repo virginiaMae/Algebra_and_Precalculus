@@ -22,15 +22,14 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-4.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- From MA1051 HWM 2.4 and From MA1031 HWV 2.4 -->
-      <!-- <xi:include href="./ex-2-4/BA-Seq_2.xml" />
-      <xi:include href="./ex-2-4/TR-Series_29.xml" />
-      <xi:include href="./ex-2-4/TR-Series_30.xml" /> -->
-      
-    </exercise>
-  </exercises>
+
+    <!-- Doenet problems here -->
+    <!-- From MA1051 HWM 2.4 and From MA1031 HWV 2.4 -->
+  <figure xml:id="figure-2-4-1">
+    <interactive xml:id="int-2-4-1" doenet="yes">
+      <xi:include href="./ex-2-4/BA-Seq_2.doenet" parse="text" />
+      <xi:include href="./ex-2-4/TR-Series_29.doenet" parse="text" />
+      <xi:include href="./ex-2-4/TR-Series_30.doenet" parse="text" />
+    </interactive>
+  </figure>
   </section>

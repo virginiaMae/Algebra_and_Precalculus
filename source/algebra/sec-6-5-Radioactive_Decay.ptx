@@ -21,15 +21,13 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-10.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- from MA1031 HWI 6.5 and MA1051 HWI 6.5 -->
-      <!-- <xi:include href="./ex-6-5/BA-ExpLog_47.xml" />
-      <xi:include href="./ex-6-5/BA-ExpLog_48.xml" />
-      <xi:include href="./ex-6-5/BA-ExpLog_49.xml" /> -->
-      
-    </exercise>
-  </exercises>
+<!-- Doenet problems here -->
+<!-- from MA1031 HWI 6.5 and MA1051 HWI 6.5 --> 
+  <figure xml:id="figure-6-5-1">
+    <interactive xml:id="int-6-5-1" doenet="yes">
+      <xi:include href="./ex-6-5/BA-ExpLog_47.doenet" parse="text"/>
+      <xi:include href="./ex-6-5/BA-ExpLog_48.doenet" parse="text"/>
+      <xi:include href="./ex-6-5/BA-ExpLog_49.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

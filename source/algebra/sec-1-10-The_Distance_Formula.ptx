@@ -18,11 +18,12 @@
 
 
 
-<exercises>
-  <exercise>
-  <!-- from MA1031 and MA1051 HWI 1.10 -->
-  <!-- <xi:include href="./ex-1-10/BA-Basics_84.xml" />  
-  <xi:include href="./ex-1-10/BA-Basics_85.xml" />   -->
-  </exercise>
-</exercises>
+
+<!-- from MA1031 and MA1051 HWI 1.10 -->
+<figure xml:id="figure-1-10-1">
+  <interactive xml:id="int-1-10-1" doenet="yes">
+    <xi:include href="./ex-1-10/BA-Basics_84.doenet" parse="text" />
+    <xi:include href="./ex-1-10/BA-Basics_85.doenet" parse="text" />
+  </interactive>
+</figure>
 </section>

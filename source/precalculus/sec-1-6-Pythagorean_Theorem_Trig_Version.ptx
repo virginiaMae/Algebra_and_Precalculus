@@ -17,31 +17,31 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/220/2018/09/Trim-9-Pythagorean-Theorem-Trig-Version.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
+  <p>For the following problems, Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
+
       <!-- Doenet problems here -->
-      <!-- from MA1151 HWI 1.6A -->
-      <!-- <xi:include href="./ex-1-6/TR-Basics_54.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_57.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_59.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_60.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_64.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_65.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_67.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_70.doenet" /> -->
+      <!-- from MA1151 HWI 1.6A TR-Basics_54, 57, 59, 60, 64, 65, 67, 70 -->
+      <!-- from MA1151 HWI 1.6B TR-Basics_56, 58, 61, 63, 66, 68, 69-->
+  <figure xml:id="figure-1-6-3">
+    <interactive xml:id="int-1-6-3" doenet="yes"> 
+      <xi:include href="./ex-1-6/TR-Basics_54.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_57.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_59.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_60.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_64.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_65.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_67.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_70.doenet" parse="text"/>
 
-
-      <!-- from MA1151 HWI 1.6B -->
-      <!-- <xi:include href="./ex-1-6/TR-Basics_55.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_56.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_58.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_61.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_63.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_66.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_68.doenet" />
-      <xi:include href="./ex-1-6/TR-Basics_69.doenet" /> -->
+      <xi:include href="./ex-1-6/TR-Basics_55.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_56.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_58.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_61.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_63.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_66.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_68.doenet" parse="text"/>
+      <xi:include href="./ex-1-6/TR-Basics_69.doenet" parse="text"/>
   
-    </exercise>
-  </exercises>
+    </interactive>
+  </figure>
   </section>

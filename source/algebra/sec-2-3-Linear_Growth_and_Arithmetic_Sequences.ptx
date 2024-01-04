@@ -21,18 +21,19 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-        <!-- from MA1031 and MA1051 HWI 2.3 -->
-        <!-- <xi:include href="./ex-2-3/BA-Seq_1.xml" />
-        <xi:include href="./ex-2-3/TR-Series_7.xml" />
-        <xi:include href="./ex-2-3/TR-Series_9.xml" /> -->
 
-        <!-- Unassigned -->
-        <!-- <xi:include href="./ex-2-3/TR-Series_3.doenet" /> 
-        <xi:include href="./ex-2-3/TR-Series_4.doenet" />  -->
-        
-    </exercise>
-  </exercises>
+  <!-- Doenet problems here -->
+        <!-- from MA1031 and MA1051 HWI 2.3 , first 3 problems-->
+
+        <!-- Last two problems - Unassigned -->
+  <figure xml:id="figure-2-3-1">
+    <interactive xml:id="int-2-3-1" doenet="yes">
+      <xi:include href="./ex-2-3/BA-Seq_1.doenet" parse="text" />
+      <xi:include href="./ex-2-3/TR-Series_7.doenet" parse="text" />
+      <xi:include href="./ex-2-3/TR-Series_9.doenet" parse="text" />
+
+      <xi:include href="./ex-2-3/TR-Series_3.doenet" parse="text" />
+      <xi:include href="./ex-2-3/TR-Series_4.doenet" parse="text" />
+    </interactive>
+  </figure>
   </section>

@@ -20,5 +20,6 @@
   <xi:include href="sec-8-2-Sigma_Notation.ptx" />
   <xi:include href="sec-8-3-Arithmetic_Sequences.ptx" />
   <xi:include href="sec-8-4-Geometric_Sequences_and_Series.ptx" />
+  <xi:include href="sec-8-5-Binomial_Theorem.ptx" />
 
 </chapter>

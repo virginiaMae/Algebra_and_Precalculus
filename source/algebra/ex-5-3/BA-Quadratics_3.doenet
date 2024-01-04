@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence name="h" from="1" to="5"/>
   <selectFromSequence name="k" from="-5" to="5"/>
@@ -147,15 +147,15 @@
   </li>
   <li><p>Since the equation does not appear to factor easily, we will use the formula to find the <m>x</m>-coordinate in this example. </p>
     <md>
-      <mrow>x &= -\frac{b}{2a}</mrow>
-      <mrow>&= -\frac{$b}{2 \cdot $a}</mrow>
-      <mrow>&= $hAns</mrow>
+      <mrow>x \amp= -\frac{b}{2a}</mrow>
+      <mrow>\amp= -\frac{$b}{2 \cdot $a}</mrow>
+      <mrow>\amp= $hAns</mrow>
     </md>
   </li>
   <li><p>We can now simply evaluate the function at <m>x = $hAns</m> to find the <m>y</m>-coordinate, <m>k</m>.</p>
     <md>
-      <mrow>k &= f($hAns) = ($hAns)^2 - 12($hAns) + 43</mrow>
-      <mrow>&= $k</mrow>
+      <mrow>k \amp= f($hAns) = ($hAns)^2 - 12($hAns) + 43</mrow>
+      <mrow>\amp= $k</mrow>
     </md>
     So, the vertex is <m>($hAns, $k)</m>.
   </li>

@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence assignNames="a b c" numToSelect="3" from="2" to="5" withReplacement/>
   <selectFromSequence name="d" from="1" to="4"/>

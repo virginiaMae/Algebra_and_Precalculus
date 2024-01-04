@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="a" from="1" to="3" exclude="$b"/>
   <selectFromSequence name="b" from="1" to="4"/>

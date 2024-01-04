@@ -16,7 +16,18 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/10/Trim-9-Solving-2-x-2-Systems-of-Linear-Equations.pdf">9-per-page</url>
   </p>
   
-  
+  <!-- Doenet problems here -->
+  <!-- from MA1031 HWI 4.10 -->
+  <!--Not sure why these assignments are labeled 4.10, because the 4.10 section
+  in the algebra book deals with parallel and perpendicular lines...-->
+  <figure xml:id="figure-7-1-1">
+    <interactive xml:id="int-7-1-1" doenet="yes"> 
+      <xi:include href="./ex-7-1/TR-SysOfEq_1.doenet" parse="text"/>
+      <xi:include href="./ex-7-1/TR-SysOfEq_2.doenet" parse="text"/>
+      <xi:include href="./ex-7-1/TR-SysOfEq_3.doenet" parse="text"/>
+    </interactive>
+  </figure>
+
   <exercises>
     <exercise>
       <!-- Doenet problems here -->

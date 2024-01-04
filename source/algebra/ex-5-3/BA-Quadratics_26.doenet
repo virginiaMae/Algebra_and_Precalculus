@@ -1,4 +1,4 @@
- <problem>
+ <problem newNameSpace>
   <setup>
     <selectFromSequence name="a" from="2" to="4"/>
     <selectFromSequence name="b" from="2" to="4"/>

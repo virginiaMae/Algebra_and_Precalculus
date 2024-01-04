@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="B" from="50" to="75"/>
   <selectFromSequence name="a" from="4" to="8"/>
@@ -31,9 +31,9 @@
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>a &= $a</mrow>
-    <mrow>B &= $B^{\circ}</mrow>
-    <mrow>C &= $C^{\circ}</mrow>
+    <mrow>a \amp= $a</mrow>
+    <mrow>B \amp= $B^{\circ}</mrow>
+    <mrow>C \amp= $C^{\circ}</mrow>
   </md>
 
   

@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="a" from="4" to="8"/>
   <selectFromSequence name="c" from="11" to="14"/>
@@ -31,9 +31,9 @@
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>a &= $a</mrow>
-    <mrow>c &= $c</mrow>
-    <mrow>C &= $C^{\circ}</mrow>
+    <mrow>a \amp= $a</mrow>
+    <mrow>c \amp= $c</mrow>
+    <mrow>C \amp= $C^{\circ}</mrow>
   </md>
 
   
@@ -146,9 +146,9 @@
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>a &= $a</mrow>
-    <mrow>c &= $c</mrow>
-    <mrow>C &= $C^{\circ}</mrow>
+    <mrow>a \amp= $a</mrow>
+    <mrow>c \amp= $c</mrow>
+    <mrow>C \amp= $C^{\circ}</mrow>
   </md>
 
   
@@ -195,24 +195,24 @@
 <ul>
   <li><p>Our first step is to solve for side length <m>b</m> using the Pythagorean Theorem.</p>
     <md>
-      <mrow>a^2 + b^2 &= c^2</mrow>
-      <mrow>$a^2 + b^2 &= $c^2</mrow>
-      <mrow>b &= \sqrt{49 - 9}</mrow>
-      <mrow>b &= 2\sqrt{10} \approx $bn</mrow>
+      <mrow>a^2 + b^2 \amp= c^2</mrow>
+      <mrow>$a^2 + b^2 \amp= $c^2</mrow>
+      <mrow>b \amp= \sqrt{49 - 9}</mrow>
+      <mrow>b \amp= 2\sqrt{10} \approx $bn</mrow>
     </md>
     It will make our work more accurate throughout if we continue to use the precise value, rather than the decimal approximation.
   </li>
   <li><p>Next, we can compute the angles <m>A</m> or <m>B</m> using the inverse trigonometric functions with our known side lengths. We'll start with angle <m>A</m>.</p>
     <md>
-      <mrow>\sin(A) &= \bigg(\frac{a}{c}\bigg) \implies A = \sin^{-1} \bigg( \frac{a}{c} \bigg)</mrow>
-      <mrow>A &= \sin^{-1} \bigg( \frac{$a}{$c} \bigg) \approx $An^{\circ}</mrow>
+      <mrow>\sin(A) \amp= \bigg(\frac{a}{c}\bigg) \implies A = \sin^{-1} \bigg( \frac{a}{c} \bigg)</mrow>
+      <mrow>A \amp= \sin^{-1} \bigg( \frac{$a}{$c} \bigg) \approx $An^{\circ}</mrow>
     </md>
   </li>
   <li><p>Finally, we compute angle <m>B</m>. Since the sum of all angles in a triangle is <m>180^{\circ}</m>, we can simply subtract angle <m>A</m> and <m>C</m> from <m>180</m>.</p>
     <md>
-      <mrow>A + B + C &= 180</mrow>
-      <mrow>B &\approx 180 - $An - $C</mrow>
-      <mrow>B &\approx $Bn</mrow>
+      <mrow>A + B + C \amp= 180</mrow>
+      <mrow>B \amp\approx 180 - $An - $C</mrow>
+      <mrow>B \amp\approx $Bn</mrow>
     </md>
   </li>
   <li><p>The final solution is:</p>

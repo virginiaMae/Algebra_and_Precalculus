@@ -15,16 +15,17 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- from MA1051 HWI 5.6 -->
-      <!-- <xi:include href="./ex-5-6/BA-Quadratics_8.xml" />
-      <xi:include href="./ex-5-6/BA-Quadratics_9.xml" /> -->
 
-      <!-- from MA1051 HWM 5.6 -->
-      <!-- <xi:include href="./ex-5-6/BA-Quadratics_15.xml" />
-      <xi:include href="./ex-5-6/BA-Quadratics_16.xml" /> -->
-    </exercise>
-  </exercises>
+      <!-- Doenet problems here -->
+      <!-- from MA1051 HWI 5.6 use BA-Quadratics_8 and 9 -->
+      <!-- from MA1051 HWM 5.6 use BA-Quadratics_15, 16-->
+  <figure xml:id="figure-5-5-1">
+    <interactive xml:id="int-5-5-1" doenet="yes">
+      <xi:include href="./ex-5-6/BA-Quadratics_8.doenet" parse="text"/>
+      <xi:include href="./ex-5-6/BA-Quadratics_9.doenet" parse="text"/>
+
+      <xi:include href="./ex-5-6/BA-Quadratics_15.doenet" parse="text"/>
+      <xi:include href="./ex-5-6/BA-Quadratics_16.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

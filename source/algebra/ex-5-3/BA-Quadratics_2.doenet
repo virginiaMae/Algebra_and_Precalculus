@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <select name="a">2 3</select>
   <select name="b">1 7</select>
@@ -136,48 +136,7 @@
 <!--*********************************************
             Hint
 **********************************************-->
-<hint name="helpSection" newNameSpace><title>Worked Example</title>
 
-<p>Here is a similar worked example:</p>    
-<example newNameSpace>
-  <setup>
-  <math name="a">-4</math>
-  <math name="b">-1</math>
-  <math name="factoredExpr">(x + $a)(x + $b)</math>
-  <math name="axisX">(-$b + -$a)/2</math>
-</setup>
-
-<p><em>Find the axis of symmetry of the parabola</em></p>
-  <me>$factoredExpr{expand}</me>
-
-<p><em><alert>Solution.</alert></em></p>
-  <ul>
-    <li>First, we factor the quadratic to obtain <m>y = $factoredExpr</m></li>
-    <li>Next, we sketch the roots and a rough graph of the parabola; noting that, if expanded, the coefficient <m>a</m> of the quadratic equation would be equal to <m>1</m>, so the parabola will open upwards and pass through the two roots as shown below:
-  <graph xmin="-4" xmax="10" ymin="-4" ymax="10">
-    <function name="f1">$factoredExpr</function>
-    <point name="A" fixed>(1,0)</point>
-    <point name="B" fixed>(4,0)</point>
-    <line fixed styleNumber="8">x = 5/2</line>
-  </graph></li>
-<li>The roots are <m>x = <math simplify name="r">-$a</math></m> and <m>x = <math simplify name="s">-$b</math></m></li>
-<li>Computing the midpoint between the roots,
-  <md>
-  <mrow>x \amp= \frac{r + s}{2}</mrow>
-    <mrow>\amp= \frac{$r + $s}{2}</mrow>
-    <mrow>\amp= $axisX{simplify}.</mrow>
-  </md></li>
-<li>The axis of symmetry is given by
-  <me>x = $axisX{simplify}.</me></li>
-  </ul>
-</example>
-
-<p><em><alert>How to check your answer</alert></em>: If you found the midpoint between the roots to calculate the axis of symmetry, try calculating the vertex to see if it matches. (Reverse this process if you used the vertex method.) Of course, you can always verify the axis of symmetry by graphing the given parabola  with the graphing tool above.</p>
-     
-
-  </hint>
-  
-  
 
 <!--*********************************************
             Solution

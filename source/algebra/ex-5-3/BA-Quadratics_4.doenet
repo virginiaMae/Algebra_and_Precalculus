@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence name="h" from="1" to="5"/>
   <selectFromSequence name="k" from="-5" to="5"/>
@@ -132,85 +132,6 @@
 <!--*********************************************
             Hint
 **********************************************-->
-<hint ><title>Worked Example</title>
-
-
-<p>Here is a similar worked example:</p>   
-<example  newNamespace>
-<setup>
-<!--   <selectFromSequence name="h" from="1" to="5"/>
-  <selectFromSequence name="k" from="-5" to="5"/>
-  <selectFromSequence name="e" from="-1" to="1" exclude="0"/> -->
-
-  <number name="h">6</number>
-  <number name="k">7</number>
-  <number name="e">1</number>
-  <math name="factoredExpr">(x - $e $h)^2 + $k</math>
-  <math name="expr" expand>$factoredExpr</math>
-  <math name="hAns" simplify>$e $h</math>
-  <math name="a">1</math>
-  <math name="b" simplify>-2 $e $h</math>
-  <math name="c">($e$h)^2 + $k</math>
-</setup>
- 
-
-<p><em>Find the vertex of the parabola</em></p>
-  <me>y = $factoredExpr{expand}</me>
-
-<ul>
-  <li><p>There are several approaches to solving this problem. One approach is to complete the square, and read the vertex coordinates from the equation in vertex form. Another approach is to factor the expression, find the <m>x</m>-coordinate as the midpoint between the roots. Finally, one can use the formula for the <m>x</m>-coordinate of the vertex
-    <me>x = -\frac{b}{2a}.</me></p>
-  </li>
-  <li><p>Since the equation does not appear to factor easily, we will use the formula to find the <m>x</m>-coordinate in this example. </p>
-    <md>
-      <mrow>x &= -\frac{b}{2a}</mrow>
-      <mrow>&= -\frac{$b}{2 \cdot $a}</mrow>
-      <mrow>&= $hAns</mrow>
-    </md>
-  </li>
-  <li><p>We can now simply evaluate the function at <m>x = $hAns</m> to find the <m>y</m>-coordinate, <m>k</m>.</p>
-    <md>
-      <mrow>k &= f($hAns) = ($hAns)^2 - 12($hAns) + 43</mrow>
-      <mrow>&= $k</mrow>
-    </md>
-    So, the vertex is <m>($hAns, $k)</m>.
-  </li>
-  <li><p>As a final check, we can graph the parabola and our calculated vertex.</p>
-<setup>
-  <number name="ymax">$k + 10</number>
-  <number name="ymin">$k - 10</number>
-</setup>
-  
-<sideBySide margins="5%" widths="30% 70%">
-<div><p>Graph parabola with given equation:</p> 
-  <p><m>y = </m> <mathInput name="eq1" prefill="$expr"/></p>
-
-  <p>Graph point at the proposed vertex:</p> 
-  <p><m>(h,k) = </m></p>
-  <p><m>\bigg(</m> <mathInput name="graphH" prefill="$hAns"/><m>,</m>
-  <mathInput name="graphK" prefill="$k"/><m> \bigg)</m> </p>
-</div>
-
-  
-<graph name="g1" ymax="$ymax" ymin="$ymin">
-  <function name="givenParabola" styleNumber="5">$eq1</function>
-  <point name="graphVertex" coords="($graphH, $graphK)"/>
-</graph>
-  
-</sideBySide>
-
-<p>Since our graphed point does occur at the vertex of the problem, we solved this correctly. We can also see from the graph that factoring the problem would not have worked, as the parabola has no real roots.</p>
-  </li>      
-</ul>
-  
-
-
-
-</example>
- </hint>
-
-
-
   
 <!--*********************************************
             Solution

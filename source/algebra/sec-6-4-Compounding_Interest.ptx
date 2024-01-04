@@ -20,14 +20,16 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
       <!-- for MA1031 HWI 6.4 and MA1051 HWI 6.4 -->
-      <!-- <xi:include href="./ex-6-4/BA-ExpLog_9.xml" />
-      <xi:include href="./ex-6-4/BA-ExpLog_10.xml" />
-      <xi:include href="./ex-6-4/BA-ExpLog_11.xml" />
-      <xi:include href="./ex-6-4/BA-ExpLog_43.xml" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-6-4-1">
+    <interactive xml:id="int-6-4-1" doenet="yes">
+      <xi:include href="./ex-6-4/BA-ExpLog_9.doenet" parse="text"/>
+      <xi:include href="./ex-6-4/BA-ExpLog_10.doenet" parse="text"/>
+      <xi:include href="./ex-6-4/BA-ExpLog_11.doenet" parse="text"/>
+      <xi:include href="./ex-6-4/BA-ExpLog_43.doenet" parse="text"/>
+    </interactive>
+  </figure>
+ 
   </section>

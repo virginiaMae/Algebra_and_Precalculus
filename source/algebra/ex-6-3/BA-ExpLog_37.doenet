@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="a" from="5" to="23"/>
   <selectFromSequence name="b" from="6" to="19"/>
@@ -82,7 +82,7 @@
     <me>x \log 2 = \log 17</me></p>
   </li>
   <li><p>Divide both sides by <m>\log 2</m>. Then we have
-    <me>10^x = \frac{\log(17)}{\log(2)}</me>
+    <me>x = \frac{\log(17)}{\log(2)}</me>
   </p>
     <p>Note that this answer is precise and is perfectly acceptable. Alternatively, you can use a calculator to obtain a decimal approximation.</p>
   </li>

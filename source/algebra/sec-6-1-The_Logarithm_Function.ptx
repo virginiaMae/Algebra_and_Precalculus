@@ -4,7 +4,7 @@
     <title>The Logarithm Function</title>
     <p><em>The Logarithm Function</em> is developed as the inverse to the exponential function, 
         and these connections are stressed throughout, including later in the topic 
-        <xref ref="./sec-6-2-Properties_of_Logarithms" text="title"/>. The 
+        <xref ref="sec-6-2-Properties_of_Logarithms">Properties of Logarithms</xref>. The 
         domain and range of both the exponential and logarithm functions are 
         dealt with, though no attempt is made here to have students solve for the 
         domain of a logarithmic function.</p>
@@ -20,21 +20,20 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
       <!-- from MA1031 HWI 6.1 and MA 1051 HWI 6.1,
       select 3 from the following list-->
-      <!-- <xi:include href="./ex-6-1/BA-ExpLog_1.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_2.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_3.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_23.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_24.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_26.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_31.xml" />
-      <xi:include href="./ex-6-1/BA-ExpLog_38.xml" /> -->
-
-     
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-5-9-1">
+    <interactive xml:id="int-5-9-1" doenet="yes">
+      <xi:include href="./ex-6-1/BA-ExpLog_1.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_2.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_3.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_23.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_24.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_26.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_31.doenet" parse="text"/>
+      <xi:include href="./ex-6-1/BA-ExpLog_38.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

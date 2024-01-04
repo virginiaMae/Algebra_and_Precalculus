@@ -3,7 +3,7 @@
 <section xml:id="sec-5-5-Root_Form_of_a_Parabola" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Root Form of a Parabola</title>
     <p><em>Root Form of a Parabola</em> uses the 
-        <xref ref="sec-5-4-Factor_Root_Theorem" text="title"/> to graph parabolas of the form <m>y = a(x-r)(x-s)</m>. The axis 
+        <xref ref="sec-5-4-Factor-Root_Theorem" text="title"/> to graph parabolas of the form <m>y = a(x-r)(x-s)</m>. The axis 
         of symmetry, and therefore the vertex is found easily in this case. 
         Activities in this chapter help to connect the <em>Root Form of a Parabola</em> with the 
         general and standard forms.</p>
@@ -19,15 +19,15 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
       <!-- From Old MA1031 HWM 5.5 & also current MA1051 HWM 5.5-->
-
-      <!-- <xi:include href="./ex-5-5/BA-Quadratics_11.xml" />
-      <xi:include href="./ex-5-5/BA-Quadratics_12.xml" />
-      <xi:include href="./ex-5-5/BA-Quadratics_13.xml" />
-      <xi:include href="./ex-5-5/BA-Quadratics_14.xml" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-5-5-1">
+    <interactive xml:id="int-5-5-1" doenet="yes">
+      <xi:include href="./ex-5-5/BA-Quadratics_11.doenet" parse="text"/>
+      <xi:include href="./ex-5-5/BA-Quadratics_12.doenet" parse="text"/>
+      <xi:include href="./ex-5-5/BA-Quadratics_13.doenet" parse="text"/>
+      <xi:include href="./ex-5-5/BA-Quadratics_14.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

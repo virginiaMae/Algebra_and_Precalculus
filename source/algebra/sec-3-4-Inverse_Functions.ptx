@@ -15,13 +15,16 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- <xi:include href="./ex-3-4/BA-Fns_42.xml" />
-      <xi:include href="./ex-3-4/BA-Fns_43.xml" />
-      <xi:include href="./ex-3-4/BA-Fns_46.xml" />
-      <xi:include href="./ex-3-4/BA-Fns_47.xml" /> -->
-    </exercise>
-  </exercises>
+    <!-- Doenet problems here -->
+    <!-- from MA1051 HWM 3.4 BA-Fns_42,43,46,47-->
+    <!-- from MA1051 HWV 3.6 BA-Fns_40-->
+  <figure xml:id="figure-3-4-1">
+    <interactive xml:id="int-3-4-1" doenet="yes"> 
+      <xi:include href="./ex-3-4/BA-Fns_40.doenet" parse="text"/>    
+      <xi:include href="./ex-3-4/BA-Fns_42.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/BA-Fns_43.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/BA-Fns_46.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/BA-Fns_47.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

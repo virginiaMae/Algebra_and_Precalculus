@@ -1,5 +1,4 @@
-
-  <problem>
+<problem newNameSpace>
   <setup>
     <select assignNames="(f)">
       <option><function>x^2</function></option>
@@ -42,8 +41,8 @@
   
   <p>Given the functions,
     <md>
-      <mrow>f(x) &= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
-    <mrow>g(x) &= $g.formula{simplify="numbersPreserveOrder"}</mrow>
+      <mrow>f(x) \amp= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
+    <mrow>g(x) \amp= $g.formula{simplify="numbersPreserveOrder"}</mrow>
     </md>
     evaluate <m name="expr1">f(g($a))</m> and <m name="expr2">g(f($a))</m>.</p>
   
@@ -78,60 +77,12 @@
   </setup>
     <feedback condition="$allCorrect and $ans1.creditAchieved = 1">$correctFeedback</feedback>
   
-    <feedback condition="$ans1.numSubmissions > 1 and $ans1.creditAchieved != 1">To review 
-        function notation, take a look at the video textbook 
-        lesson <xref ref="sec-3-2-Function_Notation">here</xref>.</feedback>
-  
-    
+
   
   <!--*********************************************
               Hint
   **********************************************-->
-  <hint name="helpSection"><title>Worked Example</title>
   
-  <p>Here is a similar worked example:</p> 
-  
-  <example newNameSpace>
-  <setup>
-    <function name="f">x^3</function>
-    <function name="g">3x - 1</function>
-    <math name="a">-1</math>
-    <math name="b">7</math>
-    <math name="sol1" simplify>$$f($$g($a))</math>
-    <math name="sol2" simplify>$$g($$f($a))</math>
-  </setup>
-  
-  
-  <p><em>Given the functions,</em>
-    <md>
-      <mrow>f(x) &= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
-      <mrow>g(x) &= $g.formula{simplify="numbersPreserveOrder"}</mrow>
-    </md>
-    <em>evaluate <m name="expr1">f(g($a))</m> and <m name="expr2">g(f($a))</m>.</em></p>
-  
-    
-  <p><em><alert>Solution.</alert></em></p>
-  <ul>
-    <li><p>We are asked to evaluate the function compositions <m>f(g($a))</m> and <m>g(f($a))</m>. In each case, we first evaluate the inner function, then use the output of this first step as the input of the outer function.</p>
-    </li>
-    <li><p>To evaluate <m>f(g($a))</m>, first evaluate the inner function <m>g</m>
-      <me>g($a) = 3($a) - 1 = <math name="gOfa" simplify>3($a) - 1</math></me></p>
-      <p>Use the output of the previous step as the input to <m>f</m>
-      <me>f($gOfa) = ($gOfa) ^3 = <math name="fOfg" simplify>$gOfa ^3</math></me></p>
-      <p>Therefore, <m>f(g($a)) = $fOfg</m>.</p>
-    </li>
-    <li><p>To evaluate <m>g(f($a))</m>, first evaluate the inner function <m>f</m>
-      <me>f($a) = ($a)^3 = <math name="fOfa" simplify>$a^3</math></me></p>
-      <p>Use the output of the previous step as the input to <m>g</m>
-      <me>g($fOfa) = 3($fOfa) - 1  = <math name="gOff" simplify>3($fOfa) - 1</math></me></p>
-      <p>Therefore, <m>g(f($a)) = $gOff</m>.</p>
-    </li>
-  </ul>
-  </example>
-  
-
-  </hint>
-    
   
   <!--*********************************************
               Solution

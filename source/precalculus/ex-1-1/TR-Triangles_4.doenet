@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="A" from="15" to="40"/>
   <selectFromSequence name="c" from="12" to="20"/>
@@ -31,9 +31,9 @@
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>c &= $c</mrow>
-    <mrow>A &= $A^{\circ}</mrow>
-    <mrow>C &= $C^{\circ}</mrow>
+    <mrow>c \amp= $c</mrow>
+    <mrow>A \amp= $A^{\circ}</mrow>
+    <mrow>C \amp= $C^{\circ}</mrow>
   </md>
 
   
@@ -152,9 +152,9 @@
 
 <p>In the triangle below:</p>
   <md>
-    <mrow>c &= $c</mrow>
-    <mrow>A &= $A^{\circ}</mrow>
-    <mrow>C &= $C^{\circ}</mrow>
+    <mrow>c \amp= $c</mrow>
+    <mrow>A \amp= $A^{\circ}</mrow>
+    <mrow>C \amp= $C^{\circ}</mrow>
   </md>
 
   
@@ -206,20 +206,20 @@
 <ul>
   <li><p>First, we compute angle <m>B</m>. Since the sum of all angles in a triangle is <m>180^{\circ}</m>, we can simply subtract angle <m>A</m> and <m>C</m> from <m>180</m>.</p>
     <md>
-      <mrow>A + B + C &= 180</mrow>
-      <mrow>B &= 180 - $A - $C</mrow>
-      <mrow>B &= $B</mrow>
+      <mrow>A + B + C \amp= 180</mrow>
+      <mrow>B \amp= 180 - $A - $C</mrow>
+      <mrow>B \amp= $B</mrow>
     </md>
   </li>
   <li><p>Next, we can use the definition of the <m>\sin</m> and <m>\cos</m> ratios to solve for the missing side lengths.</p>
     <md>
-      <mrow>\sin(A) &= \bigg( \frac{a}{c} \bigg)</mrow>
-      <mrow>\sin(30) &= \bigg( \frac{a}{10} \bigg) \implies a = 10 \sin(30) = 5</mrow>
+      <mrow>\sin(A) \amp= \bigg( \frac{a}{c} \bigg)</mrow>
+      <mrow>\sin(30) \amp= \bigg( \frac{a}{10} \bigg) \implies a = 10 \sin(30) = 5</mrow>
     </md>
     <p>In a similar manner,</p>
     <md>
-      <mrow>\cos(A) &= \bigg( \frac{b}{c} \bigg)</mrow>
-      <mrow>\cos(30) &= \bigg( \frac{b}{10} \bigg) \implies b = 10 \cos(30) \approx 8.66</mrow>
+      <mrow>\cos(A) \amp= \bigg( \frac{b}{c} \bigg)</mrow>
+      <mrow>\cos(30) \amp= \bigg( \frac{b}{10} \bigg) \implies b = 10 \cos(30) \approx 8.66</mrow>
     </md>
   </li>
 

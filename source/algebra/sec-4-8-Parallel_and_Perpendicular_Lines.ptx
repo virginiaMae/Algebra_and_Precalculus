@@ -17,15 +17,14 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/06/Trim9-12.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
+  <!-- Doenet problems here -->
       <!-- From MA1051 HWM 4.8 -->
-      <!-- <xi:include href="./ex-4-8/BA-Lines_9.xml" />
-      <xi:include href="./ex-4-8/BA-Lines_11.xml" />
-      <xi:include href="./ex-4-8/BA-Lines_14.xml" />
-      <xi:include href="./ex-4-8/BA-Lines_16.xml" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-4-5-1">
+    <interactive xml:id="int-4-5-1" doenet="yes">  
+      <xi:include href="./ex-4-8/BA-Lines_9.doenet" parse="text"/>
+      <xi:include href="./ex-4-8/BA-Lines_11.doenet" parse="text"/>
+      <xi:include href="./ex-4-8/BA-Lines_14.doenet" parse="text"/>
+      <xi:include href="./ex-4-8/BA-Lines_16.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

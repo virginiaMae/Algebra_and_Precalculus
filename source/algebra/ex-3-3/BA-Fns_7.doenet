@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
   <setup>
     <select name="a">2 3 4</select>
     <selectFromSequence name="b" from="2" to="6"/>
@@ -92,48 +92,7 @@
   <!--*********************************************
               Hint
   **********************************************-->
-  <hint name="helpSection"><title>Worked Example</title>
-  
-  <p>Here is a similar worked example:</p> 
-  
-  <example newNameSpace>
-  <setup>
-    <math name="a">5</math>
-    <math name="b">7</math>
-    <function name="f" simplify="numbersPreserveOrder" styleNumber="5">$a/sqrt(x+$b)
-      <label><m>f(x)</m></label>
-    </function>
-     <math name="interval">(-$b, infinity)
-    </math>
-  </setup>
-  
-  <p><em>What is the <alert>domain</alert> of the function:</em></p>
-  <m>\large{f(x) = $f.formula{simplify="numbersPreserveOrder"}}</m>
-  
-    
-  <p><em><alert>Solution.</alert></em></p>
-  <ul>
-    <li>First, although it's not required to solve the problem, it's always helpful to graph the function to get a sense of its behavior:
-      <graph size="small" showNavigation="false">
-      $f
-  </graph>
-    </li>
-    <li><p>The <term>domain</term> of a function consists of the interval of input values over which the function is defined. Notice that the given function involves a square root operation. Since our function is defined for real numbers only, we know that the expression under the square root cannot evaluate to a negative number. Since the square root is in the denominator, we also cannot have <m>\sqrt{0}</m> in the denominator. So, for what values of the input, <m>x</m>, is the expression under the square root a positive number?
-      <md>
-        <mrow>x + $b &> 0</mrow>
-        <mrow>x &> -$b</mrow>
-      </md></p></li>
-  
-    <li><p>What about values that are much larger than <m>-$b</m>? There is no reason we cannot evaluate arbitrarily large values of <m>x</m>, and still compute a function output. Therefore, the upper value of our domain interval is infinity.</p></li>
-  
-    <li><p>In interval notation, we can write this as <math>(-$b,infinity)</math>.</p>
-    </li>
-  </ul>
-  </example>
-  
-
-  </hint>
-    
+ 
   
   <!--*********************************************
               Solution

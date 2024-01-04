@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <select name="a">
     <option><math>-3</math></option>
@@ -153,15 +153,15 @@
   </li>
   <li><p>First notice that the two terms have a common factor of <m>2</m>.</p>
     <md>
-      <mrow>y &= $expr</mrow>
-      <mrow>&= 2(x^2 + 6x) + 11</mrow>    
+      <mrow>y \amp= $expr</mrow>
+      <mrow>\amp= 2(x^2 + 6x) + 11</mrow>    
     </md>
   </li>
   <li><p>Next, we "complete the square" for the first two terms <m>(x^2 + 6x)</m>. In order to make this binomial a perfect square, we need to add <m>3^2</m>, because <m>(x^2 +6x + 3^2) = (x +3)^2</m>.</p>
     <p>We have to be careful here to keep our original expression unchanged. So, if we add a <m>3^2</m> inside the parentheses, we need to <em>subtract</em> a <m>2 \cdot 3^2</m> outside the parentheses.</p>
     <md>
-      <mrow>y &= 2(x^2 + 6x + 3^2) + 11  - 2(3^2)</mrow>
-      <mrow>&= 2(x + 3)^2 - 7</mrow>
+      <mrow>y \amp= 2(x^2 + 6x + 3^2) + 11  - 2(3^2)</mrow>
+      <mrow>\amp= 2(x + 3)^2 - 7</mrow>
     </md>
   <p>The equation is now in vertex form.</p>
   </li>

@@ -1,4 +1,4 @@
- <problem>
+ <problem newnamespace>
   <setup>
     <selectFromSequence name="a" from="2" to="8"/>
     <selectFromSequence assignNames="b c" from="3" to="8" numToSelect="2"/>

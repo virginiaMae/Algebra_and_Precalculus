@@ -1,5 +1,5 @@
   
-  <problem>
+  <problem newNameSpace>
   <setup>
     <select name="a">
       <option><math>-3</math></option>
@@ -151,9 +151,9 @@
   <ul>
     <li><p>To change the format of the given equation we need to first expand the binomial term and then simplify the resulting expression.</p>
       <md>
-        <mrow>y &= $vertexForm</mrow>
-        <mrow>&= $a(x - $h)(x - $h) + $k</mrow>
-        <mrow>&= $standardForm</mrow>
+        <mrow>y \amp= $vertexForm</mrow>
+        <mrow>\amp= $a(x - $h)(x - $h) + $k</mrow>
+        <mrow>\amp= $standardForm</mrow>
       </md>
     </li>
     <li><p>As a final check, we can graph the parabola in both forms to verify that the resulting graphs overlay one another</p>
@@ -181,10 +181,11 @@
   </graph>
     
   </sideBySide>
-  
+
   <p>Click the checkbox to view the second graph. The equations represent the same graph and our work is correct. </p>
     </li>      
   </ul>
+  </example>
     
    </hint>
     

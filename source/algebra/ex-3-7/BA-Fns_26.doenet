@@ -1,5 +1,5 @@
 
-  <problem>
+  <problem newNameSpace>
   <setup>
     <select assignNames="(f) (g)" numToSelect="2">
       <option><function>x^2</function></option>
@@ -29,8 +29,8 @@
   
   <p>Given the functions,
     <md>
-      <mrow>f(x) &= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
-    <mrow>g(x) &= $g.formula{simplify="numbersPreserveOrder"}</mrow>
+      <mrow>f(x) \amp= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
+    <mrow>g(x) \amp= $g.formula{simplify="numbersPreserveOrder"}</mrow>
     </md>
     evaluate <m name="expr">f($a) + g($b)</m>.</p>
   
@@ -63,10 +63,6 @@
   </setup>
     <feedback condition="$allCorrect">$correctFeedback</feedback>
   
-   
-     <feedback condition="$ans1.numSubmissions > 1 and $ans1.creditAchieved != 1">To review 
-        function notation, take a look at the video textbook 
-        lesson <xref ref="sec-3-2-Function_Notation">here</xref>.</feedback>
   
   <!--*********************************************
               Hint
@@ -87,8 +83,8 @@
   
   <p><em>Given the functions,
     <md>
-      <mrow>f(x) &= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
-    <mrow>g(x) &= $g.formula{simplify="numbersPreserveOrder"}</mrow>
+      <mrow>f(x) \amp= $f.formula{simplify="numbersPreserveOrder"}</mrow> 
+    <mrow>g(x) \amp= $g.formula{simplify="numbersPreserveOrder"}</mrow>
     </md>
     evaluate <m name="expr">f($a) + g($b).</m></em></p>
   
@@ -100,7 +96,7 @@
     <li><p>To evaluate <m>f($a)</m>, we substitute <m>$a</m> in for the independent variable, <m>x</m>
       <me>f($a) = ($a)^3 = <math name="fOfa" simplify>$a^3</math></me></p>
     </li>
-    <li><p>To evaluate <m>g($b)</m>, we substitute <m>$a</m> in for the independent variable, <m>x</m>
+    <li><p>To evaluate <m>g($b)</m>, we substitute <m>$b</m> in for the independent variable, <m>x</m>
       <me>g($b) = 3($b) - 1 = <math name="gOfb" simplify>3$b - 1</math></me></p>
     </li>
     <li><p>Our final result is

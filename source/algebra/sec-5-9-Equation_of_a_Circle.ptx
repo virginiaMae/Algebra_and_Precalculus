@@ -17,14 +17,15 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+ 
       <!-- Doenet problems here -->
       <!-- from MA1051 HWI 5.9 , note some of these questions housed in the precalculus book-->
-      <!-- <xi:include href="../precalculus/ex-6-1/TR-Conics_1.doenet" />
-      <xi:include href="../precalculus/ex-6-1/TR-Conics_2.doenet" /> -->
+  <figure xml:id="figure-5-9-1">
+    <interactive xml:id="int-5-9-1" doenet="yes">
+      <xi:include href="../precalculus/ex-6-1/TR-Conics_1.doenet" parse="text"/>
+      <xi:include href="../precalculus/ex-6-1/TR-Conics_2.doenet" parse="text"/>
+    </interactive>
+  </figure>
      
-      
-    </exercise>
-  </exercises>
+ 
   </section>

@@ -19,19 +19,19 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
-      <!-- from MA1051 HWI 5.7, first part -->
-      <!-- <xi:include href="./ex-5-7/BA-Quadratics_19.xml" /> -->
+      <!-- from MA1051 HWI 5.7, BA-Quadratics_19 -->
+      <!-- from old MA1031 HWM 5.7 , and last problem in MA1051 HWI 5.7 TR-Conics_21-->
+      <!-- from MA1051 HWM 5.7 , BA-Quadratics_19,21,22-->
+  <figure xml:id="figure-5-7-1">
+    <interactive xml:id="int-5-7-1" doenet="yes">
+      <xi:include href="./ex-5-7/BA-Quadratics_19.doenet" parse="text"/>
 
-      <!-- from old MA1031 HWM 5.7 , and last problem in MA1051 HWI 5.7-->
-      <!-- <xi:include href="./ex-5-7/TR-Conics_21.xml" /> -->
+      <xi:include href="./ex-5-7/TR-Conics_21.doenet" parse="text"/>
 
-      <!-- from MA1051 HWM 5.7 -->
-      <!-- <xi:include href="./ex-5-7/BA-Quadratics_19.xml"/>
-      <xi:include href="./ex-5-7/BA-Quadratics_21.xml"/>
-      <xi:include href="./ex-5-7/BA-Quadratics_22.xml"/> -->
-    </exercise>
-  </exercises>
+      <xi:include href="./ex-5-7/BA-Quadratics_21.doenet" parse="text"/>
+      <xi:include href="./ex-5-7/BA-Quadratics_22.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="p" from="2" to="6"/>
   <selectFromSequence name="q" from="1" to="4"/>
@@ -19,7 +19,6 @@
 
 <p>If <m>\sin \theta = $expr</m> and <m>0 < \theta < \frac{\pi}{2}</m>,
 	find <m>\cos \theta</m>.  </p>
-<p>Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
 
 <aside><title>Graphing Tool</title>
 <p>Answer the following question to open the tool:</p>

@@ -3,8 +3,8 @@
 <section xml:id="sec-6-6-Newtons_Law_of_Cooling" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Newton's Law of Cooling</title>
     <p>Newton’s Law of Cooling uses the standard exponential growth/decay 
-        model similar to <xref ref="./sec-6-4-Compounding_Interest" text="title"/> and 
-        <xref ref="./sec-6-5-Radioactive_Decay" text="title"/>.</p>
+        model similar to <xref ref="sec-6-4-Compounding_Interest" text="title"/> and 
+        <xref ref="sec-6-5-Radioactive_Decay" text="title"/>.</p>
         
   <video youtube="qWXzfWuNtMo"/>
   <p>
@@ -17,13 +17,11 @@
   </p>
   
   
-  <exercises>
-    <exercise>
       <!-- Doenet problems here -->
       <!-- from MA1031 HWM 6.6 and MA 1051 HWM 6.6-->
-
-      <!-- <xi:include href="./ex-6-6/BA-ExpLog_50.xml"/> -->
-
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-6-6-1">
+    <interactive xml:id="int-6-6-1" doenet="yes">
+      <xi:include href="./ex-6-6/BA-ExpLog_50.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

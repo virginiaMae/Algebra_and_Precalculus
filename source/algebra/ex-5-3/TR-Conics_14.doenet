@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence name="h" from="-4" to="4" exclude="0"/>
   <selectFromSequence name="k" from="-4" to="4" exclude="0"/>
@@ -109,9 +109,9 @@
   </li>
   <li><p>To determine the parameter, <m>a</m>, select a point on the graph that is distinct from the vertex, and substitute its coordinates in for <m>x</m> and <m>y</m> in the vertex form equation. We'll use the given point <m>(3,2)</m></p>
     <md>
-      <mrow>y &= a(x - h)^2 + k</mrow>
-      <mrow>2 &= a(3 - 2)^2 + (-3)</mrow>
-      <mrow>5 &= a</mrow>
+      <mrow>y \amp= a(x - h)^2 + k</mrow>
+      <mrow>2 \amp= a(3 - 2)^2 + (-3)</mrow>
+      <mrow>5 \amp= a</mrow>
     </md>
   </li>
   <li><p>We now use the values for <m>h, k</m> and <m>a</m> that we've computed to write the vertex form equation

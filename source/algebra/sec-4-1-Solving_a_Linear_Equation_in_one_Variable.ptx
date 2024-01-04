@@ -16,12 +16,13 @@
     <!-- <url href="">9-per-page</url> -->
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- from MA1031 and MA 1051 HWI 4.1 -->
-      <!-- <xi:include href="./ex-4-1/BA-Lines_17.doenet" /> -->
-    </exercise>
-  </exercises>
+  <!-- Doenet problems here -->
+      <!-- from MA1031 and MA 1051 HWI 4.1 use BA-Lines_17 -->
+  <figure xml:id="figure-4-1-1">
+    <interactive xml:id="int-4-1-1" doenet="yes"> 
+      <xi:include href="./ex-4-1/BA-Basics_88.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/BA-Basics_89.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/BA-Lines_17.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

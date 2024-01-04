@@ -16,24 +16,21 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/230/2020/08/Trim9-14.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
+ 
       <!-- Doenet problems here -->
       <!-- from MA1051 HWM 6.3 -->
-      <!-- <xi:include href="./ex-6-3/BA-ExpLog_3.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_4.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_5.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_6.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_12.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_27.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_28.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_29.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_30.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_33.doenet" />
-      <xi:include href="./ex-6-3/BA-ExpLog_37.doenet" /> -->
-      
-      
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-6-3-1">
+    <interactive xml:id="int-6-3-1" doenet="yes">
+      <xi:include href="./ex-6-3/BA-ExpLog_4.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_5.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_6.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_12.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_27.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_28.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_29.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_30.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_33.doenet" parse="text"/>
+      <xi:include href="./ex-6-3/BA-ExpLog_37.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

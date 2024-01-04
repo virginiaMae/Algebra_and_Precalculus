@@ -19,12 +19,16 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
+
+
+  <!-- Doenet problems here -->
       <!-- from MA1031 and MA1051 HWI 2.2 -->
-      <!-- <xi:include href="./ex-2-2/TR-Series_1.xml" />
-      <xi:include href="./ex-2-2/TR-Series_2.xml" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-2-2-1">
+    <interactive xml:id="int-2-2-1" doenet="yes">
+      <xi:include href="./ex-2-2/TR-Series_1a.doenet" parse="text" />
+      <xi:include href="./ex-2-2/TR-Series_1b.doenet" parse="text" />
+      <xi:include href="./ex-2-2/TR-Series_2a.doenet" parse="text" />
+      <xi:include href="./ex-2-2/TR-Series_2b.doenet" parse="text" />
+    </interactive>
+  </figure>
   </section>

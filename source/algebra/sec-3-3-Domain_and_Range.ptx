@@ -17,25 +17,26 @@
   </p>
   
   
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- from MA1051 HWM 3.3 , first part -->
-      <!-- <xi:include href="./ex-3-3/BA-Fns_6.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_7.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_8.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_9.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_10.doenet" /> -->
-      
-      <!-- from MA1049 HW 6, also MA1051 second part of HWM 3.3 -->
-      <!-- <xi:include href="./ex-3-3/BA-Fns_35.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_36.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_37.doenet" />
-      <xi:include href="./ex-3-3/BA-Fns_38.doenet" /> -->
+  
 
+  <!-- Doenet problems here -->
+      <!-- from MA1051 HWM 3.3 , first 5 problems -->
+      <!-- next 5 problems are from MA1049 HW 6, also MA1051 second part of HWM 3.3 -->
+      <!-- last problem is from MA1051 HWV 3.3 -->
+  <figure xml:id="figure-3-3-1">
+    <interactive xml:id="int-3-3-1" doenet="yes">
+      <xi:include href="./ex-3-3/BA-Fns_6.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_7.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_8.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_9.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_10.doenet" parse="text"/>
 
-      <!-- from MA1051 HWV 3.3 -->
-      <!-- <xi:include href="./ex-3-3/BA-Fns_39.doenet" /> -->
-    </exercise>
-  </exercises>
+      <xi:include href="./ex-3-3/BA-Fns_35.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_36.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_37.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/BA-Fns_38.doenet" parse="text"/>
+    
+      <xi:include href="./ex-3-3/BA-Fns_39.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <math name="expr">3 a_(n-1) - 2</math>
 </setup>

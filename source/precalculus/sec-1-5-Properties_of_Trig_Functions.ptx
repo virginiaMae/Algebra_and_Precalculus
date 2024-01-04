@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1-5-Properties_of_Trig_Functions">
+<section xml:id="sec-1-5-Properties_of_Trig_Functions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Properties of Trig Functions</title>
     <p><em>Properties of Trig Functions</em> expands the special unit circle values from 
         <m>0\; \text{to } 2 \pi</m> to include angles larger than <m>2 \pi</m> and negative angles. 
@@ -19,14 +19,16 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 1.5 -->
-      <!-- <xi:include href="./ex-1-5/TR-Basics_36.doenet" />
-      <xi:include href="./ex-1-5/TR-Basics_41.doenet" />
-      <xi:include href="./ex-1-5/TR-Basics_46.doenet" />
-      <xi:include href="./ex-1-5/TR-Basics_48.doenet" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-1-5-3">
+    <interactive xml:id="int-1-5-3" doenet="yes"> 
+      <xi:include href="./widgets/Unit_circle.doenet" parse="text"/>
+      <xi:include href="./ex-1-5/TR-Basics_36.doenet" parse="text"/>
+      <xi:include href="./ex-1-5/TR-Basics_41.doenet" parse="text"/>
+      <xi:include href="./ex-1-5/TR-Basics_46.doenet" parse="text"/>
+      <xi:include href="./ex-1-5/TR-Basics_48.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

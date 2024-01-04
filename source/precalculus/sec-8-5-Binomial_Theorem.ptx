@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-5-Binomial_Theorem" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Binomial Theorem</title>
+    <p>The <em>Binomial Theorem</em> discusses the expansion of the binomial
+        <m>(x + y)^n</m>. One brief example involving a constant is discussed, 
+        but the main emphasis is on the connection to Pascal’s Triangle.</p>
+        
+  <video youtube="qcEU2-oZUsI"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Binomial-Theorem-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-Binomial-Theorem.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-4-Binomial-Theorem.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2019/12/Trim-9-Binomial-Theorem.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <!-- from MA 1151 HWM 8.5 -->
+  <figure xml:id="fig-8-5-1">
+    <interactive xml:id="int-8-5-1" doenet="yes">
+      <xi:include href="./ex-8-5/TR-Series_20.doenet" parse="text"/>
+      <xi:include href="./ex-8-5/TR-Series_21.doenet" parse="text"/>
+      <xi:include href="./ex-8-5/TR-Series_22.doenet" parse="text"/>
+      <xi:include href="./ex-8-5/TR-Series_23.doenet" parse="text"/>
+    </interactive>
+  </figure>
+  </section>

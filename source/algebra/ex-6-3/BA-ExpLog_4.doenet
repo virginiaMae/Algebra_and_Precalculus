@@ -1,4 +1,4 @@
-   <problem>
+  <problem newnamespace>
   <setup>
     <selectFromSequence assignNames="a b c" from="2" to="10" numToSelect="3"/>
     <math name="expr" simplify="numberspreserveorder" format="latex">\log_{$a} ($b $c) - \log_{$a} $c = \log_$a x</math>

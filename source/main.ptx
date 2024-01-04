@@ -22,7 +22,7 @@
     <xi:include href="./algebra/ch-I-4-Lines_and_Linear_Equations.ptx"/> 
     <xi:include href="./algebra/ch-I-5-Quadratics_Polynomials_and_Rational_Expressions.ptx"/> 
     <xi:include href="./algebra/ch-I-6-Exponential_and_Logarithmic_Functions.ptx"/> 
-    <xi:include href="./algebra/ch-I-11-Review_Topics.ptx"/> 
+    
 
    </part>
 

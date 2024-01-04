@@ -1,0 +1,75 @@
+INFO    : PreTeXt project found in `/workspaces/doenet-embed`.
+WARNING : Using CLI version 2.3.3 but project's `requirements.txt`
+WARNING : is configured to use 1.5.2. Consider either installing
+WARNING : CLI version 1.5.2 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.3.3.
+INFO    : Building with custom xsl /workspaces/doenet-embed/xsl/custom.xsl
+INFO    : Preparing to build into /workspaces/doenet-embed/output/web.
+INFO    : discovering source file's directory name: /workspaces/doenet-embed/source
+INFO    : verifying and expanding input directory: /workspaces/doenet-embed/source/../generated-assets
+INFO    : input directory expanded to absolute path: /workspaces/doenet-embed/generated-assets
+INFO    : verifying and expanding input directory: /workspaces/doenet-embed/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/doenet-embed/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.1.2
+INFO    : Runestone Services (using newer, via online CDN query): version 7.2.9
+INFO    : converting /workspaces/doenet-embed/source/main.ptx to HTML in /tmp/tmpo9jpb9gf
+INFO    : XSL conversion of /workspaces/doenet-embed/source/main.ptx by /tmp/tmpuajr863x/custom.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:ERROR: the @xml:id value "figure-4-5-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "figure-4-5-1" (xml:id)
+INFO    :     *              located within: "figure-4-5-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "int-4-5-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "int-4-5-1" (xml:id)
+INFO    :     *              located within: "int-4-5-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "figure-4-12-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "figure-4-12-1" (xml:id)
+INFO    :     *              located within: "figure-4-12-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "int-4-12-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "int-4-12-1" (xml:id)
+INFO    :     *              located within: "int-4-12-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "figure-5-5-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "figure-5-5-1" (xml:id)
+INFO    :     *              located within: "figure-5-5-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "int-5-5-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "int-5-5-1" (xml:id)
+INFO    :     *              located within: "int-5-5-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "figure-5-9-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "figure-5-9-1" (xml:id)
+INFO    :     *              located within: "figure-5-9-1" (xml:id)
+INFO    :     * PTX:ERROR: the @xml:id value "int-5-9-1" should be unique, but is authored 2 times.
+INFO    :     *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    :     *              located within: "int-5-9-1" (xml:id)
+INFO    :     *              located within: "int-5-9-1" (xml:id)
+INFO    :     * PTX:ERROR:      The @xml:id "sec-1-3-The_Radian_Measure_of_an_Angle.ptx" is invalid.  Use only letters, numbers, hyphens and underscores.
+INFO    :     * PTX:ERROR:      The @xml:id "sec-1-7-Finding_Values_of_tan_cot_sec_csc.ptx" is invalid.  Use only letters, numbers, hyphens and underscores.
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-1-3-Permutations] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-1-5-Combinations" (xml:id), "Combinations" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-4-1-Solving_Triangles_Using_Law_of_Sines_I] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-3-4-Combining_Trig_Functions_Part_I" (xml:id), "Combining Trig Functions and Inverse Trig Functions - Part I" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-4-2-Solving_Triangles_Using_Law_of_Cosines] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-3-4-Combining_Trig_Functions_Part_I" (xml:id), "Combining Trig Functions and Inverse Trig Functions - Part I" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-3-4-Combining_Trig_Functions_and_Inverse_Trig_Functions] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-3-7-Double_and_Half_Angle_Formulas" (xml:id), "Double and Half Angle Formulas" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-3-6-Combining_Trig_Functions_and_Inverse_Trig_Functions_II] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-3-7-Double_and_Half_Angle_Formulas" (xml:id), "Double and Half Angle Formulas" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [Solving_Triangles_Using_the_Law_of_Sines_Part_II] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-4-1-Solving_Triangles_Using_the_Law_of_Sines_Part_I" (xml:id), "Solving Triangles using the Law of Sines - Part I" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-5-3-Applications_of_Vectors] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-5-3-Adding_and_Subtracting_Vectors" (xml:id), "Adding and Subtracting Vectors" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [../algebra/ch-I-10-Introduction_to_Analytic_Geometry] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-6-1-General_Equation_of_a_Circle" (xml:id), "General Equation of a Circle" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-8-3-Arithmetic_Sequences_and_Series] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-8-1-Sequences_and_Recursion" (xml:id), "Sequences and Recursion" (title)
+INFO    :     * PTX:ERROR:   a cross-reference ("xref") uses references [sec-8-3-Arithmetic_Sequences_and_Series] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    :     *              located within: "sec-8-2-Sigma_Notation" (xml:id), "Sigma Notation" (title)
+INFO    : successful application of /tmp/tmpuajr863x/custom.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+

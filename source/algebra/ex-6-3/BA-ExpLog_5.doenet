@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
   <setup>
     <selectFromSequence name="a" from="2" to="10"/>
     <select name="b">
@@ -67,25 +67,6 @@
   <!--*********************************************
               Hint
   **********************************************-->
-  <hint name="helpSection"><title>Worked Example</title>
-  
-    
-  <p>Here is a similar worked example:</p> 
-  <example>
-  <p><em>Find <m>\log_{12} 144</m></em></p> 
-  
-  <p><em><alert>Solution.</alert></em></p>
-      <md>
-        <mrow>\log_a x \amp= y \;\;\text{implies}\;\;a^y = x \amp\text{general definition}</mrow>
-        <mrow>\log_{12} 144 \amp= y \;\;\text{implies}\;\;12^y = 144 \amp\text{rewrite given logarithm as an exponential}</mrow>
-        <mrow>\log_{12} 144 \amp= 2 \;\;\amp y \;\text{must be equal to}\;\;2\;\;\text{for the equation to be true}</mrow>
-      </md>
-  </example>
-  
-  
-  
-   </hint>
-    
   
   <!--*********************************************
               Solution

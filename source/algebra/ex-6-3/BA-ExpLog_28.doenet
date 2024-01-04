@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
   <select name="a">1/4 1/2 3/4</select>
   <math name="sol">81^($a)</math>
@@ -100,8 +100,8 @@
 <ul>
   <li>Simplify the left-hand side,
     <md>
-      <mrow>$exprLHS &=  \log_b 81^{$a}</mrow>
-      <mrow> &=  \log_b $solSimp</mrow>
+      <mrow>$exprLHS \amp=  \log_b 81^{$a}</mrow>
+      <mrow> \amp=  \log_b $solSimp</mrow>
     </md>
     </li>
   <li>Compare simplified expression to the right-hand side and equate corresponding terms,

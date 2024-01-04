@@ -1,4 +1,4 @@
-<problem>
+<problem newnamespace>
 <setup>
 <!--   <select name="a">120 135 150 180 210 225 240 300 315 330 360 390 405 420 450 480 495 510 540 570 585 600 630 660 675 690 720 750 765 780 810 840 855 870 900 930 945 960 990 1020 1035 1050 1080</select> -->
   <select name="a">120 135 150 180 210 225 240 300 315 330 360 390 405 420 450 480 495 510 540 570 585 600 630</select>
@@ -33,9 +33,6 @@
 
 <p>Find $expr  Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
 
-<aside><title>Unit Circle Widget</title>
-  <copy uri="doenet:doenetId=_9APk25H0Rrian8PjeB07Z&pageId=_Ac4mNitwrqS2thdWddjHF&cid=bafkreia3e2tzucww2vie2gfhfjsqvgscodfmelyysmjmufwvdmlubrhpp4" />
-</aside>
   
 <p><m>$expr = </m><answer name="ans1">
       <mathInput name="userAns"/>

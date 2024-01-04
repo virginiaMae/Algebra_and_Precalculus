@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence name="m" from="-5" to="5" exclude="-1 0 1"/>
   <selectFromSequence name="b" from="-5" to="5" exclude="0"/> 
@@ -65,10 +65,10 @@
 <ul>
   <li>We have <m>a_1 = $a1</m> and are given the recursive formula, <m>a_n = $expr</m>. To calculate <m>a_4</m> we must compute forward sequentially from <m>a_2</m>:
     <md>
-      <mrow>a_1 &= $a1</mrow>
-      <mrow>a_2 &= <math format="latex">$m \cdot $a1 + $b</math> = $a2</mrow>
-      <mrow>a_3 &= <math format="latex">$m \cdot $a2 + $b</math> = $a3</mrow>
-      <mrow>a_4 &= <math format="latex">$m \cdot $a3 + $b</math> = $a4</mrow>
+      <mrow>a_1 \amp= $a1</mrow>
+      <mrow>a_2 \amp= <math format="latex">$m \cdot $a1 + $b</math> = $a2</mrow>
+      <mrow>a_3 \amp= <math format="latex">$m \cdot $a2 + $b</math> = $a3</mrow>
+      <mrow>a_4 \amp= <math format="latex">$m \cdot $a3 + $b</math> = $a4</mrow>
     </md>
   </li>
   <li><p><m>a_4 = $a4</m></p></li>

@@ -1,4 +1,4 @@
-<problem>
+<problem newNameSpace>
 <setup>
   <selectFromSequence name="h1" from="1" to="8"/>
   <selectFromSequence name="h2" from="-1" to="1" exclude="0"/>
