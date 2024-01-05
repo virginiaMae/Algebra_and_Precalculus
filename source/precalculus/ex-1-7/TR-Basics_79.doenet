@@ -1,19 +1,19 @@
 
-<problem>
+<problem newnamespace>
 <setup>
   <selectFromSequence name="p" from="2" to="6"/>
   <selectFromSequence name="q" from="1" to="4"/>
-  <math name="expr" simplify>cos(theta) = - $p/($p + $q)</math>
-  <math name="solSin" simplify>sqrt($q^2 + 2$p $q)/($p + $q)</math>
-  <number name="solSinN">sqrt($q^2 + 2$p $q)/($p + $q)</number>
+  <math name="expr" simplify>cos(theta) = $p/($p + $q)</math>
+  <math name="solSin" simplify>-sqrt($q^2 + 2$p $q)/($p + $q)</math>
+  <number name="solSinN">-sqrt($q^2 + 2$p $q)/($p + $q)</number>
   <math name="solTan" simplify>-sqrt($q^2 + 2$p $q)/$p</math>
   <number name="solTanN">-sqrt($q^2 + 2$p $q)/$p</number>
   <math name="solCot" simplify>-$p/sqrt($q^2 + 2$p $q)</math>
   <number name="solCotN">-$p/sqrt($q^2 + 2$p $q)</number>
-  <math name="solCsc" simplify>($p + $q)/sqrt($q^2 + 2$p $q)</math>
-  <number name="solCscN">($p + $q)/sqrt($q^2 + 2$p $q)</number>
-  <math name="solSec" simplify>-($p + $q)/$p</math>
-  <number name="solSecN">-($p + $q)/$p</number>
+  <math name="solCsc" simplify>-($p + $q)/sqrt($q^2 + 2$p $q)</math>
+  <number name="solCscN">-($p + $q)/sqrt($q^2 + 2$p $q)</number>
+  <math name="solSec" simplify>($p + $q)/sqrt($q^2 + 2 $p $q)</math>
+  <number name="solSecN">($p + $q)/sqrt($q^2 + 2 $p $q)</number>
 
   <number name="zeroF" fixed>0</number>
 </setup>
@@ -29,24 +29,21 @@
 <p>cosSol = $cosSol</p> -->
 <!--testing-->
 
-<p>If $expr and <m>\frac{\pi}{2} < \theta < \pi</m>, find the values of the other five trig functions.</p>
-<p>Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
-
-
+<p>If $expr and <m>\frac{3 \pi}{2} < \theta < 2 \pi</m>, find the values of the other five trig functions.</p>
 
 <aside><title>Graphing Tool</title>
 <p>Answer the following question to open the tool:</p>
 <p>In which quadrant is <m>\theta</m> ? <nbsp/>
   <answer name="pickQ" inline weight="0">
     <choice>Quadrant I</choice>
-    <choice credit="1">Quadrant II</choice>
+    <choice>Quadrant II</choice>
     <choice>Quadrant III</choice>
-    <choice>Quadrant IV</choice>
+    <choice credit="1">Quadrant IV</choice>
   </answer></p>
 
-<div hide="$pickQ.creditAchieved != 1">  
+<div hide="$pickQ.creditAchieved != 1">
 <p>Adjust the triangle to match the problem at hand. (Note triangle distances are always positive.)</p>
-<sideBySide widths="30% 70%">
+<sideBySide widths="30% 70%" >
 <div>
 <p><m>a = </m><mathInput name="A" prefill="5"/></p>
 <p><m>b = </m><mathInput name="B" prefill="5"/></p>
@@ -54,20 +51,19 @@
 <p hide="$actualLine3.length = $C">Triangle does not close.</p>
 </div>
 
-  <graph grid="1 1" xmin="-12" xmax="2" ymin="-2" ymax="12">
+
+ <graph grid="1 1" xmin="-2" xmax="12" ymin="-12" ymax="2">
     <point name="p1" styleNumber="2" fixed coords="(0,0)"/>
-    <point name="p2" styleNumber="5" coords="(-$A,$zeroF)">
-<!--       <constraints><constrainTo><line>y = 0</line></constrainTo>
-      </constraints> -->
+    <point name="p2" styleNumber="5" coords="($A,$zeroF)">
     </point>
-    <point name="p3" styleNumber="5" coords="(-$A, $B)" layer="2">
+    <point name="p3" styleNumber="5" coords="($A, -$B)" layer="2">
     </point>
-    <point name="p3UserC">(-$C cos($theta), $C sin($theta))</point>
+    <point name="p3UserC">($C cos($theta), -$C sin($theta))</point>
     <triangle name="userTri" vertices="$p1 $p2 $p3" styleNumber="6"/>
-    <lineSegment name="line1" endpoints="$p1 $p2" labelPosition="upperleft">
+    <lineSegment name="line1" endpoints="$p1 $p2">
       <label><m>a = $A</m></label>
     </lineSegment>
-    <lineSegment name="line2" endpoints="$p2 $p3" labelPosition="upperleft">
+    <lineSegment name="line2" endpoints="$p2 $p3">
       <label><m>b = $B</m></label>
     </lineSegment>
     <lineSegment name="line3" endpoints="$p3UserC $p1">
@@ -81,10 +77,6 @@
 </sideBySide>
 </div>
 </aside>
-
-
-
-
   
 <p><m>\sin \theta = </m> <mathInput name="userSin"/></p>
 <p><m>\tan \theta = </m> <mathInput name="userTan"/></p>
@@ -119,9 +111,9 @@
     <option>Perfect!</option>
   </select>
 </setup>
-  <feedback condition="$correct and $ans1.creditAchieved = 1">$correctFeedback</feedback>
+  <feedback condition="$correct">$correctFeedback</feedback>
 
-  <feedback condition="$exactNumerical and $ans1.creditAchieved = 1">$correctFeedback</feedback>
+  <feedback condition="$exactNumerical">$correctFeedback</feedback>
 
    <feedback condition="$userSin = -$solSin or $userCos = -$solCos and $ans1.responseHasBeenSubmitted">One or more of your responses has the incorrect sign.</feedback>
 

@@ -1,5 +1,5 @@
 
-<problem>
+<problem newnamespace>
     <setup>
       <selectFromSequence name="p" from="2" to="6"/>
       <selectFromSequence name="q" from="1" to="4"/>
@@ -30,7 +30,6 @@
     <!--testing-->
     
     <p>If $expr and <m>\pi < \theta < \frac{3\pi}{2}</m>, find the values of the other five trig functions.</p>
-    <p>Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
     
     <aside><title>Graphing Tool</title>
     <p>Answer the following question to open the tool:</p>

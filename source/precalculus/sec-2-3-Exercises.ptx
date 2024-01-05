@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-3-Exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Frequency, Wavelength and Period: Exercises</title>
+
+  <!-- from MA1151 HWI 2.3A select 2 from TR-Graphs_7-10
+  from MA1151 HWI 2.3B select 2 from TR-Graphs_11-18 -->
+  <figure xml:id="figure-2-3-3">
+    <interactive xml:id="int-2-3-3" doenet="yes"> 
+        <xi:include href="./ex-2-3/TR-Graphs_7.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_8.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_9.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_10.doenet" parse="text"/>
+
+        <xi:include href="./ex-2-3/TR-Graphs_11.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_12.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_13.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_14.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_15.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_16.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_17.doenet" parse="text"/>
+        <xi:include href="./ex-2-3/TR-Graphs_18.doenet" parse="text"/>
+    </interactive>
+  </figure>
+  </section>
+
+  

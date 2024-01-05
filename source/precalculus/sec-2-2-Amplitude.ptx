@@ -19,11 +19,15 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/02/Trim-9-Amplitude.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
-      <!-- Doenet problems here -->
-      <!-- <xi:include href="" /> -->
-    </exercise>
-  </exercises>
+  <!-- from MA1151 HWI-2.2  -->
+  <figure xml:id="figure-2-2-3">
+    <interactive xml:id="int-2-2-3" doenet="yes"> 
+      <xi:include href="./ex-2-2/TR-Graphs_1.doenet" parse="text"/>
+      <xi:include href="./ex-2-2/TR-Graphs_2.doenet" parse="text"/>
+      <xi:include href="./ex-2-2/TR-Graphs_3.doenet" parse="text"/>
+      <xi:include href="./ex-2-2/TR-Graphs_4.doenet" parse="text"/>
+      <xi:include href="./ex-2-2/TR-Graphs_5.doenet" parse="text"/>
+      <xi:include href="./ex-2-2/TR-Graphs_6.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

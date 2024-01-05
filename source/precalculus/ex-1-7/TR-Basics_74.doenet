@@ -1,5 +1,5 @@
  
-  <problem>
+  <problem newnamespace>
   <setup>
     <select assignNames="(a sinSol cosSol)">
       <option>
@@ -84,7 +84,6 @@
   <!--testing-->
   
   <p>If $expr and is in Quadrant IV, find <m>\sin \theta</m> and <m>\cos \theta</m>.</p>
-  <p>Enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
   
   <aside><title>Graphing Tool</title>
   
