@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-III-9-Appendix-PreCalculus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Appendix - PreCalculus</title>
+
+
+  <!-- include sections -->
+  <xi:include href="sec-9-1-Interval_Notation.ptx" />
+  <xi:include href="sec-9-2-Linear_Speed_and_Angular_Speed.ptx" />
+
+</chapter>

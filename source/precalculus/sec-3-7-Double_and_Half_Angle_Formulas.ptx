@@ -3,8 +3,8 @@
 <section xml:id="sec-3-7-Double_and_Half_Angle_Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Double and Half Angle Formulas</title>
     <p><em>Double and Half Angle Formulas</em> covers examples similar to 
-        <xref ref="sec-3-4-Combining_Trig_Functions_and_Inverse_Trig_Functions" text="title"/>
-         and <xref ref="sec-3-6-Combining_Trig_Functions_and_Inverse_Trig_Functions_II" text="title"/>
+        <xref ref="sec-3-4-Combining_Trig_Functions_Part_I" text="title"/>
+         and <xref ref="sec-3-6-Combining_Trig_Functions_Part_II" text="title"/>
          . Students should be able to derive the formulas on their own, or otherwise be 
          presented with the formulas. The emphasis is on calculating numerical answers, and 
          on the selection of the appropriate formula and finding the necessary values to 
@@ -22,38 +22,29 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Double-and-Half-Angle-Formulas.pdf">9-per-page</url>
   </p>
   
-  
+  <p><alert>Response format:</alert>
+    For the problems below, simplify as much as possible. The precise form of your final response is not critical as long as it is partially simplified (and not a decimal approximation).</p>
 
-      <!-- Doenet problems here -->
-      <!-- from MA1151 HWI 3.7B, select first 2, and then one from each subsequent grouping -->
-      <!-- <xi:include href="./ex-3-7/TR-Formulas_24.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" /> 
-
-      <xi:include href="./ex-3-7/TR-Formulas_21.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_22.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_23.doenet" /> 
-
-      <xi:include href="./ex-3-7/TR-Formulas_27.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_28.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_29.doenet" /> 
-
-      <xi:include href="./ex-3-7/TR-Formulas_30.doenet" /> 
-      <xi:include href="./ex-3-7/TR-Formulas_31.doenet" />  -->
   
 
   <!-- from MA1151 HWM 3.7B #25 and #26 -->
+  <!-- from MA1151 HWI 3.7B, select first 2, and then one from each subsequent grouping -->
   <figure xml:id="fig-3-7">
     <interactive xml:id="int-3-7" doenet="yes">
       <xi:include href="./ex-3-7/TR-Formulas_24.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_28.doenet" parse="text"/>
+
       <xi:include href="./ex-3-7/TR-Formulas_21.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_22.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_23.doenet" parse="text"/>
+
       <xi:include href="./ex-3-7/TR-Formulas_27.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_28.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_29.doenet" parse="text"/>
+
       <xi:include href="./ex-3-7/TR-Formulas_30.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_31.doenet" parse="text"/>
+
       <xi:include href="./ex-3-7/TR-Formulas_25.doenet" parse="text"/>
       <xi:include href="./ex-3-7/TR-Formulas_26.doenet" parse="text"/>
     </interactive>

@@ -6,8 +6,8 @@
       these functions can be combined. The emphasis is on developing the notation and understanding 
       at each step whether the object in question is an angle or a number. Attention is given to 
       the domain and range of the functions. These issues are important for lessons in solving 
-      triangles using <xref ref="sec-4-1-Solving_Triangles_Using_Law_of_Sines_I" text="title"/>
-      and <xref ref="sec-4-2-Solving_Triangles_Using_Law_of_Cosines" text="title"/>The Law of Cosines. 
+      triangles using <xref ref="sec-4-1-Solving_Triangles_Using_the_Law_of_Sines_Part_I" text="title"/>
+      and <xref ref="sec-4-2-Solving_Triangles_Using_the_Law_of_Cosines" text="title"/>. 
       Example 2 in the video is a repeat from 
       <xref ref="sec-1-6-Pythagorean_Theorem_Trig_Version" text="title"/>.</p>
         
@@ -21,17 +21,18 @@
     <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Combining-Trig-Functions-and-Inverse-Trig-Functions-Part-I.pdf">9-per-page</url>
   </p>
   
-  
-  <exercises>
-    <exercise>
+  <p>For the problems below, enter your answer as an exact value using square roots when necessary.  Do not use a calculator to give a decimal approximation.</p>
+
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 3.4 -->
-      <!-- <xi:include href="./ex-3-4/TR-Inv_20.doenet" />
-      <xi:include href="./ex-3-4/TR-Inv_21.doenet" />
-      <xi:include href="./ex-3-4/TR-Inv_22.doenet" />
-      <xi:include href="./ex-3-4/TR-Inv_23.doenet" />
-      <xi:include href="./ex-3-4/TR-Inv_24.doenet" />
-      <xi:include href="./ex-3-4/TR-Inv_25.doenet" /> -->
-    </exercise>
-  </exercises>
-  </section>
+  <figure xml:id="figure-3-4-3">
+    <interactive xml:id="int-3-4-3" doenet="yes">
+      <xi:include href="./ex-3-4/TR-Inv_20.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/TR-Inv_21.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/TR-Inv_22.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/TR-Inv_23.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/TR-Inv_24.doenet" parse="text"/>
+      <xi:include href="./ex-3-4/TR-Inv_25.doenet" parse="text"/>
+    </interactive>
+  </figure>
+</section>

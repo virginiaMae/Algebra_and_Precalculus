@@ -6,7 +6,7 @@
         solve triangles in the Angle-Side-Angle (ASA) case and the Angle-Angle-Side (AAS) case, though only 
         the first case is shown. The Side-Angle-Side (SAS) case and the Side-Side-Side (SSS) case are shown in 
         <xref ref="sec-4-2-Solving_Triangles_Using_the_Law_of_Cosines" text="title"/>. The ambiguous case, the 
-        Side-Side-Angle (SSA) case is shown in <xref ref="Solving_Triangles_Using_the_Law_of_Sines_Part_II" text="title"/>.
+        Side-Side-Angle (SSA) case is shown in <xref ref="sec-4-3-Solving_Triangles_Using_the_Law_of_Sines_Part_II" text="title"/>.
     </p>
         
   <video youtube="GlnIAEGLsAw"/>
@@ -20,18 +20,19 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI-4.1, select 4 from below -->
-      <!-- <xi:include href="./ex-4-1/TR-Triangles_14.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_15.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_17.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_18.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_19.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_20.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_21.doenet" />
-      <xi:include href="./ex-4-1/TR-Triangles_22.doenet" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="fig-4-1">
+    <interactive xml:id="int-4-1" doenet="yes">
+      <xi:include href="./ex-4-1/TR-Triangles_14.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_15.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_17.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_18.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_19.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_20.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_21.doenet" parse="text"/>
+      <xi:include href="./ex-4-1/TR-Triangles_22.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

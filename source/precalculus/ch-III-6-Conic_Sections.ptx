@@ -15,5 +15,6 @@
   <xi:include href="sec-6-3-General_Equation_of_a_Parabola.ptx" />
   <xi:include href="sec-6-4-General_Equation_of_a_Hyperbola.ptx" />
   <xi:include href="sec-6-5-Completing_the_Square.ptx" />
+  <xi:include href="sec-6-6-Parametric_Equations.ptx" />
 
 </chapter>

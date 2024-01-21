@@ -18,10 +18,13 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
-      <!-- <xi:include href="" /> -->
-    </exercise>
-  </exercises>
+      <!-- from MA1151 HWV 6.4 -->
+  <figure xml:id="figure-6-4-3">
+    <interactive xml:id="int-6-4-3" doenet="yes"> 
+      <xi:include href="./ex-6-4/TR-Conics_19.doenet" parse="text"/>
+      <xi:include href="./ex-6-4/TR-Conics_20.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

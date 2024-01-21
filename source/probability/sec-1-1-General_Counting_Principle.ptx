@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-1-General_Counting_Principle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>General Counting Principle</title>
+    <p>This lesson is the first of five lessons on the counting techniques needed for a study of probability. The <em>General Counting Principle</em>, also known as the <alert>Multiplication Principle</alert>, is the foundation for the lessons in <xref ref="sec-1-2-Binary_Counting" text="title"/> and Permutations – Parts <xref ref="sec-1-3-Permutations">I</xref> and <xref ref="sec-1-4-Permutations_II">II</xref>. It can be done fairly quickly, as students generally don’t appreciate the technique’s power until dealing with <xref ref="sec-2-5-Binomial_Probabilities" text="title"/> and <em>Permutations</em>. It is however, an important foundational technique that should be referred to in these future topics.</p>
+
+    <p>The key is to get students to realize that in a two-step process, the list of possible outcomes forms a two-dimensional grid.</p>
+        
+  <video youtube="kep_9IM4mUs"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Gen-Count-Principle-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-General-Counting-Principle.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-4-General-Counting-Principle.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/218/2018/07/Trim-9-General-Counting-Principle.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <!-- <figure xml:id="fig-7-3-1">
+    <interactive xml:id="int-7-3-1" doenet="yes">
+      <xi:include href="./ex-7-3/TR-Conics_34.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_35.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_36.doenet" parse="text"/>
+    </interactive>
+  </figure> -->
+  </section>

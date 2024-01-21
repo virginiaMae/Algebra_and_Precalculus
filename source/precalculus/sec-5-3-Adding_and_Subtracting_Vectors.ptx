@@ -5,7 +5,7 @@
     <p><em>Adding and Subtracting Vectors</em> develops the standard operations (addition, scalar multiplication) 
         for two-dimensional vectors. The graphic interpretation is shown, as well as the formal computations. 
         This lesson is the final step in the preparation for 
-        <xref ref="sec-5-3-Applications_of_Vectors" title="text"/>.</p>
+        <xref ref="sec-5-4-Applications_of_Vectors" text="title"/>.</p>
         
   <video youtube="iDekun1SHgg"/>
   <p>
@@ -18,15 +18,16 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+  
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 5.3 -->
-      <!-- <xi:include href="./ex-5-3/TR-Vectors_9a.doenet" />
-      <xi:include href="./ex-5-3/TR-Vectors_9b.doenet" />
-      <xi:include href="./ex-5-3/TR-Vectors_10.doenet" />
-      <xi:include href="./ex-5-3/TR-Vectors_11.doenet" />
-      <xi:include href="./ex-5-3/TR-Vectors_12.doenet" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-5-3-3">
+    <interactive xml:id="int-5-3-3" doenet="yes"> 
+      <xi:include href="./ex-5-3/TR-Vectors_9a.doenet" parse="text"/>
+      <xi:include href="./ex-5-3/TR-Vectors_9b.doenet" parse="text"/>
+      <xi:include href="./ex-5-3/TR-Vectors_10.doenet" parse="text"/>
+      <xi:include href="./ex-5-3/TR-Vectors_11.doenet" parse="text"/>
+      <xi:include href="./ex-5-3/TR-Vectors_12.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-6-Parametric_Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Parametric Equations</title>
+    <p><em>Parametric Equations</em> discusses the basic framework for describing a particle in the <m>xy</m>-plane moving through time by defining the horizontal and vertical components separately by the functions <m>x(t)</m> and <m>y(t)</m>. The examples of a line segment and an ellipse are shown in detail.</p>
+        
+  <video youtube="2JhUfbu0jt4"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Parametric-Equations-script.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-Parametric-Equations.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-4-Parametric-Equations.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/220/2019/08/Trim-9-Parametric-Equations.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <!-- from MA1151 HWV-6.6 -->
+  <figure xml:id="fig-6-6-1">
+    <interactive xml:id="int-6-6-1" doenet="yes">
+      <xi:include href="./ex-6-6/TR-Conics_31.doenet" parse="text"/>
+      <xi:include href="./ex-6-6/TR-Conics_32.doenet" parse="text"/>
+      <xi:include href="./ex-6-6/TR-Conics_33.doenet" parse="text" />
+    </interactive>
+  </figure>
+  </section>

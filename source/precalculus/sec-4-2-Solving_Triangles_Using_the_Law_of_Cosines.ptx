@@ -22,21 +22,21 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+
       <!-- Doenet problems here -->
-      <!-- from MA1151 HWI 4.2 -->
+      <!-- from MA1151 HWI 4.2 TR-Triangles_25 - 28b-->
+      <!-- from MA1151 HWI 4.b.A TR-Triangles_41 - TR-Triangles_43-->
+  <figure xml:id="figure-4-2-3">
+    <interactive xml:id="int-4-2-3" doenet="yes"> 
+      <xi:include href="./ex-4-2/TR-Triangles_25.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_26.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_27.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_28a.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_28b.doenet" parse="text"/>
 
-      <!-- <xi:include href="./ex-4-2/TR-Triangles_25.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_26.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_27.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_28a.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_28b.doenet" /> -->
-
-      <!-- from MA1151 HWI 4.b.A -->
-      <!-- <xi:include href="./ex-4-2/TR-Triangles_41.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_42.doenet" />
-      <xi:include href="./ex-4-2/TR-Triangles_43.doenet" /> -->
-    </exercise>
-  </exercises>
+      <xi:include href="./ex-4-2/TR-Triangles_41.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_42.doenet" parse="text"/>
+      <xi:include href="./ex-4-2/TR-Triangles_43.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

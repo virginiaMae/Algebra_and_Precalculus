@@ -21,6 +21,7 @@
   <!-- from MA 1151 HWM 8.5 -->
   <figure xml:id="fig-8-5-1">
     <interactive xml:id="int-8-5-1" doenet="yes">
+      <xi:include href="./widgets/Pascals_Triangle.doenet" parse="text" />
       <xi:include href="./ex-8-5/TR-Series_20.doenet" parse="text"/>
       <xi:include href="./ex-8-5/TR-Series_21.doenet" parse="text"/>
       <xi:include href="./ex-8-5/TR-Series_22.doenet" parse="text"/>

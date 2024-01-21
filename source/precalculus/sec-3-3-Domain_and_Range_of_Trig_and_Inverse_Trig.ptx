@@ -20,21 +20,21 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+ 
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 3.3 -->
-      <!-- <xi:include href="./ex-3-3/TR-Basics_102.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_103.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_104.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_105.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_106.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_107.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_108.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_109.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_110.doenet" />
-      <xi:include href="./ex-3-3/TR-Basics_111.doenet" /> -->
-     
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-3-3-3">
+    <interactive xml:id="int-3-3-3" doenet="yes">
+      <xi:include href="./ex-3-3/TR-Basics_102.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_103.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_104.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_105.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_106.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_107.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_108.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_109.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_110.doenet" parse="text"/>
+      <xi:include href="./ex-3-3/TR-Basics_111.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>

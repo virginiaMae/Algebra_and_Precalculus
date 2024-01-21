@@ -25,6 +25,7 @@
   </introduction>
 
   <!-- include sections -->
+  <xi:include href="sec-1-1-General_Counting_Principle.ptx" />
   <xi:include href="sec-1-5-Combinations.ptx" />
 
 </chapter>

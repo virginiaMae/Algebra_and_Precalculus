@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-9-2-Linear_Speed_and_Angular_Speed" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Linear Speed and Angular Speed</title>
+ 
+        
+  <video youtube="sI1rXqbngCM"/>
+  <p>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2021/10/linear_speed_and_angular_speed.pdf">Transcript</url>
+  </p>
+  <p>Slideshow: 
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2021/10/Trim.pdf">Full</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2021/10/trim4.pdf">4-per-page</url>
+    <url href="https://open.lib.umn.edu/app/uploads/sites/267/2021/10/trim9.pdf">9-per-page</url>
+  </p>
+  
+  
+  <!-- Doenet problems here -->
+  <!-- <figure xml:id="fig-7-3-1">
+    <interactive xml:id="int-7-3-1" doenet="yes">
+      <xi:include href="./ex-7-3/TR-Conics_34.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_35.doenet" parse="text"/>
+      <xi:include href="./ex-7-3/TR-Conics_36.doenet" parse="text"/>
+    </interactive>
+  </figure> -->
+  </section>

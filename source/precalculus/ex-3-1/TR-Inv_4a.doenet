@@ -1,24 +1,12 @@
-<problem>
-<setup>
-<!--   <select name="a">-1 -sqrt(3)/2 -sqrt(2)/2 -1/2 0 1/2 sqrt(3)/2 sqrt(2)/2 1</select> -->
-  <select assignNames="(a sol)">
-    <option>
-      <math>-1</math>
-      <math>pi</math>
-    </option>
-    <option>
-      <math>-sqrt(3)/2</math>
-      <math>5pi/6</math>
-    </option>
-    <option>
-      <math>-sqrt(2)/2</math>
-      <math>3pi/4</math>
-    </option>
-    <option>
-      <math>-1/2</math>
-      <math>2pi/3</math>
-    </option>
-    <!-- <option>
+<problem newnamespace>
+   <setup>
+     <!--   <select name="a">-1 -sqrt(3)/2 -sqrt(2)/2 -1/2 0 1/2 sqrt(3)/2 sqrt(2)/2 1</select> -->
+    <select assignNames="(a sol)">
+       <option> <math>-1</math> <math>pi</math> </option> <option>
+         <math>-sqrt(3)/2</math> <math>5pi/6</math>
+      </option> <option> <math>-sqrt(2)/2</math> <math>3pi/4</math> </option> <option>
+         <math>-1/2</math> <math>2pi/3</math>
+      </option> <!-- <option>
       <math>0</math>
       <math>pi/2</math>
     </option>
@@ -38,96 +26,141 @@
       <math>1</math>
       <math>0</math>
     </option> -->
-  </select>
-  <number name="solN">$sol</number>
-  <number name="zeroF" fixed>0</number>
-  <boolean name="invalid">cos($userAns) = $a and $userAns != $sol</boolean>
-</setup>
 
-<!--testing-->
-<!-- <p>a = $a</p>
+
+    </select> <number name="solN">$sol</number> <number name="zeroF" fixed>
+       0
+    </number> <boolean name="invalid">
+       cos($userAns) = $a and $userAns != $sol
+    </boolean>
+  </setup>
+
+  <!--testing--> <!-- <p>a = $a</p>
 <p>sol = $sol</p>
 <p>solN = $solN</p>
 <p>invalid = $invalid</p> -->
-<!--testing-->
+  <!--testing-->
 
-<p><m>\arccos \left($a \right) = </m> <mathInput name="userAns"/> radians.
-  <answer name="ans1" symbolicEquality>
-    <award name="correct">
-      <when>$sol = $userAns</when>
-    </award>
-    <award name="notInRange" credit="0">
-      <when>$invalid</when>
-    </award>
-    <award name="numerical" credit="0" allowedErrorInNumbers="0.01" allowedErrorIsAbsolute>
-      <when>$solN = $userAns</when>
-    </award>
-  </answer>
-</p>
+  <p>
+    <m>\arccos \left($a \right) = </m> <mathInput name="userAns" /> radians.
+    <answer name="ans1" symbolicEquality>
+       <award name="correct"> <when>$sol = $userAns</when> </award> <award
+        name="notInRange"
+        credit="0"
+      > <when>$invalid</when> </award> <award
+        name="numerical"
+        credit="0"
+        allowedErrorInNumbers="0.01"
+        allowedErrorIsAbsolute
+      > <when>$solN = $userAns</when> </award>
+    </answer>
+  </p>
 
-<!--*********************************************
+  <!--*********************************************
             Feedbacks
 **********************************************-->
-<setup>
-  <select name="correctFeedback" type="text">
-    <option>Awesome!</option>
-    <option>Great job!</option>
-    <option>Fantastic!</option>
-    <option>Nice work!</option>
-    <option>Amazing!</option>
-    <option>Excellent!</option>
-    <option>Right on!</option>
-    <option>Perfect!</option>
-  </select>
-</setup>
+  <setup>
+     <select name="correctFeedback" type="text">
+       <option>Awesome!</option> <option>Great job!</option> <option>
+         Fantastic!
+      </option> <option>Nice work!</option> <option>Amazing!</option> <option>
+         Excellent!
+      </option> <option>Right on!</option> <option>Perfect!</option>
+    </select>
+  </setup>
   <feedback condition="$correct">$correctFeedback</feedback>
 
-  <feedback condition="$notInRange"><p>Recall that the range of the function <m>y = \arccos(x)</m> is <math>[0, pi]</math> (or, in degrees, <m>[0^{\circ}, 180^{\circ}]</m>).</p>
-  <graph size="small" xmin="-2" xmax="2" ymin="-pi/2" ymax="3pi/2">
-    <function>arccos(x)</function>
-    <line fixed styleNumber="6">y = 0</line>
-    <line fixed styleNumber="6">y = pi</line>
-  </graph>
+  <feedback condition="$notInRange">
+    <p>
+      Recall that the range of the function <m>y = \arccos(x)</m> is
+      <math>[0, pi]</math> (or, in degrees, <m>[0^{\circ}, 180^{\circ}]</m>).
+    </p>
+    <graph size="small" xmin="-2" xmax="2" ymin="-pi/2" ymax="3pi/2">
+      <function>arccos(x)</function>
+      <line fixed styleNumber="6">y = 0</line>
+      <line fixed styleNumber="6">y = pi</line>
+    </graph>
   </feedback>
 
-  <feedback condition="$numerical">Your answer should be in the 
-    form of an exact fraction in radians, not a decimal approximation. Type <c>pi</c> to enter the <m>\pi</m> symbol.</feedback>
+  <feedback condition="$numerical">
+     Your answer should be in the form of an exact fraction in radians, not a decimal
+    approximation. Type <c>pi</c> to enter the <m>\pi</m> symbol.
+  </feedback>
 
-<!--*********************************************
+  <!--*********************************************
             Unit Circle Widget
 **********************************************-->
-<aside><title>Unit Circle Widget</title>
-  <copy uri="doenet:activityId=_9APk25H0Rrian8PjeB07Z&cid=bafkreiddprgsnf3teyfqe26a2gkroskil376mtvrgwfjkk4vtu7vvtaeiq" />
-</aside>
-  
-<!--*********************************************
+
+  <!--*********************************************
             Solution
-**********************************************-->  
-<solution>
-<p><m>$sol</m> radians</p>
-</solution>
+**********************************************-->
+  <solution><p><m>$sol</m> radians</p></solution>
+
 
 </problem>
 
-
-
-
 <!--******************************************************
         Style Definitions
-*******************************************************-->  
+*******************************************************-->
 <setup>
-<styleDefinitions>
-<!--blue, styleNumber 1 corrolary-->
-<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
-<!--red, styleNumber 2 corrolary-->
-<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7"  lineWidth="4"/>
-<!--orange, styleNumber 3 corrolary-->
-<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#F19143" lineColor="#F19143" lineOpacity="0.7"  lineWidth="4"/>
-<!--purple, styleNumber 4 corrolary-->
-<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineOpacity="0.7" lineWidth="4"/>
-<!--black, styleNumber 5 corrolary-->
-<styleDefinition styleNumber="11" fillColor="black" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="black" lineColor="black" lineOpacity="0.7" lineWidth="4"/>
-<!--green, styleNumber 1 but green corrolary-->
-<styleDefinition styleNumber="12" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="4"/>
-</styleDefinitions>
+   <styleDefinitions>
+     <!--blue, styleNumber 1 corrolary--> <styleDefinition
+      styleNumber="7"
+      fillColor="#648FFF"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="#648FFF"
+    /> <!--red, styleNumber 2 corrolary--> <styleDefinition
+      styleNumber="8"
+      fillColor="#D4042D"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="#D4042D"
+      lineColor="#D4042D"
+      lineOpacity="0.7"
+      lineWidth="4"
+    /> <!--orange, styleNumber 3 corrolary--> <styleDefinition
+      styleNumber="9"
+      fillColor="#F19143"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="#F19143"
+      lineColor="#F19143"
+      lineOpacity="0.7"
+      lineWidth="4"
+    /> <!--purple, styleNumber 4 corrolary--> <styleDefinition
+      styleNumber="10"
+      fillColor="#644CD6"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="#644CD6"
+      lineColor="#644CD6"
+      lineOpacity="0.7"
+      lineWidth="4"
+    /> <!--black, styleNumber 5 corrolary--> <styleDefinition
+      styleNumber="11"
+      fillColor="black"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="black"
+      lineColor="black"
+      lineOpacity="0.7"
+      lineWidth="4"
+    /> <!--green, styleNumber 1 but green corrolary--> <styleDefinition
+      styleNumber="12"
+      fillColor="#469152"
+      fillOpacity="0.1"
+      markerSize="6"
+      markerStyle="circle"
+      markerColor="#469152"
+      lineColor="#469152"
+      lineOpacity="0.7"
+      lineWidth="4"
+    />
+  </styleDefinitions>
 </setup>

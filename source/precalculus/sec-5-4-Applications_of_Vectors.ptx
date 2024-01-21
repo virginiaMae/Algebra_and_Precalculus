@@ -18,14 +18,15 @@
   </p>
   
   
-  <exercises>
-    <exercise>
+ 
       <!-- Doenet problems here -->
       <!-- from MA1151 HWI 5.4 -->
-      <!-- <xi:include href="./ex-5-4/TR-Vectors_17.doenet" />
-      <xi:include href="./ex-5-4/TR-Vectors_18.doenet" />
-      <xi:include href="./ex-5-4/TR-Vectors_19.doenet" />
-      <xi:include href="./ex-5-4/TR-Vectors_20.doenet" /> -->
-    </exercise>
-  </exercises>
+  <figure xml:id="figure-5-4-3">
+    <interactive xml:id="int-5-4-3" doenet="yes"> 
+      <xi:include href="./ex-5-4/TR-Vectors_17.doenet" parse="text"/>
+      <xi:include href="./ex-5-4/TR-Vectors_18.doenet" parse="text"/>
+      <xi:include href="./ex-5-4/TR-Vectors_19.doenet" parse="text"/>
+      <xi:include href="./ex-5-4/TR-Vectors_20.doenet" parse="text"/>
+    </interactive>
+  </figure>
   </section>
